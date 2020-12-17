@@ -1,0 +1,317 @@
+@base <localhost://> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix p-plan: <http://purl.org/net/p-plan/#> .
+@prefix repr: <https://w3id.org/reproduceme#> .
+@prefix prov: <http://www.w3.org/ns/prov/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+repr:Rocc
+    a repr:Package ;
+    repr:hasPackageVersion "0.1.0" .
+
+repr:World
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:World_rda
+    a p-plan:Variable ;
+    repr:hasType "File" .
+
+repr:_ggplot
+    a repr:Output ;
+    repr:hasType "Data" .
+
+repr:aggregate
+    a repr:Function ;
+    repr:hasPackage "3.3-13" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+repr:aggregate_activation1
+    a repr:FunctionActivation ;
+    rdf:value "df_lac <- aggregate(confirmed ~ country_region, data = dados_lac, FUN = sum)" ;
+    prov:generated repr:df_lac ;
+    prov:used repr:dados_lac ;
+    repr:informedBy repr:operation5 ;
+    repr:isStepOfPlan repr:aggregate .
+
+<https://w3id.org/reproduceme#as.character>
+    a repr:Function ;
+    repr:hasPackage "4.0.2" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+<https://w3id.org/reproduceme#as.character_activation1>
+    a repr:FunctionActivation ;
+    rdf:value "lac$country_region <- as.character(lac$name)" ;
+    prov:generated repr:lac ;
+    prov:used repr:lac ;
+    repr:informedBy repr:operation3 ;
+    repr:isStepOfPlan <https://w3id.org/reproduceme#as.character> .
+
+repr:base
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:c
+    a repr:Function ;
+    repr:hasPackage "4.0.2" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+repr:c_activation1
+    a repr:FunctionActivation ;
+    rdf:value "fora <- c(\"Canada\", \"United States\", \"Greenland\")" ;
+    prov:generated repr:fora ;
+    repr:informedBy repr:data_activation1 ;
+    repr:isStepOfPlan repr:c .
+
+repr:console
+    a repr:Script ;
+    repr:hasOperatingSystem "Ubuntu 20.04.1 LTS" ;
+    repr:hasProgrammingLanguage "R" ;
+    repr:hasProgrammingLanguageVersion "R version 4.0.2 (2020-06-22)" .
+
+repr:corona_brasil_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:corona_brasil_metadado_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:corona_jhu_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:corona_jhu_metadado_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:coronabr
+    a repr:Package ;
+    repr:hasPackageVersion "0.1.0" .
+
+repr:dados
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:dados_jhu
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:dados_lac
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:data
+    a repr:Function ;
+    repr:hasPackage "4.0.2" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+repr:data_activation1
+    a repr:FunctionActivation ;
+    rdf:value "data(\"World\")" ;
+    prov:generated repr:World ;
+    prov:used repr:World_rda ;
+    repr:informedBy repr:library_activation2 ;
+    repr:isStepOfPlan repr:data .
+
+repr:datasets
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:dev_2
+    a p-plan:Variable, repr:Output ;
+    repr:hasType "Device" .
+
+repr:dev_off_24_pdf
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:df_lac
+    a repr:Output ;
+    repr:hasType "Data" .
+
+repr:fora
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:get_corona_br
+    a repr:Function ;
+    repr:hasPackage "0.1.0" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+repr:get_corona_br_activation1
+    a repr:FunctionActivation ;
+    rdf:value "dados <- get_corona_br(by_uf = TRUE)" ;
+    prov:generated repr:corona_brasil_csv, repr:corona_brasil_metadado_csv, repr:dados ;
+    repr:informedBy repr:library_activation1 ;
+    repr:isStepOfPlan repr:get_corona_br .
+
+repr:get_corona_jhu
+    a repr:Function ;
+    repr:hasPackage "0.1.0" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+repr:get_corona_jhu_activation1
+    a repr:FunctionActivation ;
+    rdf:value "dados_jhu <- get_corona_jhu()" ;
+    prov:generated repr:corona_jhu_csv, repr:corona_jhu_metadado_csv, repr:dados_jhu ;
+    prov:used <https://w3id.org/reproduceme#https://raw_githubusercontent_com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-15-2020_csv> ;
+    repr:informedBy repr:operation2 ;
+    repr:isStepOfPlan repr:get_corona_jhu .
+
+repr:ggplot2
+    a repr:Package ;
+    repr:hasPackageVersion "3.3.2" .
+
+repr:grDevices
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:graphics
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+<https://w3id.org/reproduceme#https://raw_githubusercontent_com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/12-15-2020_csv>
+    a p-plan:Variable ;
+    repr:hasType "URL" .
+
+repr:lac
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:library
+    a repr:Function ;
+    repr:hasPackage "4.0.2" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+repr:library_activation1
+    a repr:FunctionActivation ;
+    rdf:value "library(coronabr)" ;
+    repr:informedBy repr:operation1 ;
+    repr:isStepOfPlan repr:library .
+
+repr:library_activation2
+    a repr:FunctionActivation ;
+    rdf:value "library(tmap)" ;
+    repr:informedBy repr:plot_uf_activation2 ;
+    repr:isStepOfPlan repr:library .
+
+repr:methods
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:modleR
+    a repr:Package ;
+    repr:hasPackageVersion "0.0.1" .
+
+repr:operation1
+    <detail> "Console" ;
+    a repr:Operation ;
+    rdf:value _:r1608239882r15685r1 ;
+    repr:informedBy _:r1608239882r15685r4 .
+
+repr:operation2
+    <detail> "Assignment" ;
+    a repr:Operation ;
+    rdf:value "lac <- World[World$continent %in% c(\"South America\", \"North America\") & !World$name %in% fora, ]" ;
+    prov:generated repr:lac ;
+    prov:used repr:World, repr:fora ;
+    repr:informedBy repr:c_activation1 .
+
+repr:operation3
+    <detail> _:r1608239882r15685r3 ;
+    a repr:Operation ;
+    rdf:value "lac$name[!lac$name %in% dados_jhu$country_region]" ;
+    prov:used repr:dados_jhu, repr:lac ;
+    repr:informedBy repr:get_corona_jhu_activation1 .
+
+repr:operation4
+    <detail> "Assignment" ;
+    a repr:Operation ;
+    rdf:value "lac$country_region[lac$country_region == \"Dominican Rep.\"] <- \"Dominican Republic\"" ;
+    prov:generated repr:lac ;
+    prov:used repr:lac ;
+    repr:informedBy <https://w3id.org/reproduceme#as.character_activation1> .
+
+repr:operation5
+    <detail> "Assignment" ;
+    a repr:Operation ;
+    rdf:value "dados_lac <- dados_jhu[dados_jhu$country_region %in% lac$country_region, ]" ;
+    prov:generated repr:dados_lac ;
+    prov:used repr:dados_jhu, repr:lac ;
+    repr:informedBy repr:operation4 .
+
+repr:operation6
+    <detail> "Console" ;
+    a repr:Operation ;
+    rdf:value _:r1608239882r15685r2 ;
+    prov:generated repr:dev_off_24_pdf ;
+    prov:used repr:dev_2 ;
+    repr:informedBy repr:aggregate_activation1 .
+
+repr:plot_corona_br
+    a repr:Function ;
+    repr:hasPackage "0.1.0" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+repr:plot_corona_br_activation1
+    a repr:FunctionActivation ;
+    rdf:value "plot_corona_br(df = dados, log = FALSE)" ;
+    prov:generated repr:_ggplot, repr:dev_2 ;
+    prov:used repr:dados ;
+    repr:informedBy repr:get_corona_br_activation1 ;
+    repr:isStepOfPlan repr:plot_corona_br .
+
+repr:plot_corona_br_activation2
+    a repr:FunctionActivation ;
+    rdf:value "plot_corona_br(df = dados, tipo = \"aumento\")" ;
+    prov:generated repr:_ggplot, repr:dev_2 ;
+    prov:used repr:dados ;
+    repr:informedBy repr:plot_corona_br_activation1 ;
+    repr:isStepOfPlan repr:plot_corona_br .
+
+repr:plot_uf
+    a repr:Function ;
+    repr:hasPackage "0.1.0" ;
+    <name> <https://w3id.org/reproduceme#> .
+
+repr:plot_uf_activation1
+    a repr:FunctionActivation ;
+    rdf:value "plot_uf(df = dados, n = 7)" ;
+    prov:generated repr:_ggplot, repr:dev_2 ;
+    prov:used repr:dados ;
+    repr:informedBy repr:plot_corona_br_activation2 ;
+    repr:isStepOfPlan repr:plot_uf .
+
+repr:plot_uf_activation2
+    a repr:FunctionActivation ;
+    rdf:value "plot_uf(df = dados, tipo = \"casos\", prop_pop = TRUE, estados = c(\"AM\", \"CE\", \"PE\", \"SP\"))" ;
+    prov:generated repr:_ggplot, repr:dev_2 ;
+    prov:used repr:dados ;
+    repr:informedBy repr:plot_uf_activation1 ;
+    repr:isStepOfPlan repr:plot_uf .
+
+repr:raster
+    a repr:Package ;
+    repr:hasPackageVersion "3.3-13" .
+
+repr:rdt
+    a repr:Package ;
+    repr:hasPackageVersion "3.3" .
+
+repr:sp
+    a repr:Package ;
+    repr:hasPackageVersion "1.4-4" .
+
+repr:stats
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:tmap
+    a repr:Package ;
+    repr:hasPackageVersion "3.2" .
+
+repr:utils
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
