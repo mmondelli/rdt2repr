@@ -18,5 +18,6 @@ Imports:
     gtools,
     rlang,
     provParseR,
-    tools
+    tools,
+    rdt
 RoxygenNote: 7.1.1
