@@ -7,7 +7,7 @@
 #' @export
 collectprov <- function(){
     message('Please inform the filepath to save the provenance data (example: /home/user/provenace_test/):')
-    dir = readline(prompt="Press [enter] to continue")
+    dir = readline(prompt="Press [enter] to continue: ")
     rdt::prov.set.detail(3)
     rdt::prov.init(prov.dir = dir, annotate.inside.functions = F, save.debug = T, overwrite = F)
     message('Provenance collection started.')
@@ -38,7 +38,7 @@ endprov <- function(){
 #' @export
 parsetordt <- function(rdf_file = 'output.ttl'){
     message('Please inform the filepath to the provenance (prov.json) file (example: /home/user/provenace_test/prov.json):')
-    prov_file = readline(prompt="Press [enter] to continue")
+    prov_file = readline(prompt="Press [enter] to continue: ")
     message(paste0('Parsing:', prov_file))
     namespace <- c("http://purl.org/net/p-plan/#",
                    "https://w3id.org/reproduceme#",
