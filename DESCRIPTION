@@ -1,11 +1,10 @@
 Package: rdt2repr
 Type: Package
-Title: rdt to reproduce-me parser
+Title: rdt to reproduceme parser
 Version: 0.1.0
 Author: Maria Luiza Mondelli
 Maintainer: Maria Luiza Mondelli <malumondelli@gmail.com>
-Description: This package implements a workflow with a set of functions 
-that converts the provenance data collected by the rdt package to the reproduce-me ontology.
+Description: This package implements a workflow with a set of functions  that converts the provenance data collected by the rdt package to the reproduce-me ontology.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
