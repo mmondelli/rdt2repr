@@ -1,0 +1,14 @@
+Name: Convert provenance format
+Description: Convert provenance in rdt format to repr.
+Binding: parsetordt
+Interactive: false
+
+Name: Collect provenance data
+Description: Start the collection of provenance data.
+Binding: collectprov
+Interactive: false
+
+Name: Finish provenance collection
+Description: Finish provenance collection and save prov.json file.
+Binding: endprov
+Interactive: false
