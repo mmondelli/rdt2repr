@@ -7,9 +7,10 @@
 #' @export
 collectprov <- function(){
     message('Please inform the filepath to save the provenance data (example: /home/user/provenace_test/):')
-    dir = readline()
+    dir = readline(prompt="Press [enter] to continue")
     rdt::prov.set.detail(3)
     rdt::prov.init(prov.dir = dir, annotate.inside.functions = F, save.debug = T, overwrite = F)
+    message('Provenance collection started.')
 }
 
 #'
@@ -20,6 +21,7 @@ collectprov <- function(){
 #' @export
 endprov <- function(){
     rdt::prov.quit()
+    message('Provenance collection completed.')
 }
 
 #' Parse the prov.json file
@@ -36,7 +38,7 @@ endprov <- function(){
 #' @export
 parsetordt <- function(rdf_file = 'output.ttl'){
     message('Please inform the filepath to the provenance (prov.json) file (example: /home/user/provenace_test/prov.json):')
-    prov_file = readline()
+    prov_file = readline(prompt="Press [enter] to continue")
     message(paste0('Parsing:', prov_file))
     namespace <- c("http://purl.org/net/p-plan/#",
                    "https://w3id.org/reproduceme#",
@@ -135,7 +137,8 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 .check <- function(prov = prov, nsp = nsp, cmd, df_func = df_func) {
     #ops <- load('./data/ops.rda')
     #ops_file <- system.file("data", "operators.csv", package = "mypackagename")
-    ops <- read.csv('~/Dropbox/Reproducibility/prov2repr/rdt2repr/data/operators.csv')
+    #ops <- read.csv('~/Dropbox/Reproducibility/prov2repr/rdt2repr/data/operators.csv')
+    load(file = "R/ops.rda")
     func_nodes <- get.func.nodes(prov)
     lang <- str2lang(cmd)
 
