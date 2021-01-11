@@ -1,0 +1,2 @@
+"architecture","os","language","rVersion","script","scriptTimeStamp","workingDirectory","ddgDirectory","ddgTimeStamp","rdtVersion","hashAlgorithm"
+"x86_64","unix","R","R version 4.0.2 (2020-06-22)","console.R",NA,"/home/mondelli","/home/mondelli/Dropbox/Reproducibility/prov2repr/prov_samples/prov_console_2021-01-07T19.14.23-03","2021-01-07T19.14.23-03","3.3","md5"

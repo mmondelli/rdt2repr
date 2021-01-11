@@ -1,0 +1,3019 @@
+$data.date1
+[1] 18317
+
+$data.date2
+[1] 18318
+
+$data.date3
+[1] 18319
+
+$data.date4
+[1] 18320
+
+$data.date5
+[1] 18321
+
+$data.date6
+[1] 18322
+
+$data.date7
+[1] 18323
+
+$data.date8
+[1] 18324
+
+$data.date9
+[1] 18325
+
+$data.date10
+[1] 18326
+
+$data.date11
+[1] 18327
+
+$data.date12
+[1] 18328
+
+$data.date13
+[1] 18329
+
+$data.date14
+[1] 18330
+
+$data.date15
+[1] 18331
+
+$data.date16
+[1] 18332
+
+$data.date17
+[1] 18333
+
+$data.date18
+[1] 18334
+
+$data.date19
+[1] 18335
+
+$data.date20
+[1] 18336
+
+$data.date21
+[1] 18337
+
+$data.date22
+[1] 18338
+
+$data.date23
+[1] 18339
+
+$data.date24
+[1] 18340
+
+$data.date25
+[1] 18341
+
+$data.date26
+[1] 18342
+
+$data.date27
+[1] 18343
+
+$data.date28
+[1] 18344
+
+$data.date29
+[1] 18345
+
+$data.date30
+[1] 18346
+
+$data.date31
+[1] 18347
+
+$data.date32
+[1] 18348
+
+$data.date33
+[1] 18349
+
+$data.date34
+[1] 18350
+
+$data.date35
+[1] 18351
+
+$data.date36
+[1] 18352
+
+$data.date37
+[1] 18353
+
+$data.date38
+[1] 18354
+
+$data.date39
+[1] 18355
+
+$data.date40
+[1] 18356
+
+$data.date41
+[1] 18357
+
+$data.date42
+[1] 18358
+
+$data.date43
+[1] 18359
+
+$data.date44
+[1] 18360
+
+$data.date45
+[1] 18361
+
+$data.date46
+[1] 18362
+
+$data.date47
+[1] 18363
+
+$data.date48
+[1] 18364
+
+$data.date49
+[1] 18365
+
+$data.date50
+[1] 18366
+
+$data.date51
+[1] 18367
+
+$data.date52
+[1] 18368
+
+$data.date53
+[1] 18369
+
+$data.date54
+[1] 18370
+
+$data.date55
+[1] 18371
+
+$data.date56
+[1] 18372
+
+$data.date57
+[1] 18373
+
+$data.date58
+[1] 18374
+
+$data.date59
+[1] 18375
+
+$data.date60
+[1] 18376
+
+$data.date61
+[1] 18377
+
+$data.date62
+[1] 18378
+
+$data.date63
+[1] 18379
+
+$data.date64
+[1] 18380
+
+$data.date65
+[1] 18381
+
+$data.date66
+[1] 18382
+
+$data.date67
+[1] 18383
+
+$data.date68
+[1] 18384
+
+$data.date69
+[1] 18385
+
+$data.date70
+[1] 18386
+
+$data.date71
+[1] 18387
+
+$data.date72
+[1] 18388
+
+$data.date73
+[1] 18389
+
+$data.date74
+[1] 18390
+
+$data.date75
+[1] 18391
+
+$data.date76
+[1] 18392
+
+$data.date77
+[1] 18393
+
+$data.date78
+[1] 18394
+
+$data.date79
+[1] 18395
+
+$data.date80
+[1] 18396
+
+$data.date81
+[1] 18397
+
+$data.date82
+[1] 18398
+
+$data.date83
+[1] 18399
+
+$data.date84
+[1] 18400
+
+$data.date85
+[1] 18401
+
+$data.date86
+[1] 18402
+
+$data.date87
+[1] 18403
+
+$data.date88
+[1] 18404
+
+$data.date89
+[1] 18405
+
+$data.date90
+[1] 18406
+
+$data.date91
+[1] 18407
+
+$data.date92
+[1] 18408
+
+$data.date93
+[1] 18409
+
+$data.date94
+[1] 18410
+
+$data.date95
+[1] 18411
+
+$data.date96
+[1] 18412
+
+$data.date97
+[1] 18413
+
+$data.date98
+[1] 18414
+
+$data.date99
+[1] 18415
+
+$data.date100
+[1] 18416
+
+$data.date101
+[1] 18417
+
+$data.date102
+[1] 18418
+
+$data.date103
+[1] 18419
+
+$data.date104
+[1] 18420
+
+$data.date105
+[1] 18421
+
+$data.date106
+[1] 18422
+
+$data.date107
+[1] 18423
+
+$data.date108
+[1] 18424
+
+$data.date109
+[1] 18425
+
+$data.date110
+[1] 18426
+
+$data.date111
+[1] 18427
+
+$data.date112
+[1] 18428
+
+$data.date113
+[1] 18429
+
+$data.date114
+[1] 18430
+
+$data.date115
+[1] 18431
+
+$data.date116
+[1] 18432
+
+$data.date117
+[1] 18433
+
+$data.date118
+[1] 18434
+
+$data.date119
+[1] 18435
+
+$data.date120
+[1] 18436
+
+$data.date121
+[1] 18437
+
+$data.date122
+[1] 18438
+
+$data.date123
+[1] 18439
+
+$data.date124
+[1] 18440
+
+$data.date125
+[1] 18441
+
+$data.date126
+[1] 18442
+
+$data.date127
+[1] 18443
+
+$data.date128
+[1] 18444
+
+$data.date129
+[1] 18445
+
+$data.date130
+[1] 18446
+
+$data.date131
+[1] 18447
+
+$data.date132
+[1] 18448
+
+$data.date133
+[1] 18449
+
+$data.date134
+[1] 18450
+
+$data.date135
+[1] 18451
+
+$data.date136
+[1] 18452
+
+$data.date137
+[1] 18453
+
+$data.date138
+[1] 18454
+
+$data.date139
+[1] 18455
+
+$data.date140
+[1] 18456
+
+$data.date141
+[1] 18457
+
+$data.date142
+[1] 18458
+
+$data.date143
+[1] 18459
+
+$data.date144
+[1] 18460
+
+$data.date145
+[1] 18461
+
+$data.date146
+[1] 18462
+
+$data.date147
+[1] 18463
+
+$data.date148
+[1] 18464
+
+$data.date149
+[1] 18465
+
+$data.date150
+[1] 18466
+
+$data.date151
+[1] 18467
+
+$data.date152
+[1] 18468
+
+$data.date153
+[1] 18469
+
+$data.date154
+[1] 18470
+
+$data.date155
+[1] 18471
+
+$data.date156
+[1] 18472
+
+$data.date157
+[1] 18473
+
+$data.date158
+[1] 18474
+
+$data.date159
+[1] 18475
+
+$data.date160
+[1] 18476
+
+$data.date161
+[1] 18477
+
+$data.date162
+[1] 18478
+
+$data.date163
+[1] 18479
+
+$data.date164
+[1] 18480
+
+$data.date165
+[1] 18481
+
+$data.date166
+[1] 18482
+
+$data.date167
+[1] 18483
+
+$data.date168
+[1] 18484
+
+$data.date169
+[1] 18485
+
+$data.date170
+[1] 18486
+
+$data.date171
+[1] 18487
+
+$data.date172
+[1] 18488
+
+$data.date173
+[1] 18489
+
+$data.date174
+[1] 18490
+
+$data.date175
+[1] 18491
+
+$data.date176
+[1] 18492
+
+$data.date177
+[1] 18493
+
+$data.date178
+[1] 18494
+
+$data.date179
+[1] 18495
+
+$data.date180
+[1] 18496
+
+$data.date181
+[1] 18497
+
+$data.date182
+[1] 18498
+
+$data.date183
+[1] 18499
+
+$data.date184
+[1] 18500
+
+$data.date185
+[1] 18501
+
+$data.date186
+[1] 18502
+
+$data.date187
+[1] 18503
+
+$data.date188
+[1] 18504
+
+$data.date189
+[1] 18505
+
+$data.date190
+[1] 18506
+
+$data.date191
+[1] 18507
+
+$data.date192
+[1] 18508
+
+$data.date193
+[1] 18509
+
+$data.date194
+[1] 18510
+
+$data.date195
+[1] 18511
+
+$data.date196
+[1] 18512
+
+$data.date197
+[1] 18513
+
+$data.date198
+[1] 18514
+
+$data.date199
+[1] 18515
+
+$data.date200
+[1] 18516
+
+$data.date201
+[1] 18517
+
+$data.date202
+[1] 18518
+
+$data.date203
+[1] 18519
+
+$data.date204
+[1] 18520
+
+$data.date205
+[1] 18521
+
+$data.date206
+[1] 18522
+
+$data.date207
+[1] 18523
+
+$data.date208
+[1] 18524
+
+$data.date209
+[1] 18525
+
+$data.date210
+[1] 18526
+
+$data.date211
+[1] 18527
+
+$data.date212
+[1] 18528
+
+$data.date213
+[1] 18529
+
+$data.date214
+[1] 18530
+
+$data.date215
+[1] 18531
+
+$data.date216
+[1] 18532
+
+$data.date217
+[1] 18533
+
+$data.date218
+[1] 18534
+
+$data.date219
+[1] 18535
+
+$data.date220
+[1] 18536
+
+$data.date221
+[1] 18537
+
+$data.date222
+[1] 18538
+
+$data.date223
+[1] 18539
+
+$data.date224
+[1] 18540
+
+$data.date225
+[1] 18541
+
+$data.date226
+[1] 18542
+
+$data.date227
+[1] 18543
+
+$data.date228
+[1] 18544
+
+$data.date229
+[1] 18545
+
+$data.date230
+[1] 18546
+
+$data.date231
+[1] 18547
+
+$data.date232
+[1] 18548
+
+$data.date233
+[1] 18549
+
+$data.date234
+[1] 18550
+
+$data.date235
+[1] 18551
+
+$data.date236
+[1] 18552
+
+$data.date237
+[1] 18553
+
+$data.date238
+[1] 18554
+
+$data.date239
+[1] 18555
+
+$data.date240
+[1] 18556
+
+$data.date241
+[1] 18557
+
+$data.date242
+[1] 18558
+
+$data.date243
+[1] 18559
+
+$data.date244
+[1] 18560
+
+$data.date245
+[1] 18561
+
+$data.date246
+[1] 18562
+
+$data.date247
+[1] 18563
+
+$data.date248
+[1] 18564
+
+$data.date249
+[1] 18565
+
+$data.date250
+[1] 18566
+
+$data.date251
+[1] 18567
+
+$data.date252
+[1] 18568
+
+$data.date253
+[1] 18569
+
+$data.date254
+[1] 18570
+
+$data.date255
+[1] 18571
+
+$data.date256
+[1] 18572
+
+$data.date257
+[1] 18573
+
+$data.date258
+[1] 18574
+
+$data.date259
+[1] 18575
+
+$data.date260
+[1] 18576
+
+$data.date261
+[1] 18577
+
+$data.date262
+[1] 18578
+
+$data.date263
+[1] 18579
+
+$data.date264
+[1] 18580
+
+$data.date265
+[1] 18581
+
+$data.date266
+[1] 18582
+
+$data.date267
+[1] 18583
+
+$data.date268
+[1] 18584
+
+$data.date269
+[1] 18585
+
+$data.date270
+[1] 18586
+
+$data.date271
+[1] 18587
+
+$data.date272
+[1] 18588
+
+$data.date273
+[1] 18589
+
+$data.date274
+[1] 18590
+
+$data.date275
+[1] 18591
+
+$data.date276
+[1] 18592
+
+$data.date277
+[1] 18593
+
+$data.date278
+[1] 18594
+
+$data.date279
+[1] 18595
+
+$data.date280
+[1] 18596
+
+$data.date281
+[1] 18597
+
+$data.date282
+[1] 18598
+
+$data.date283
+[1] 18599
+
+$data.date284
+[1] 18600
+
+$data.date285
+[1] 18601
+
+$data.date286
+[1] 18602
+
+$data.date287
+[1] 18603
+
+$data.date288
+[1] 18604
+
+$data.date289
+[1] 18605
+
+$data.date290
+[1] 18606
+
+$data.date291
+[1] 18607
+
+$data.date292
+[1] 18608
+
+$data.date293
+[1] 18609
+
+$data.date294
+[1] 18610
+
+$data.date295
+[1] 18611
+
+$data.date296
+[1] 18612
+
+$data.date297
+[1] 18613
+
+$data.date298
+[1] 18614
+
+$data.date299
+[1] 18615
+
+$data.date300
+[1] 18616
+
+$data.date301
+[1] 18617
+
+$data.date302
+[1] 18618
+
+$data.date303
+[1] 18619
+
+$data.date304
+[1] 18620
+
+$data.date305
+[1] 18621
+
+$data.date306
+[1] 18622
+
+$data.date307
+[1] 18623
+
+$data.date308
+[1] 18624
+
+$data.date309
+[1] 18625
+
+$data.date310
+[1] 18626
+
+$data.date311
+[1] 18627
+
+$data.date312
+[1] 18628
+
+$data.date313
+[1] 18629
+
+$data.date314
+[1] 18630
+
+$data.date315
+[1] 18631
+
+$data.date316
+[1] 18632
+
+$data.date317
+[1] 18633
+
+$data.date318
+[1] 18634
+
+$data.new_confirmed1
+[1] 1
+
+$data.new_confirmed2
+[1] 0
+
+$data.new_confirmed3
+[1] 0
+
+$data.new_confirmed4
+[1] 1
+
+$data.new_confirmed5
+[1] 0
+
+$data.new_confirmed6
+[1] 0
+
+$data.new_confirmed7
+[1] 0
+
+$data.new_confirmed8
+[1] 0
+
+$data.new_confirmed9
+[1] 1
+
+$data.new_confirmed10
+[1] 5
+
+$data.new_confirmed11
+[1] 6
+
+$data.new_confirmed12
+[1] 5
+
+$data.new_confirmed13
+[1] 6
+
+$data.new_confirmed14
+[1] 0
+
+$data.new_confirmed15
+[1] 4
+
+$data.new_confirmed16
+[1] 14
+
+$data.new_confirmed17
+[1] 46
+
+$data.new_confirmed18
+[1] 7
+
+$data.new_confirmed19
+[1] 40
+
+$data.new_confirmed20
+[1] 19
+
+$data.new_confirmed21
+[1] 125
+
+$data.new_confirmed22
+[1] 47
+
+$data.new_confirmed23
+[1] 187
+
+$data.new_confirmed24
+[1] 128
+
+$data.new_confirmed25
+[1] 288
+
+$data.new_confirmed26
+[1] 202
+
+$data.new_confirmed27
+[1] 462
+
+$data.new_confirmed28
+[1] 358
+
+$data.new_confirmed29
+[1] 303
+
+$data.new_confirmed30
+[1] 310
+
+$data.new_confirmed31
+[1] 422
+
+$data.new_confirmed32
+[1] 489
+
+$data.new_confirmed33
+[1] 477
+
+$data.new_confirmed34
+[1] 355
+
+$data.new_confirmed35
+[1] 352
+
+$data.new_confirmed36
+[1] 1164
+
+$data.new_confirmed37
+[1] 1107
+
+$data.new_confirmed38
+[1] 1167
+
+$data.new_confirmed39
+[1] 1114
+
+$data.new_confirmed40
+[1] 1169
+
+$data.new_confirmed41
+[1] 1040
+
+$data.new_confirmed42
+[1] 840
+
+$data.new_confirmed43
+[1] 1821
+
+$data.new_confirmed44
+[1] 2173
+
+$data.new_confirmed45
+[1] 1921
+
+$data.new_confirmed46
+[1] 1761
+
+$data.new_confirmed47
+[1] 1054
+
+$data.new_confirmed48
+[1] 1465
+
+$data.new_confirmed49
+[1] 1401
+
+$data.new_confirmed50
+[1] 1918
+
+$data.new_confirmed51
+[1] 3243
+
+$data.new_confirmed52
+[1] 2083
+
+$data.new_confirmed53
+[1] 3296
+
+$data.new_confirmed54
+[1] 2778
+
+$data.new_confirmed55
+[1] 1930
+
+$data.new_confirmed56
+[1] 1816
+
+$data.new_confirmed57
+[1] 2723
+
+$data.new_confirmed58
+[1] 2779
+
+$data.new_confirmed59
+[1] 3873
+
+$data.new_confirmed60
+[1] 3913
+
+$data.new_confirmed61
+[1] 5297
+
+$data.new_confirmed62
+[1] 3715
+
+$data.new_confirmed63
+[1] 4145
+
+$data.new_confirmed64
+[1] 6234
+
+$data.new_confirmed65
+[1] 6114
+
+$data.new_confirmed66
+[1] 7412
+
+$data.new_confirmed67
+[1] 5456
+
+$data.new_confirmed68
+[1] 4997
+
+$data.new_confirmed69
+[1] 4237
+
+$data.new_confirmed70
+[1] 6961
+
+$data.new_confirmed71
+[1] 7635
+
+$data.new_confirmed72
+[1] 10545
+
+$data.new_confirmed73
+[1] 9732
+
+$data.new_confirmed74
+[1] 10404
+
+$data.new_confirmed75
+[1] 10155
+
+$data.new_confirmed76
+[1] 6261
+
+$data.new_confirmed77
+[1] 6224
+
+$data.new_confirmed78
+[1] 9612
+
+$data.new_confirmed79
+[1] 11693
+
+$data.new_confirmed80
+[1] 14134
+
+$data.new_confirmed81
+[1] 15447
+
+$data.new_confirmed82
+[1] 14059
+
+$data.new_confirmed83
+[1] 7664
+
+$data.new_confirmed84
+[1] 14559
+
+$data.new_confirmed85
+[1] 17490
+
+$data.new_confirmed86
+[1] 20153
+
+$data.new_confirmed87
+[1] 17898
+
+$data.new_confirmed88
+[1] 22115
+
+$data.new_confirmed89
+[1] 17004
+
+$data.new_confirmed90
+[1] 14471
+
+$data.new_confirmed91
+[1] 12807
+
+$data.new_confirmed92
+[1] 16327
+
+$data.new_confirmed93
+[1] 20200
+
+$data.new_confirmed94
+[1] 28337
+
+$data.new_confirmed95
+[1] 26890
+
+$data.new_confirmed96
+[1] 32320
+
+$data.new_confirmed97
+[1] 13181
+
+$data.new_confirmed98
+[1] 14962
+
+$data.new_confirmed99
+[1] 31907
+
+$data.new_confirmed100
+[1] 26085
+
+$data.new_confirmed101
+[1] 31952
+
+$data.new_confirmed102
+[1] 32103
+
+$data.new_confirmed103
+[1] 23790
+
+$data.new_confirmed104
+[1] 17987
+
+$data.new_confirmed105
+[1] 17337
+
+$data.new_confirmed106
+[1] 31700
+
+$data.new_confirmed107
+[1] 33790
+
+$data.new_confirmed108
+[1] 28686
+
+$data.new_confirmed109
+[1] 24288
+
+$data.new_confirmed110
+[1] 21098
+
+$data.new_confirmed111
+[1] 16925
+
+$data.new_confirmed112
+[1] 24581
+
+$data.new_confirmed113
+[1] 37019
+
+$data.new_confirmed114
+[1] 30925
+
+$data.new_confirmed115
+[1] 25120
+
+$data.new_confirmed116
+[1] 56112
+
+$data.new_confirmed117
+[1] 28876
+
+$data.new_confirmed118
+[1] 16570
+
+$data.new_confirmed119
+[1] 26509
+
+$data.new_confirmed120
+[1] 39566
+
+$data.new_confirmed121
+[1] 41042
+
+$data.new_confirmed122
+[1] 40973
+
+$data.new_confirmed123
+[1] 45634
+
+$data.new_confirmed124
+[1] 36920
+
+$data.new_confirmed125
+[1] 32850
+
+$data.new_confirmed126
+[1] 21582
+
+$data.new_confirmed127
+[1] 39681
+
+$data.new_confirmed128
+[1] 46825
+
+$data.new_confirmed129
+[1] 44401
+
+$data.new_confirmed130
+[1] 42854
+
+$data.new_confirmed131
+[1] 33297
+
+$data.new_confirmed132
+[1] 25648
+
+$data.new_confirmed133
+[1] 24458
+
+$data.new_confirmed134
+[1] 46694
+
+$data.new_confirmed135
+[1] 45252
+
+$data.new_confirmed136
+[1] 42962
+
+$data.new_confirmed137
+[1] 44311
+
+$data.new_confirmed138
+[1] 34947
+
+$data.new_confirmed139
+[1] 23658
+
+$data.new_confirmed140
+[1] 22893
+
+$data.new_confirmed141
+[1] 42922
+
+$data.new_confirmed142
+[1] 40142
+
+$data.new_confirmed143
+[1] 43683
+
+$data.new_confirmed144
+[1] 34618
+
+$data.new_confirmed145
+[1] 25726
+
+$data.new_confirmed146
+[1] 23439
+
+$data.new_confirmed147
+[1] 22753
+
+$data.new_confirmed148
+[1] 46932
+
+$data.new_confirmed149
+[1] 66150
+
+$data.new_confirmed150
+[1] 57326
+
+$data.new_confirmed151
+[1] 56903
+
+$data.new_confirmed152
+[1] 47535
+
+$data.new_confirmed153
+[1] 21046
+
+$data.new_confirmed154
+[1] 29638
+
+$data.new_confirmed155
+[1] 54004
+
+$data.new_confirmed156
+[1] 55451
+
+$data.new_confirmed157
+[1] 58055
+
+$data.new_confirmed158
+[1] 53264
+
+$data.new_confirmed159
+[1] 41541
+
+$data.new_confirmed160
+[1] 24066
+
+$data.new_confirmed161
+[1] 20106
+
+$data.new_confirmed162
+[1] 56282
+
+$data.new_confirmed163
+[1] 56138
+
+$data.new_confirmed164
+[1] 54020
+
+$data.new_confirmed165
+[1] 48966
+
+$data.new_confirmed166
+[1] 46827
+
+$data.new_confirmed167
+[1] 22730
+
+$data.new_confirmed168
+[1] 24946
+
+$data.new_confirmed169
+[1] 50929
+
+$data.new_confirmed170
+[1] 56105
+
+$data.new_confirmed171
+[1] 60713
+
+$data.new_confirmed172
+[1] 49279
+
+$data.new_confirmed173
+[1] 37009
+
+$data.new_confirmed174
+[1] 22852
+
+$data.new_confirmed175
+[1] 24551
+
+$data.new_confirmed176
+[1] 49264
+
+$data.new_confirmed177
+[1] 48603
+
+$data.new_confirmed178
+[1] 42974
+
+$data.new_confirmed179
+[1] 32326
+
+$data.new_confirmed180
+[1] 45908
+
+$data.new_confirmed181
+[1] 21869
+
+$data.new_confirmed182
+[1] 23517
+
+$data.new_confirmed183
+[1] 46307
+
+$data.new_confirmed184
+[1] 48152
+
+$data.new_confirmed185
+[1] 42260
+
+$data.new_confirmed186
+[1] 44088
+
+$data.new_confirmed187
+[1] 37291
+
+$data.new_confirmed188
+[1] 14534
+
+$data.new_confirmed189
+[1] 50225
+
+$data.new_confirmed190
+[1] 44329
+
+$data.new_confirmed191
+[1] 46453
+
+$data.new_confirmed192
+[1] 46809
+
+$data.new_confirmed193
+[1] 39262
+
+$data.new_confirmed194
+[1] 34134
+
+$data.new_confirmed195
+[1] 14339
+
+$data.new_confirmed196
+[1] 9849
+
+$data.new_confirmed197
+[1] 18661
+
+$data.new_confirmed198
+[1] 37162
+
+$data.new_confirmed199
+[1] 40711
+
+$data.new_confirmed200
+[1] 41633
+
+$data.new_confirmed201
+[1] 30800
+
+$data.new_confirmed202
+[1] 14020
+
+$data.new_confirmed203
+[1] 20611
+
+$data.new_confirmed204
+[1] 34552
+
+$data.new_confirmed205
+[1] 37297
+
+$data.new_confirmed206
+[1] 36405
+
+$data.new_confirmed207
+[1] 39731
+
+$data.new_confirmed208
+[1] 29558
+
+$data.new_confirmed209
+[1] 15442
+
+$data.new_confirmed210
+[1] 17635
+
+$data.new_confirmed211
+[1] 34967
+
+$data.new_confirmed212
+[1] 32726
+
+$data.new_confirmed213
+[1] 32014
+
+$data.new_confirmed214
+[1] 32311
+
+$data.new_confirmed215
+[1] 24717
+
+$data.new_confirmed216
+[1] 13778
+
+$data.new_confirmed217
+[1] 16881
+
+$data.new_confirmed218
+[1] 32848
+
+$data.new_confirmed219
+[1] 32901
+
+$data.new_confirmed220
+[1] 35755
+
+$data.new_confirmed221
+[1] 32846
+
+$data.new_confirmed222
+[1] 23008
+
+$data.new_confirmed223
+[1] 8715
+
+$data.new_confirmed224
+[1] 26053
+
+$data.new_confirmed225
+[1] 31526
+
+$data.new_confirmed226
+[1] 30938
+
+$data.new_confirmed227
+[1] 26830
+
+$data.new_confirmed228
+[1] 27733
+
+$data.new_confirmed229
+[1] 23744
+
+$data.new_confirmed230
+[1] 12191
+
+$data.new_confirmed231
+[1] 8636
+
+$data.new_confirmed232
+[1] 13356
+
+$data.new_confirmed233
+[1] 27847
+
+$data.new_confirmed234
+[1] 30426
+
+$data.new_confirmed235
+[1] 28596
+
+$data.new_confirmed236
+[1] 20776
+
+$data.new_confirmed237
+[1] 12051
+
+$data.new_confirmed238
+[1] 16579
+
+$data.new_confirmed239
+[1] 23766
+
+$data.new_confirmed240
+[1] 25843
+
+$data.new_confirmed241
+[1] 24777
+
+$data.new_confirmed242
+[1] 30001
+
+$data.new_confirmed243
+[1] 24982
+
+$data.new_confirmed244
+[1] 11697
+
+$data.new_confirmed245
+[1] 19170
+
+$data.new_confirmed246
+[1] 29982
+
+$data.new_confirmed247
+[1] 28351
+
+$data.new_confirmed248
+[1] 26700
+
+$data.new_confirmed249
+[1] 24353
+
+$data.new_confirmed250
+[1] 13170
+
+$data.new_confirmed251
+[1] 10188
+
+$data.new_confirmed252
+[1] 8249
+
+$data.new_confirmed253
+[1] 13268
+
+$data.new_confirmed254
+[1] 24630
+
+$data.new_confirmed255
+[1] 23845
+
+$data.new_confirmed256
+[1] 20196
+
+$data.new_confirmed257
+[1] 17748
+
+$data.new_confirmed258
+[1] 10502
+
+$data.new_confirmed259
+[1] 13414
+
+$data.new_confirmed260
+[1] 46424
+
+$data.new_confirmed261
+[1] 26244
+
+$data.new_confirmed262
+[1] 33922
+
+$data.new_confirmed263
+[1] 38718
+
+$data.new_confirmed264
+[1] 26278
+
+$data.new_confirmed265
+[1] 13906
+
+$data.new_confirmed266
+[1] 15744
+
+$data.new_confirmed267
+[1] 35490
+
+$data.new_confirmed268
+[1] 34752
+
+$data.new_confirmed269
+[1] 35862
+
+$data.new_confirmed270
+[1] 38770
+
+$data.new_confirmed271
+[1] 30222
+
+$data.new_confirmed272
+[1] 17926
+
+$data.new_confirmed273
+[1] 18158
+
+$data.new_confirmed274
+[1] 34533
+
+$data.new_confirmed275
+[1] 44611
+
+$data.new_confirmed276
+[1] 40902
+
+$data.new_confirmed277
+[1] 33508
+
+$data.new_confirmed278
+[1] 51485
+
+$data.new_confirmed279
+[1] 21012
+
+$data.new_confirmed280
+[1] 23695
+
+$data.new_confirmed281
+[1] 51985
+
+$data.new_confirmed282
+[1] 48475
+
+$data.new_confirmed283
+[1] 50139
+
+$data.new_confirmed284
+[1] 47671
+
+$data.new_confirmed285
+[1] 40282
+
+$data.new_confirmed286
+[1] 26430
+
+$data.new_confirmed287
+[1] 27024
+
+$data.new_confirmed288
+[1] 47796
+
+$data.new_confirmed289
+[1] 54591
+
+$data.new_confirmed290
+[1] 53550
+
+$data.new_confirmed291
+[1] 52549
+
+$data.new_confirmed292
+[1] 42325
+
+$data.new_confirmed293
+[1] 22029
+
+$data.new_confirmed294
+[1] 27380
+
+$data.new_confirmed295
+[1] 48032
+
+$data.new_confirmed296
+[1] 66124
+
+$data.new_confirmed297
+[1] 68699
+
+$data.new_confirmed298
+[1] 52853
+
+$data.new_confirmed299
+[1] 48242
+
+$data.new_confirmed300
+[1] 24484
+
+$data.new_confirmed301
+[1] 27645
+
+$data.new_confirmed302
+[1] 56665
+
+$data.new_confirmed303
+[1] 45679
+
+$data.new_confirmed304
+[1] 58211
+
+$data.new_confirmed305
+[1] 21183
+
+$data.new_confirmed306
+[1] 17533
+
+$data.new_confirmed307
+[1] 17614
+
+$data.new_confirmed308
+[1] 27437
+
+$data.new_confirmed309
+[1] 56371
+
+$data.new_confirmed310
+[1] 55600
+
+$data.new_confirmed311
+[1] 54198
+
+$data.new_confirmed312
+[1] 23210
+
+$data.new_confirmed313
+[1] 15353
+
+$data.new_confirmed314
+[1] 17190
+
+$data.new_confirmed315
+[1] 25039
+
+$data.new_confirmed316
+[1] 58083
+
+$data.new_confirmed317
+[1] 58388
+
+$data.new_confirmed318
+[1] 1071
+
+$data.new_deaths1
+[1] 0
+
+$data.new_deaths2
+[1] 0
+
+$data.new_deaths3
+[1] 0
+
+$data.new_deaths4
+[1] 0
+
+$data.new_deaths5
+[1] 0
+
+$data.new_deaths6
+[1] 0
+
+$data.new_deaths7
+[1] 0
+
+$data.new_deaths8
+[1] 0
+
+$data.new_deaths9
+[1] 0
+
+$data.new_deaths10
+[1] 0
+
+$data.new_deaths11
+[1] 0
+
+$data.new_deaths12
+[1] 0
+
+$data.new_deaths13
+[1] 0
+
+$data.new_deaths14
+[1] 0
+
+$data.new_deaths15
+[1] 0
+
+$data.new_deaths16
+[1] 0
+
+$data.new_deaths17
+[1] 0
+
+$data.new_deaths18
+[1] 0
+
+$data.new_deaths19
+[1] 0
+
+$data.new_deaths20
+[1] 0
+
+$data.new_deaths21
+[1] 0
+
+$data.new_deaths22
+[1] 1
+
+$data.new_deaths23
+[1] 2
+
+$data.new_deaths24
+[1] 4
+
+$data.new_deaths25
+[1] 4
+
+$data.new_deaths26
+[1] 7
+
+$data.new_deaths27
+[1] 7
+
+$data.new_deaths28
+[1] 9
+
+$data.new_deaths29
+[1] 13
+
+$data.new_deaths30
+[1] 12
+
+$data.new_deaths31
+[1] 18
+
+$data.new_deaths32
+[1] 16
+
+$data.new_deaths33
+[1] 22
+
+$data.new_deaths34
+[1] 24
+
+$data.new_deaths35
+[1] 27
+
+$data.new_deaths36
+[1] 36
+
+$data.new_deaths37
+[1] 42
+
+$data.new_deaths38
+[1] 61
+
+$data.new_deaths39
+[1] 60
+
+$data.new_deaths40
+[1] 80
+
+$data.new_deaths41
+[1] 51
+
+$data.new_deaths42
+[1] 73
+
+$data.new_deaths43
+[1] 122
+
+$data.new_deaths44
+[1] 135
+
+$data.new_deaths45
+[1] 133
+
+$data.new_deaths46
+[1] 114
+
+$data.new_deaths47
+[1] 68
+
+$data.new_deaths48
+[1] 96
+
+$data.new_deaths49
+[1] 113
+
+$data.new_deaths50
+[1] 207
+
+$data.new_deaths51
+[1] 203
+
+$data.new_deaths52
+[1] 202
+
+$data.new_deaths53
+[1] 211
+
+$data.new_deaths54
+[1] 202
+
+$data.new_deaths55
+[1] 116
+
+$data.new_deaths56
+[1] 107
+
+$data.new_deaths57
+[1] 174
+
+$data.new_deaths58
+[1] 168
+
+$data.new_deaths59
+[1] 409
+
+$data.new_deaths60
+[1] 373
+
+$data.new_deaths61
+[1] 352
+
+$data.new_deaths62
+[1] 227
+
+$data.new_deaths63
+[1] 305
+
+$data.new_deaths64
+[1] 486
+
+$data.new_deaths65
+[1] 442
+
+$data.new_deaths66
+[1] 446
+
+$data.new_deaths67
+[1] 458
+
+$data.new_deaths68
+[1] 372
+
+$data.new_deaths69
+[1] 263
+
+$data.new_deaths70
+[1] 308
+
+$data.new_deaths71
+[1] 591
+
+$data.new_deaths72
+[1] 625
+
+$data.new_deaths73
+[1] 676
+
+$data.new_deaths74
+[1] 754
+
+$data.new_deaths75
+[1] 668
+
+$data.new_deaths76
+[1] 477
+
+$data.new_deaths77
+[1] 487
+
+$data.new_deaths78
+[1] 844
+
+$data.new_deaths79
+[1] 778
+
+$data.new_deaths80
+[1] 789
+
+$data.new_deaths81
+[1] 913
+
+$data.new_deaths82
+[1] 719
+
+$data.new_deaths83
+[1] 499
+
+$data.new_deaths84
+[1] 724
+
+$data.new_deaths85
+[1] 1148
+
+$data.new_deaths86
+[1] 985
+
+$data.new_deaths87
+[1] 1051
+
+$data.new_deaths88
+[1] 1039
+
+$data.new_deaths89
+[1] 1048
+
+$data.new_deaths90
+[1] 667
+
+$data.new_deaths91
+[1] 727
+
+$data.new_deaths92
+[1] 1052
+
+$data.new_deaths93
+[1] 1063
+
+$data.new_deaths94
+[1] 1190
+
+$data.new_deaths95
+[1] 1137
+
+$data.new_deaths96
+[1] 863
+
+$data.new_deaths97
+[1] 472
+
+$data.new_deaths98
+[1] 738
+
+$data.new_deaths99
+[1] 1368
+
+$data.new_deaths100
+[1] 1194
+
+$data.new_deaths101
+[1] 1485
+
+$data.new_deaths102
+[1] 1101
+
+$data.new_deaths103
+[1] 801
+
+$data.new_deaths104
+[1] 476
+
+$data.new_deaths105
+[1] 863
+
+$data.new_deaths106
+[1] 1193
+
+$data.new_deaths107
+[1] 1238
+
+$data.new_deaths108
+[1] 1268
+
+$data.new_deaths109
+[1] 843
+
+$data.new_deaths110
+[1] 857
+
+$data.new_deaths111
+[1] 634
+
+$data.new_deaths112
+[1] 764
+
+$data.new_deaths113
+[1] 1332
+
+$data.new_deaths114
+[1] 1185
+
+$data.new_deaths115
+[1] 1239
+
+$data.new_deaths116
+[1] 1172
+
+$data.new_deaths117
+[1] 982
+
+$data.new_deaths118
+[1] 609
+
+$data.new_deaths119
+[1] 735
+
+$data.new_deaths120
+[1] 1407
+
+$data.new_deaths121
+[1] 1104
+
+$data.new_deaths122
+[1] 1168
+
+$data.new_deaths123
+[1] 1005
+
+$data.new_deaths124
+[1] 1031
+
+$data.new_deaths125
+[1] 583
+
+$data.new_deaths126
+[1] 731
+
+$data.new_deaths127
+[1] 1318
+
+$data.new_deaths128
+[1] 1086
+
+$data.new_deaths129
+[1] 1259
+
+$data.new_deaths130
+[1] 1213
+
+$data.new_deaths131
+[1] 1061
+
+$data.new_deaths132
+[1] 555
+
+$data.new_deaths133
+[1] 686
+
+$data.new_deaths134
+[1] 1301
+
+$data.new_deaths135
+[1] 1174
+
+$data.new_deaths136
+[1] 1221
+
+$data.new_deaths137
+[1] 1299
+
+$data.new_deaths138
+[1] 932
+
+$data.new_deaths139
+[1] 617
+
+$data.new_deaths140
+[1] 835
+
+$data.new_deaths141
+[1] 1294
+
+$data.new_deaths142
+[1] 1278
+
+$data.new_deaths143
+[1] 1300
+
+$data.new_deaths144
+[1] 1124
+
+$data.new_deaths145
+[1] 844
+
+$data.new_deaths146
+[1] 708
+
+$data.new_deaths147
+[1] 768
+
+$data.new_deaths148
+[1] 1317
+
+$data.new_deaths149
+[1] 1296
+
+$data.new_deaths150
+[1] 1313
+
+$data.new_deaths151
+[1] 1165
+
+$data.new_deaths152
+[1] 1099
+
+$data.new_deaths153
+[1] 581
+
+$data.new_deaths154
+[1] 685
+
+$data.new_deaths155
+[1] 1235
+
+$data.new_deaths156
+[1] 1222
+
+$data.new_deaths157
+[1] 1202
+
+$data.new_deaths158
+[1] 1266
+
+$data.new_deaths159
+[1] 941
+
+$data.new_deaths160
+[1] 525
+
+$data.new_deaths161
+[1] 601
+
+$data.new_deaths162
+[1] 1358
+
+$data.new_deaths163
+[1] 1367
+
+$data.new_deaths164
+[1] 1225
+
+$data.new_deaths165
+[1] 1086
+
+$data.new_deaths166
+[1] 818
+
+$data.new_deaths167
+[1] 578
+
+$data.new_deaths168
+[1] 783
+
+$data.new_deaths169
+[1] 1200
+
+$data.new_deaths170
+[1] 1152
+
+$data.new_deaths171
+[1] 1274
+
+$data.new_deaths172
+[1] 1007
+
+$data.new_deaths173
+[1] 722
+
+$data.new_deaths174
+[1] 587
+
+$data.new_deaths175
+[1] 796
+
+$data.new_deaths176
+[1] 1352
+
+$data.new_deaths177
+[1] 1164
+
+$data.new_deaths178
+[1] 1236
+
+$data.new_deaths179
+[1] 1052
+
+$data.new_deaths180
+[1] 827
+
+$data.new_deaths181
+[1] 456
+
+$data.new_deaths182
+[1] 717
+
+$data.new_deaths183
+[1] 1209
+
+$data.new_deaths184
+[1] 1079
+
+$data.new_deaths185
+[1] 985
+
+$data.new_deaths186
+[1] 849
+
+$data.new_deaths187
+[1] 897
+
+$data.new_deaths188
+[1] 401
+
+$data.new_deaths189
+[1] 647
+
+$data.new_deaths190
+[1] 1150
+
+$data.new_deaths191
+[1] 1204
+
+$data.new_deaths192
+[1] 867
+
+$data.new_deaths193
+[1] 849
+
+$data.new_deaths194
+[1] 604
+
+$data.new_deaths195
+[1] 444
+
+$data.new_deaths196
+[1] 334
+
+$data.new_deaths197
+[1] 514
+
+$data.new_deaths198
+[1] 1168
+
+$data.new_deaths199
+[1] 974
+
+$data.new_deaths200
+[1] 848
+
+$data.new_deaths201
+[1] 767
+
+$data.new_deaths202
+[1] 405
+
+$data.new_deaths203
+[1] 458
+
+$data.new_deaths204
+[1] 1082
+
+$data.new_deaths205
+[1] 962
+
+$data.new_deaths206
+[1] 869
+
+$data.new_deaths207
+[1] 828
+
+$data.new_deaths208
+[1] 681
+
+$data.new_deaths209
+[1] 351
+
+$data.new_deaths210
+[1] 466
+
+$data.new_deaths211
+[1] 794
+
+$data.new_deaths212
+[1] 932
+
+$data.new_deaths213
+[1] 795
+
+$data.new_deaths214
+[1] 822
+
+$data.new_deaths215
+[1] 722
+
+$data.new_deaths216
+[1] 337
+
+$data.new_deaths217
+[1] 393
+
+$data.new_deaths218
+[1] 858
+
+$data.new_deaths219
+[1] 868
+
+$data.new_deaths220
+[1] 887
+
+$data.new_deaths221
+[1] 653
+
+$data.new_deaths222
+[1] 589
+
+$data.new_deaths223
+[1] 358
+
+$data.new_deaths224
+[1] 393
+
+$data.new_deaths225
+[1] 810
+
+$data.new_deaths226
+[1] 725
+
+$data.new_deaths227
+[1] 735
+
+$data.new_deaths228
+[1] 654
+
+$data.new_deaths229
+[1] 534
+
+$data.new_deaths230
+[1] 278
+
+$data.new_deaths231
+[1] 194
+
+$data.new_deaths232
+[1] 378
+
+$data.new_deaths233
+[1] 732
+
+$data.new_deaths234
+[1] 814
+
+$data.new_deaths235
+[1] 643
+
+$data.new_deaths236
+[1] 415
+
+$data.new_deaths237
+[1] 235
+
+$data.new_deaths238
+[1] 326
+
+$data.new_deaths239
+[1] 648
+
+$data.new_deaths240
+[1] 570
+
+$data.new_deaths241
+[1] 506
+
+$data.new_deaths242
+[1] 563
+
+$data.new_deaths243
+[1] 387
+
+$data.new_deaths244
+[1] 201
+
+$data.new_deaths245
+[1] 334
+
+$data.new_deaths246
+[1] 526
+
+$data.new_deaths247
+[1] 504
+
+$data.new_deaths248
+[1] 551
+
+$data.new_deaths249
+[1] 573
+
+$data.new_deaths250
+[1] 292
+
+$data.new_deaths251
+[1] 203
+
+$data.new_deaths252
+[1] 164
+
+$data.new_deaths253
+[1] 289
+
+$data.new_deaths254
+[1] 618
+
+$data.new_deaths255
+[1] 603
+
+$data.new_deaths256
+[1] 271
+
+$data.new_deaths257
+[1] 228
+
+$data.new_deaths258
+[1] 190
+
+$data.new_deaths259
+[1] 186
+
+$data.new_deaths260
+[1] 198
+
+$data.new_deaths261
+[1] 574
+
+$data.new_deaths262
+[1] 933
+
+$data.new_deaths263
+[1] 576
+
+$data.new_deaths264
+[1] 734
+
+$data.new_deaths265
+[1] 140
+
+$data.new_deaths266
+[1] 256
+
+$data.new_deaths267
+[1] 679
+
+$data.new_deaths268
+[1] 754
+
+$data.new_deaths269
+[1] 650
+
+$data.new_deaths270
+[1] 513
+
+$data.new_deaths271
+[1] 357
+
+$data.new_deaths272
+[1] 178
+
+$data.new_deaths273
+[1] 355
+
+$data.new_deaths274
+[1] 627
+
+$data.new_deaths275
+[1] 622
+
+$data.new_deaths276
+[1] 711
+
+$data.new_deaths277
+[1] 559
+
+$data.new_deaths278
+[1] 544
+
+$data.new_deaths279
+[1] 233
+
+$data.new_deaths280
+[1] 351
+
+$data.new_deaths281
+[1] 685
+
+$data.new_deaths282
+[1] 677
+
+$data.new_deaths283
+[1] 763
+
+$data.new_deaths284
+[1] 677
+
+$data.new_deaths285
+[1] 648
+
+$data.new_deaths286
+[1] 339
+
+$data.new_deaths287
+[1] 425
+
+$data.new_deaths288
+[1] 798
+
+$data.new_deaths289
+[1] 852
+
+$data.new_deaths290
+[1] 770
+
+$data.new_deaths291
+[1] 660
+
+$data.new_deaths292
+[1] 679
+
+$data.new_deaths293
+[1] 295
+
+$data.new_deaths294
+[1] 513
+
+$data.new_deaths295
+[1] 934
+
+$data.new_deaths296
+[1] 941
+
+$data.new_deaths297
+[1] 1061
+
+$data.new_deaths298
+[1] 817
+
+$data.new_deaths299
+[1] 659
+
+$data.new_deaths300
+[1] 418
+
+$data.new_deaths301
+[1] 562
+
+$data.new_deaths302
+[1] 969
+
+$data.new_deaths303
+[1] 965
+
+$data.new_deaths304
+[1] 760
+
+$data.new_deaths305
+[1] 482
+
+$data.new_deaths306
+[1] 296
+
+$data.new_deaths307
+[1] 337
+
+$data.new_deaths308
+[1] 538
+
+$data.new_deaths309
+[1] 1051
+
+$data.new_deaths310
+[1] 1217
+
+$data.new_deaths311
+[1] 1016
+
+$data.new_deaths312
+[1] 469
+
+$data.new_deaths313
+[1] 293
+
+$data.new_deaths314
+[1] 311
+
+$data.new_deaths315
+[1] 596
+
+$data.new_deaths316
+[1] 1189
+
+$data.new_deaths317
+[1] 1191
+
+$data.new_deaths318
+[1] 17
+
+$layers1
+geom_line: na.rm = FALSE, orientation = NA, alpha = 0.7, flipped_aes = FALSE
+stat_identity: na.rm = FALSE
+position_identity 
+
+$layers2
+geom_point: na.rm = FALSE, size = 2
+stat_identity: na.rm = FALSE
+position_identity 
+
+$scales
+<ggproto object: Class ScalesList, gg>
+    add: function
+    clone: function
+    find: function
+    get_scales: function
+    has_scale: function
+    input: function
+    n: function
+    non_position_scales: function
+    scales: list
+    super:  <ggproto object: Class ScalesList, gg>
+
+$mapping.x
+<quosure>
+expr: ^.data$date
+env:  0x559723968d78
+
+$mapping.y
+<quosure>
+expr: ^.data$new_confirmed
+env:  0x559723968d78
+
+$mapping.colour
+[1] "red"
+
+$theme.line.colour
+[1] "black"
+
+$theme.line.size
+[1] 0.5
+
+$theme.line.linetype
+[1] 1
+
+$theme.line.lineend
+[1] "butt"
+
+$theme.line.arrow
+[1] FALSE
+
+$theme.line.inherit.blank
+[1] TRUE
+
+$theme.rect.fill
+[1] "white"
+
+$theme.rect.colour
+[1] "black"
+
+$theme.rect.size
+[1] 0.5
+
+$theme.rect.linetype
+[1] 1
+
+$theme.rect.inherit.blank
+[1] TRUE
+
+$theme.text.family
+[1] ""
+
+$theme.text.face
+[1] "plain"
+
+$theme.text.colour
+[1] "black"
+
+$theme.text.size
+[1] 11
+
+$theme.text.hjust
+[1] 0.5
+
+$theme.text.vjust
+[1] 0.5
+
+$theme.text.angle
+[1] 0
+
+$theme.text.lineheight
+[1] 0.9
+
+$theme.text.margin1
+[1] 0
+
+$theme.text.margin2
+[1] 0
+
+$theme.text.margin3
+[1] 0
+
+$theme.text.margin4
+[1] 0
+
+$theme.text.debug
+[1] FALSE
+
+$theme.text.inherit.blank
+[1] TRUE
+
+$theme.axis.title.x.vjust
+[1] 1
+
+$theme.axis.title.x.margin1
+[1] 2.75
+
+$theme.axis.title.x.margin2
+[1] 0
+
+$theme.axis.title.x.margin3
+[1] 0
+
+$theme.axis.title.x.margin4
+[1] 0
+
+$theme.axis.title.x.inherit.blank
+[1] TRUE
+
+$theme.axis.title.x.top.vjust
+[1] 0
+
+$theme.axis.title.x.top.margin1
+[1] 0
+
+$theme.axis.title.x.top.margin2
+[1] 0
+
+$theme.axis.title.x.top.margin3
+[1] 2.75
+
+$theme.axis.title.x.top.margin4
+[1] 0
+
+$theme.axis.title.x.top.inherit.blank
+[1] TRUE
+
+$theme.axis.title.y.vjust
+[1] 1
+
+$theme.axis.title.y.angle
+[1] 90
+
+$theme.axis.title.y.margin1
+[1] 0
+
+ [ reached getOption("max.print") -- omitted 120 entries ]

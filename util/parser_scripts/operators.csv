@@ -1,0 +1,26 @@
+symbol,name,type
++,Addition,Arithmetic
+–,Subtraction,Arithmetic
+*,Multiplication,Arithmetic
+/,Division,Arithmetic
+^,Exponent,Arithmetic
+%%,Modulus (Remainder from division),Arithmetic
+%/%,Integer Division,Arithmetic
+<,Less than,Relational
+>,Greater than,Relational
+<=,Less than or equal to,Relational
+>=,Greater than or equal to,Relational
+==,Equal to,Relational
+!=,Not equal to,Relational
+!,Logical NOT,Logical
+&,Element-wise logical AND,Logical
+&&,Logical AND,Logical
+|,Element-wise logical OR,Logical
+||,Logical OR,Logical
+<-,Leftwards assignment,Assignment
+<<-,Leftwards assignment,Assignment
+=,Leftwards assignment,Assignment
+->>,Rightwards assignment,Assignment
+->,Rightwards assignment,Assignment
+$, Subset,Print to console
+

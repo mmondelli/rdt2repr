@@ -1,0 +1,20 @@
+[[1]]
+            nome.completo
+1 Antonio Marcio Buainain
+                                                                                        nome.em.citacoes.bibliograficas nacionalidade
+1 BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN             B
+  pais.de.nascimento uf.nascimento cidade.nascimento permissao.de.divulgacao data.falecimento sigla.pais.nacionalidade
+1             Brasil            MS      Campo Grande                     NAO                                       BRA
+  pais.de.nacionalidade                              orcid.id               id data.atualizacao
+1                Brasil https://orcid.org/0000-0002-1779-5589 3051627641386529         16042020
+
+[[2]]
+                           nome.completo
+1 Jose Maria Ferreira Jardim da Silveira
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                   nome.em.citacoes.bibliograficas
+1 SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+  nacionalidade pais.de.nascimento uf.nascimento cidade.nascimento permissao.de.divulgacao data.falecimento sigla.pais.nacionalidade
+1             B             Brasil            SP         São Paulo                     NAO                                       BRA
+  pais.de.nacionalidade                              orcid.id               id data.atualizacao
+1                Brasil https://orcid.org/0000-0003-3680-875X 4984859173592703         20032020
+

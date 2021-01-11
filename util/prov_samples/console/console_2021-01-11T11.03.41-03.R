@@ -1,0 +1,2 @@
+library(getLattes)
+data(xmlsLattes)

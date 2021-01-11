@@ -1,0 +1,12 @@
+"ddg.type","ddg.num","ddg.name","ddg.value","ddg.return.linked","ddg.time","ddg.snum","ddg.startLine","ddg.startCol","ddg.endLine","ddg.endCol"
+"Start",1,"Console","Console",FALSE,1.94800000000009,1,NA,NA,NA,NA
+"Operation",2,"library(modleR)","library(modleR)",FALSE,0.271999999999935,1,1,1,1,15
+"Operation",3,"library(sp)","library(sp)",FALSE,0.125999999999976,1,2,1,2,11
+"Operation",4,"species <- names(example_occs)","species <- names(example_occs)",FALSE,0.0740000000000691,1,3,1,3,30
+"Operation",5,"occs <- example_occs[[1]]","occs <- example_occs[[1]]",FALSE,0.104000000000042,1,4,1,4,25
+"Operation",6,"test_folder <- ""~/Dropbox/Reproducibility/prov2repr/prov_sam","test_folder <- ""~/Dropbox/Reproducibility/prov2repr/prov_sam",FALSE,0.233999999999924,1,5,1,5,80
+"Operation",7,"sdmdata_1sp <- modleR::setup_sdmdata(species_name = species[","sdmdata_1sp <- modleR::setup_sdmdata(species_name = species[",FALSE,5.79899999999998,1,6,1,11,67
+"Operation",8,"many <- modleR::do_many(species_name = species[1], predictor","many <- modleR::do_many(species_name = species[1], predictor",FALSE,21.7800000000001,1,12,1,16,32
+"Operation",9,"fm <- modleR::final_model(species_name = species[1], algorit","fm <- modleR::final_model(species_name = species[1], algorit",FALSE,15.49,1,17,1,20,36
+"Operation",10,"ens <- modleR::ensemble_model(species_name = species[1], occ","ens <- modleR::ensemble_model(species_name = species[1], occ",FALSE,10.2670000000001,1,21,1,25,65
+"Finish",11,"Console","Console",FALSE,16.9179999999999,1,NA,NA,NA,NA
