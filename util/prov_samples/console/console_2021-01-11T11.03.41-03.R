@@ -1,2 +1,0 @@
-library(getLattes)
-data(xmlsLattes)
