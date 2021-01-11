@@ -39,7 +39,7 @@ or executing the function:
 rdt2repr::endprov(rdf_file = 'output.ttl')
 ```
 
-This will ask you to inform the full path to the file where the provenance data was be saved.
+This will ask you to inform the full path to the file where the provenance data (prov.json file) was saved.
 
 For more details:
 * [rdt](https://github.com/End-to-end-provenance/rdt)
