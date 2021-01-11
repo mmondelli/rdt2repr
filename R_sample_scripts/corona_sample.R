@@ -1,6 +1,5 @@
 #remotes::install_github("liibre/coronabr")
 library(rdt)
-prov.init(save.debug = T, prov.dir = './prov_samples', annotate.inside.functions = T, overwrite = F)
 
 library(coronabr)
 dados <- get_corona_br(by_uf = TRUE)
