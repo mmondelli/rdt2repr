@@ -32,7 +32,7 @@ or executing the function:
 rdt2repr::endprov()
 ``` 
 
-Then you can convert the source in the rdt format to the reproduce-me ontology by clicking: Addins > Convert provenance format
+Then you can convert the provenance in the rdt format to the reproduce-me ontology by clicking: Addins > Convert provenance format
 or executing the function:
 
 ``` r
