@@ -1,0 +1,557 @@
+@base <localhost://> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix p-plan: <http://purl.org/net/p-plan/#> .
+@prefix repr: <https://w3id.org/reproduceme#> .
+@prefix prov: <http://www.w3.org/ns/prov/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+repr:CITATION
+    a p-plan:Variable ;
+    repr:hasType "File" .
+
+repr:FUN_aggregate
+    a repr:Argument ;
+    repr:hasParameterValue "sum" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:aggregate_activation1 .
+
+repr:World
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:World_rda
+    a p-plan:Variable ;
+    repr:hasType "File" .
+
+repr:____aggregate
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610466450r58581r20 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:aggregate_activation1 .
+
+repr:____data
+    a repr:Argument ;
+    repr:hasParameterValue "\"World\"" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:data_activation1 .
+
+repr:_ggplot
+    a repr:Output ;
+    repr:hasType "Snapshot" .
+
+repr:aggregate
+    a repr:Function ;
+    repr:hasPackage repr:raster .
+
+repr:aggregate_activation1
+    a repr:FunctionActivation ;
+    rdf:value "df_lac <- aggregate(confirmed ~ country_region, data = dados_lac, FUN = sum)" ;
+    prov:generated repr:df_lac ;
+    prov:used repr:dados_lac ;
+    repr:informedBy repr:operation5 ;
+    repr:isStepOfPlan repr:aggregate .
+
+<https://w3id.org/reproduceme#as.character>
+    a repr:Function ;
+    repr:hasPackage repr:base .
+
+<https://w3id.org/reproduceme#as.character_activation1>
+    a repr:FunctionActivation ;
+    rdf:value "lac$country_region <- as.character(lac$name)" ;
+    prov:generated repr:lac ;
+    prov:used repr:lac ;
+    repr:informedBy repr:operation3 ;
+    repr:isStepOfPlan <https://w3id.org/reproduceme#as.character> .
+
+repr:attach_required_library
+    a repr:Argument ;
+    repr:hasParameterValue "missing(include.only)" ;
+    repr:hasType "language" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:base
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:by_uf_get_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "\"TRUE\"" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:get_corona_br_activation1 .
+
+repr:c
+    a repr:Function ;
+    repr:hasPackage repr:base .
+
+repr:c_activation1
+    a repr:FunctionActivation ;
+    rdf:value "fora <- c(\"Canada\", \"United States\", \"Greenland\")" ;
+    prov:generated repr:fora ;
+    repr:informedBy repr:data_activation1 ;
+    repr:isStepOfPlan repr:c .
+
+repr:character_only_library
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:cidade_get_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:get_corona_br_activation1 .
+
+repr:console
+    a repr:Script ;
+    repr:hasOperatingSystem "Ubuntu 20.04.1 LTS" ;
+    repr:hasProgrammingLanguage "R" ;
+    repr:hasProgrammingLanguageVersion "R version 4.0.2 (2020-06-22)" .
+
+repr:corona_brasil_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:corona_brasil_metadado_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:corona_jhu_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:corona_jhu_metadado_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:coronabr
+    a repr:Package ;
+    repr:hasPackageVersion "0.1.0" .
+
+repr:dados
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:dados_jhu
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:dados_lac
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:data
+    a repr:Function ;
+    repr:hasPackage repr:utils .
+
+repr:data_activation1
+    a repr:FunctionActivation ;
+    rdf:value "data(\"World\")" ;
+    prov:generated repr:World ;
+    prov:used repr:World_rda ;
+    repr:informedBy repr:library_activation2 ;
+    repr:isStepOfPlan repr:data .
+
+repr:data_aggregate
+    a repr:Argument ;
+    repr:hasParameterValue "dados_lac" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:aggregate_activation1 .
+
+repr:datasets
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:dev_2
+    a p-plan:Variable, repr:Output ;
+    repr:hasType "Device" .
+
+repr:dev_off_26_pdf
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:df_lac
+    a repr:Output ;
+    repr:hasType "Snapshot" .
+
+repr:df_plot_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610466450r58581r11, _:r1610466450r58581r12 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 .
+
+repr:df_plot_uf
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610466450r58581r13, _:r1610466450r58581r14 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+
+repr:dir_get_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "\"outputs\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:get_corona_br_activation1 .
+
+repr:dir_get_corona_jhu
+    a repr:Argument ;
+    repr:hasParameterValue "\"outputs\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:get_corona_jhu_activation1 .
+
+repr:envir_data
+    a repr:Argument ;
+    repr:hasParameterValue ".GlobalEnv" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:data_activation1 .
+
+repr:estados_plot_uf
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+
+repr:exclude_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610466450r58581r18, _:r1610466450r58581r9 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:filename_get_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "\"corona_brasil\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:get_corona_br_activation1 .
+
+repr:filename_get_corona_jhu
+    a repr:Argument ;
+    repr:hasParameterValue "\"corona_jhu\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:get_corona_jhu_activation1 .
+
+repr:fora
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:get_corona_br
+    a repr:Function ;
+    repr:hasPackage repr:coronabr .
+
+repr:get_corona_br_activation1
+    a repr:FunctionActivation ;
+    rdf:value "dados <- get_corona_br(by_uf = TRUE)" ;
+    prov:generated repr:corona_brasil_csv, repr:corona_brasil_metadado_csv, repr:dados ;
+    prov:used repr:CITATION ;
+    repr:informedBy repr:library_activation1 ;
+    repr:isStepOfPlan repr:get_corona_br .
+
+repr:get_corona_jhu
+    a repr:Function ;
+    repr:hasPackage repr:coronabr .
+
+repr:get_corona_jhu_activation1
+    a repr:FunctionActivation ;
+    rdf:value "dados_jhu <- get_corona_jhu()" ;
+    prov:generated repr:corona_jhu_csv, repr:corona_jhu_metadado_csv, repr:dados_jhu ;
+    prov:used <https://w3id.org/reproduceme#https://raw_githubusercontent_com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-11-2021_csv> ;
+    repr:informedBy repr:operation2 ;
+    repr:isStepOfPlan repr:get_corona_jhu .
+
+repr:ggplot2
+    a repr:Package ;
+    repr:hasPackageVersion "3.3.2" .
+
+repr:grDevices
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:graphics
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:help_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610466450r58581r15, _:r1610466450r58581r6 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+<https://w3id.org/reproduceme#https://raw_githubusercontent_com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-11-2021_csv>
+    a p-plan:Variable ;
+    repr:hasType "URL" .
+
+repr:ibge_cod_get_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:get_corona_br_activation1 .
+
+repr:iconvlist
+    a _:r1610466450r58581r5 ;
+    repr:hasType "File" .
+
+repr:include_only_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610466450r58581r10, _:r1610466450r58581r19 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:lac
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:lib_loc_data
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:data_activation1 .
+
+repr:lib_loc_library
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:library
+    a repr:Function ;
+    repr:hasPackage repr:base .
+
+repr:library_activation1
+    a repr:FunctionActivation ;
+    rdf:value "library(coronabr)" ;
+    repr:informedBy repr:operation1 ;
+    repr:isStepOfPlan repr:library .
+
+repr:library_activation2
+    a repr:FunctionActivation ;
+    rdf:value "library(tmap)" ;
+    repr:informedBy repr:plot_uf_activation2 ;
+    repr:isStepOfPlan repr:library .
+
+repr:list_data
+    a repr:Argument ;
+    repr:hasParameterValue "character()" ;
+    repr:hasType "language" ;
+    repr:isInputVarOf repr:data_activation1 .
+
+repr:log_plot_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "TRUE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 .
+
+repr:logical_return_library
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:mask_ok_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610466450r58581r17, _:r1610466450r58581r8 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:methods
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:n_plot_uf
+    a repr:Argument ;
+    repr:hasParameterValue "10" ;
+    repr:hasType "double" ;
+    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+
+repr:operation1
+    a repr:Operation ;
+    rdf:value _:r1610466450r58581r1 ;
+    repr:hasType "Console" ;
+    repr:informedBy _:r1610466450r58581r4 .
+
+repr:operation2
+    a repr:Operation ;
+    rdf:value "lac <- World[World$continent %in% c(\"South America\", \"North America\") & !World$name %in% fora, ]" ;
+    prov:generated repr:lac ;
+    prov:used repr:World, repr:fora ;
+    repr:hasType "Assignment" ;
+    repr:informedBy repr:c_activation1 .
+
+repr:operation3
+    a repr:Operation ;
+    rdf:value "lac$name[!lac$name %in% dados_jhu$country_region]" ;
+    prov:used repr:dados_jhu, repr:lac ;
+    repr:hasType _:r1610466450r58581r3 ;
+    repr:informedBy repr:get_corona_jhu_activation1 .
+
+repr:operation4
+    a repr:Operation ;
+    rdf:value "lac$country_region[lac$country_region == \"Dominican Rep.\"] <- \"Dominican Republic\"" ;
+    prov:generated repr:lac ;
+    prov:used repr:lac ;
+    repr:hasType "Print to console" ;
+    repr:informedBy <https://w3id.org/reproduceme#as.character_activation1> .
+
+repr:operation5
+    a repr:Operation ;
+    rdf:value "dados_lac <- dados_jhu[dados_jhu$country_region %in% lac$country_region, ]" ;
+    prov:generated repr:dados_lac ;
+    prov:used repr:dados_jhu, repr:lac ;
+    repr:hasType "Assignment" ;
+    repr:informedBy repr:operation4 .
+
+repr:operation6
+    a repr:Operation ;
+    rdf:value _:r1610466450r58581r2 ;
+    prov:generated repr:dev_off_26_pdf ;
+    prov:used repr:dev_2 ;
+    repr:hasType "Console" ;
+    repr:informedBy repr:aggregate_activation1 .
+
+repr:overwrite_data
+    a repr:Argument ;
+    repr:hasParameterValue "TRUE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:data_activation1 .
+
+repr:package_data
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:data_activation1 .
+
+repr:package_library
+    a repr:Argument ;
+    repr:hasParameterValue "\"coronabr\"", "\"tmap\"" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:plot_corona_br
+    a repr:Function ;
+    repr:hasPackage repr:coronabr .
+
+repr:plot_corona_br_activation1
+    a repr:FunctionActivation ;
+    rdf:value "plot_corona_br(df = dados, log = FALSE)" ;
+    prov:generated repr:_ggplot, repr:dev_2 ;
+    prov:used repr:dados ;
+    repr:informedBy repr:get_corona_br_activation1 ;
+    repr:isStepOfPlan repr:plot_corona_br .
+
+repr:plot_corona_br_activation2
+    a repr:FunctionActivation ;
+    rdf:value "plot_corona_br(df = dados, tipo = \"aumento\")" ;
+    prov:generated repr:_ggplot, repr:dev_2 ;
+    prov:used repr:dados ;
+    repr:informedBy repr:plot_corona_br_activation1 ;
+    repr:isStepOfPlan repr:plot_corona_br .
+
+repr:plot_uf
+    a repr:Function ;
+    repr:hasPackage repr:coronabr .
+
+repr:plot_uf_activation1
+    a repr:FunctionActivation ;
+    rdf:value "plot_uf(df = dados, n = 7)" ;
+    prov:generated repr:_ggplot, repr:dev_2 ;
+    prov:used repr:dados ;
+    repr:informedBy repr:plot_corona_br_activation2 ;
+    repr:isStepOfPlan repr:plot_uf .
+
+repr:plot_uf_activation2
+    a repr:FunctionActivation ;
+    rdf:value "plot_uf(df = dados, tipo = \"casos\", prop_pop = TRUE, estados = c(\"AM\", \"CE\", \"PE\", \"SP\"))" ;
+    prov:generated repr:_ggplot, repr:dev_2 ;
+    prov:used repr:dados ;
+    repr:informedBy repr:plot_uf_activation1 ;
+    repr:isStepOfPlan repr:plot_uf .
+
+repr:pos_library
+    a repr:Argument ;
+    repr:hasParameterValue "2" ;
+    repr:hasType "double" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:prop_pop_plot_uf
+    a repr:Argument ;
+    repr:hasParameterValue "TRUE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+
+repr:quietly_library
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:raster
+    a repr:Package ;
+    repr:hasPackageVersion "3.3-13" .
+
+repr:save_get_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "TRUE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:get_corona_br_activation1 .
+
+repr:save_get_corona_jhu
+    a repr:Argument ;
+    repr:hasParameterValue "TRUE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:get_corona_jhu_activation1 .
+
+repr:sp
+    a repr:Package ;
+    repr:hasPackageVersion "1.4-4" .
+
+repr:stats
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:tipo_plot_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "\"numero\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 .
+
+repr:tipo_plot_uf
+    a repr:Argument ;
+    repr:hasParameterValue "\"casos\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+
+repr:tmap
+    a repr:Package ;
+    repr:hasPackageVersion "3.2" .
+
+repr:uf_get_corona_br
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:get_corona_br_activation1 .
+
+repr:utils
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:verbose_data
+    a repr:Argument ;
+    repr:hasParameterValue "getOption(\"verbose\")" ;
+    repr:hasType "language" ;
+    repr:isInputVarOf repr:data_activation1 .
+
+repr:verbose_library
+    a repr:Argument ;
+    repr:hasParameterValue "getOption(\"verbose\")" ;
+    repr:hasType "language" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:warn_conflicts_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610466450r58581r16, _:r1610466450r58581r7 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+
+repr:x_aggregate
+    a repr:Argument ;
+    repr:hasParameterValue "confirmed ~ country_region" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:aggregate_activation1 .
+

@@ -1,0 +1,535 @@
+@base <localhost://> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix p-plan: <http://purl.org/net/p-plan/#> .
+@prefix repr: <https://w3id.org/reproduceme#> .
+@prefix prov: <http://www.w3.org/ns/prov/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://servicos.jbrj.gov.br/flora/taxon/Asplenium%20truncorum>
+    a p-plan:Variable ;
+    repr:hasType "URL" .
+
+repr:CoordinatesQuality_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:Coordinates_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:FUN_lapply
+    a repr:Argument ;
+    repr:hasParameterValue "check_flora" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 .
+
+repr:Images_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:MaxRecords_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:RedList_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:Rocc
+    a repr:Package ;
+    repr:hasPackageVersion "0.1.0" .
+
+repr:Scope_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:Synonyms_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "\"no synomyms\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:Typus_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:X_lapply
+    a repr:Argument ;
+    repr:hasParameterValue "search_taxa" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 .
+
+repr:____lapply
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610469584r60737r13, _:r1610469584r60737r14 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 .
+
+repr:____rgbif2
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610469584r60737r10 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:rgbif2_activation1 .
+
+repr:____unique
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610469584r60737r11, _:r1610469584r60737r12 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:unique_activation1, repr:unique_activation2 .
+
+repr:attach_required_library
+    a repr:Argument ;
+    repr:hasParameterValue "missing(include.only)" ;
+    repr:hasType "language" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:base
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:basisOfRecord_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:c
+    a repr:Function ;
+    repr:hasPackage repr:base .
+
+repr:c_activation1
+    a repr:FunctionActivation ;
+    rdf:value "species <- c(\"Asplenium truncorum\")" ;
+    prov:generated repr:species ;
+    repr:informedBy repr:library_activation1 ;
+    repr:isStepOfPlan repr:c .
+
+repr:character_only_library
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:check_string
+    a repr:Function ;
+    repr:hasPackage repr:Rocc .
+
+repr:check_string_activation1
+    a repr:FunctionActivation ;
+    rdf:value "species_name_check <- check_string(species_name_raw)" ;
+    prov:generated repr:species_name_check ;
+    prov:used repr:species_name_raw ;
+    repr:informedBy repr:unique_activation1 ;
+    repr:isStepOfPlan repr:check_string .
+
+repr:collectionCode_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:console
+    a repr:Script ;
+    repr:hasOperatingSystem "Ubuntu 20.04.1 LTS" ;
+    repr:hasProgrammingLanguage "R" ;
+    repr:hasProgrammingLanguageVersion "R version 4.0.2 (2020-06-22)" .
+
+repr:country_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:county_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:data_gbif
+    a repr:Output ;
+    repr:hasType "Snapshot" .
+
+repr:data_splink
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:datasets
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:dir_rgbif2
+    a repr:Argument ;
+    repr:hasParameterValue "\"results/\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:rgbif2_activation1 .
+
+repr:dir_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "\"results/\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:exclude_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610469584r60737r8 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:filename_rgbif2
+    a repr:Argument ;
+    repr:hasParameterValue "\"gbif\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:rgbif2_activation1 .
+
+repr:filename_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "\"specieslink\"" ;
+    repr:hasType "character" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:force_rgbif2
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:rgbif2_activation1 .
+
+repr:gbif_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:ggplot2
+    a repr:Package ;
+    repr:hasPackageVersion "3.3.2" .
+
+repr:grDevices
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:graphics
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:help_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610469584r60737r5 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+<https://w3id.org/reproduceme#https://api_splink_org_br/records/scientificName/Asplenium%20truncorum/Format/JSON/>
+    a p-plan:Variable ;
+    repr:hasType "URL" .
+
+repr:iconvlist
+    a _:r1610469584r60737r4 ;
+    repr:hasType "File" .
+
+repr:include_only_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610469584r60737r9 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:incomparables_unique
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:unique_activation1, repr:unique_activation2 .
+
+repr:lapply
+    a repr:Function ;
+    repr:hasPackage repr:base .
+
+repr:lapply_activation1
+    a repr:FunctionActivation ;
+    rdf:value "list_taxa <- lapply(search_taxa, check_flora)" ;
+    prov:generated repr:list_taxa ;
+    prov:used <http://servicos.jbrj.gov.br/flora/taxon/Asplenium%20truncorum>, repr:search_taxa ;
+    repr:informedBy repr:unique_activation2 ;
+    repr:isStepOfPlan repr:lapply .
+
+repr:lapply_activation2
+    a repr:FunctionActivation ;
+    rdf:value "list_taxa <- lapply(search_taxa, check_flora)" ;
+    prov:generated repr:list_taxa ;
+    prov:used <http://servicos.jbrj.gov.br/flora/taxon/Asplenium%20truncorum>, repr:search_taxa ;
+    repr:informedBy repr:operation5 ;
+    repr:isStepOfPlan repr:lapply .
+
+repr:lib_loc_library
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:library
+    a repr:Function ;
+    repr:hasPackage repr:base .
+
+repr:library_activation1
+    a repr:FunctionActivation ;
+    rdf:value "library(Rocc)" ;
+    repr:informedBy repr:operation1 ;
+    repr:isStepOfPlan repr:library .
+
+repr:list_taxa
+    a repr:Output ;
+    repr:hasType "Snapshot" .
+
+repr:logical_return_library
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:mask_ok_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610469584r60737r7 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:methods
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:operation1
+    a repr:Operation ;
+    rdf:value _:r1610469584r60737r1 ;
+    repr:hasType "Console" ;
+    repr:informedBy _:r1610469584r60737r3 .
+
+repr:operation2
+    a repr:Operation ;
+    rdf:value "species_name_check" ;
+    prov:used repr:species_name_check ;
+    repr:hasType "Print to console" ;
+    repr:informedBy repr:check_string_activation1 .
+
+repr:operation3
+    a repr:Operation ;
+    rdf:value "species_ok <- species_name_check[species_name_check$speciesStatus %in% \"possibly_ok\", ]" ;
+    prov:generated repr:species_ok ;
+    prov:used repr:species_name_check ;
+    repr:hasType "Assignment" ;
+    repr:informedBy repr:operation2 .
+
+repr:operation4
+    a repr:Operation ;
+    rdf:value "list_taxa[[1]]$taxon" ;
+    repr:hasType "Print to console" ;
+    repr:informedBy repr:lapply_activation1 .
+
+repr:operation5
+    a repr:Operation ;
+    rdf:value "list_taxa[[1]]$synonyms" ;
+    repr:hasType "Print to console" ;
+    repr:informedBy repr:operation4 .
+
+repr:operation6
+    a repr:Operation ;
+    rdf:value "list_taxa[[1]]$taxon" ;
+    repr:hasType "Print to console" ;
+    repr:informedBy repr:lapply_activation2 .
+
+repr:operation7
+    a repr:Operation ;
+    rdf:value "list_taxa[[1]]$synonyms" ;
+    repr:hasType "Print to console" ;
+    repr:informedBy repr:operation6 .
+
+repr:operation8
+    a repr:Operation ;
+    rdf:value _:r1610469584r60737r2 ;
+    repr:hasType "Console" ;
+    repr:informedBy repr:operation7 .
+
+repr:package_library
+    a repr:Argument ;
+    repr:hasParameterValue "\"Rocc\"" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:pos_library
+    a repr:Argument ;
+    repr:hasParameterValue "2" ;
+    repr:hasType "double" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:quietly_library
+    a repr:Argument ;
+    repr:hasParameterValue "FALSE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:remove_na_rgbif2
+    a repr:Argument ;
+    repr:hasParameterValue "TRUE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:rgbif2_activation1 .
+
+repr:rgbif2
+    a repr:Function ;
+    repr:hasPackage repr:Rocc .
+
+repr:rgbif2_activation1
+    a repr:FunctionActivation ;
+    rdf:value "data_gbif <- rgbif2(species = species, filename = \"gbif\")" ;
+    prov:generated repr:data_gbif, repr:gbif_csv ;
+    prov:used repr:species ;
+    repr:informedBy repr:rspeciesLink_activation1 ;
+    repr:isStepOfPlan repr:rgbif2 .
+
+repr:rspeciesLink
+    a repr:Function ;
+    repr:hasPackage repr:Rocc .
+
+repr:rspeciesLink_activation1
+    a repr:FunctionActivation ;
+    rdf:value "data_splink <- rspeciesLink(species = species, filename = \"specieslink\")" ;
+    prov:generated repr:data_splink, repr:specieslink_csv ;
+    prov:used <https://w3id.org/reproduceme#https://api_splink_org_br/records/scientificName/Asplenium%20truncorum/Format/JSON/>, repr:species ;
+    repr:informedBy repr:c_activation1 ;
+    repr:isStepOfPlan repr:rspeciesLink .
+
+repr:save_rgbif2
+    a repr:Argument ;
+    repr:hasParameterValue "TRUE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:rgbif2_activation1 .
+
+repr:save_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "TRUE" ;
+    repr:hasType "logical" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:search_taxa
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:species
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:species_check_string
+    a repr:Argument ;
+    repr:hasParameterValue "\"species_name_raw\"" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:check_string_activation1 .
+
+repr:species_name_check
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:species_name_raw
+    a p-plan:Variable ;
+    repr:hasType "Data" .
+
+repr:species_ok
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:species_rgbif2
+    a repr:Argument ;
+    repr:hasParameterValue "species" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:rgbif2_activation1 .
+
+repr:species_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "species" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:species_suggest_flora
+    a repr:Argument ;
+    repr:hasParameterValue "\"species_ok$species\"" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:suggest_flora_activation1 .
+
+repr:specieslink_csv
+    a repr:Output ;
+    repr:hasType "File" .
+
+repr:stateProvince_rspeciesLink
+    a repr:Argument ;
+    repr:hasParameterValue "NULL" ;
+    repr:hasType "NULL" ;
+    repr:isInputVarOf repr:rspeciesLink_activation1 .
+
+repr:stats
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:suggest_flora
+    a repr:Function ;
+    repr:hasPackage repr:Rocc .
+
+repr:suggest_flora_activation1
+    a repr:FunctionActivation ;
+    rdf:value "suggest_taxa <- suggest_flora(species_ok$species)" ;
+    prov:generated repr:suggest_taxa ;
+    prov:used repr:species_ok ;
+    repr:informedBy repr:operation3 ;
+    repr:isStepOfPlan repr:suggest_flora .
+
+repr:suggest_taxa
+    a p-plan:Variable ;
+    repr:hasType "Snapshot" .
+
+repr:unique
+    a repr:Function ;
+    repr:hasPackage repr:base .
+
+repr:unique_activation1
+    a repr:FunctionActivation ;
+    rdf:value "species_name_raw <- unique(data_splink$scientificName)" ;
+    prov:generated repr:species_name_raw ;
+    prov:used repr:data_splink ;
+    repr:informedBy repr:rgbif2_activation1 ;
+    repr:isStepOfPlan repr:unique .
+
+repr:unique_activation2
+    a repr:FunctionActivation ;
+    rdf:value "search_taxa <- unique(suggest_taxa$species)" ;
+    prov:generated repr:search_taxa ;
+    prov:used repr:suggest_taxa ;
+    repr:informedBy repr:suggest_flora_activation1 ;
+    repr:isStepOfPlan repr:unique .
+
+repr:utils
+    a repr:Package ;
+    repr:hasPackageVersion "4.0.2" .
+
+repr:verbose_library
+    a repr:Argument ;
+    repr:hasParameterValue "getOption(\"verbose\")" ;
+    repr:hasType "language" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:warn_conflicts_library
+    a repr:Argument ;
+    repr:hasParameterValue _:r1610469584r60737r6 ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:library_activation1 .
+
+repr:x_unique
+    a repr:Argument ;
+    repr:hasParameterValue "\"data_splink$scientificName\"", "\"suggest_taxa$species\"" ;
+    repr:hasType "symbol" ;
+    repr:isInputVarOf repr:unique_activation1, repr:unique_activation2 .
+

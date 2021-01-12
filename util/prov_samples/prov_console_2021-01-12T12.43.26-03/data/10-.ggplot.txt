@@ -1,0 +1,3001 @@
+$data.city1
+[1] NA
+
+$data.city2
+[1] NA
+
+$data.city3
+[1] NA
+
+$data.city4
+[1] NA
+
+$data.city5
+[1] NA
+
+$data.city6
+[1] NA
+
+$data.city7
+[1] NA
+
+$data.city8
+[1] NA
+
+$data.city9
+[1] NA
+
+$data.city10
+[1] NA
+
+$data.city11
+[1] NA
+
+$data.city12
+[1] NA
+
+$data.city13
+[1] NA
+
+$data.city14
+[1] NA
+
+$data.city15
+[1] NA
+
+$data.city16
+[1] NA
+
+$data.city17
+[1] NA
+
+$data.city18
+[1] NA
+
+$data.city19
+[1] NA
+
+$data.city20
+[1] NA
+
+$data.city21
+[1] NA
+
+$data.city22
+[1] NA
+
+$data.city23
+[1] NA
+
+$data.city24
+[1] NA
+
+$data.city25
+[1] NA
+
+$data.city26
+[1] NA
+
+$data.city27
+[1] NA
+
+$data.city28
+[1] NA
+
+$data.city29
+[1] NA
+
+$data.city30
+[1] NA
+
+$data.city31
+[1] NA
+
+$data.city32
+[1] NA
+
+$data.city33
+[1] NA
+
+$data.city34
+[1] NA
+
+$data.city35
+[1] NA
+
+$data.city36
+[1] NA
+
+$data.city37
+[1] NA
+
+$data.city38
+[1] NA
+
+$data.city39
+[1] NA
+
+$data.city40
+[1] NA
+
+$data.city41
+[1] NA
+
+$data.city42
+[1] NA
+
+$data.city43
+[1] NA
+
+$data.city44
+[1] NA
+
+$data.city45
+[1] NA
+
+$data.city46
+[1] NA
+
+$data.city47
+[1] NA
+
+$data.city48
+[1] NA
+
+$data.city49
+[1] NA
+
+$data.city50
+[1] NA
+
+$data.city51
+[1] NA
+
+$data.city52
+[1] NA
+
+$data.city53
+[1] NA
+
+$data.city54
+[1] NA
+
+$data.city55
+[1] NA
+
+$data.city56
+[1] NA
+
+$data.city57
+[1] NA
+
+$data.city58
+[1] NA
+
+$data.city59
+[1] NA
+
+$data.city60
+[1] NA
+
+$data.city61
+[1] NA
+
+$data.city62
+[1] NA
+
+$data.city63
+[1] NA
+
+$data.city64
+[1] NA
+
+$data.city65
+[1] NA
+
+$data.city66
+[1] NA
+
+$data.city67
+[1] NA
+
+$data.city68
+[1] NA
+
+$data.city69
+[1] NA
+
+$data.city70
+[1] NA
+
+$data.city71
+[1] NA
+
+$data.city72
+[1] NA
+
+$data.city73
+[1] NA
+
+$data.city74
+[1] NA
+
+$data.city75
+[1] NA
+
+$data.city76
+[1] NA
+
+$data.city77
+[1] NA
+
+$data.city78
+[1] NA
+
+$data.city79
+[1] NA
+
+$data.city80
+[1] NA
+
+$data.city81
+[1] NA
+
+$data.city82
+[1] NA
+
+$data.city83
+[1] NA
+
+$data.city84
+[1] NA
+
+$data.city85
+[1] NA
+
+$data.city86
+[1] NA
+
+$data.city87
+[1] NA
+
+$data.city88
+[1] NA
+
+$data.city89
+[1] NA
+
+$data.city90
+[1] NA
+
+$data.city91
+[1] NA
+
+$data.city92
+[1] NA
+
+$data.city93
+[1] NA
+
+$data.city94
+[1] NA
+
+$data.city95
+[1] NA
+
+$data.city96
+[1] NA
+
+$data.city97
+[1] NA
+
+$data.city98
+[1] NA
+
+$data.city99
+[1] NA
+
+$data.city100
+[1] NA
+
+$data.city101
+[1] NA
+
+$data.city102
+[1] NA
+
+$data.city103
+[1] NA
+
+$data.city104
+[1] NA
+
+$data.city105
+[1] NA
+
+$data.city106
+[1] NA
+
+$data.city107
+[1] NA
+
+$data.city108
+[1] NA
+
+$data.city109
+[1] NA
+
+$data.city110
+[1] NA
+
+$data.city111
+[1] NA
+
+$data.city112
+[1] NA
+
+$data.city113
+[1] NA
+
+$data.city114
+[1] NA
+
+$data.city115
+[1] NA
+
+$data.city116
+[1] NA
+
+$data.city117
+[1] NA
+
+$data.city118
+[1] NA
+
+$data.city119
+[1] NA
+
+$data.city120
+[1] NA
+
+$data.city121
+[1] NA
+
+$data.city122
+[1] NA
+
+$data.city123
+[1] NA
+
+$data.city124
+[1] NA
+
+$data.city125
+[1] NA
+
+$data.city126
+[1] NA
+
+$data.city127
+[1] NA
+
+$data.city128
+[1] NA
+
+$data.city129
+[1] NA
+
+$data.city130
+[1] NA
+
+$data.city131
+[1] NA
+
+$data.city132
+[1] NA
+
+$data.city133
+[1] NA
+
+$data.city134
+[1] NA
+
+$data.city135
+[1] NA
+
+$data.city136
+[1] NA
+
+$data.city137
+[1] NA
+
+$data.city138
+[1] NA
+
+$data.city139
+[1] NA
+
+$data.city140
+[1] NA
+
+$data.city141
+[1] NA
+
+$data.city142
+[1] NA
+
+$data.city143
+[1] NA
+
+$data.city144
+[1] NA
+
+$data.city145
+[1] NA
+
+$data.city146
+[1] NA
+
+$data.city147
+[1] NA
+
+$data.city148
+[1] NA
+
+$data.city149
+[1] NA
+
+$data.city150
+[1] NA
+
+$data.city151
+[1] NA
+
+$data.city152
+[1] NA
+
+$data.city153
+[1] NA
+
+$data.city154
+[1] NA
+
+$data.city155
+[1] NA
+
+$data.city156
+[1] NA
+
+$data.city157
+[1] NA
+
+$data.city158
+[1] NA
+
+$data.city159
+[1] NA
+
+$data.city160
+[1] NA
+
+$data.city161
+[1] NA
+
+$data.city162
+[1] NA
+
+$data.city163
+[1] NA
+
+$data.city164
+[1] NA
+
+$data.city165
+[1] NA
+
+$data.city166
+[1] NA
+
+$data.city167
+[1] NA
+
+$data.city168
+[1] NA
+
+$data.city169
+[1] NA
+
+$data.city170
+[1] NA
+
+$data.city171
+[1] NA
+
+$data.city172
+[1] NA
+
+$data.city173
+[1] NA
+
+$data.city174
+[1] NA
+
+$data.city175
+[1] NA
+
+$data.city176
+[1] NA
+
+$data.city177
+[1] NA
+
+$data.city178
+[1] NA
+
+$data.city179
+[1] NA
+
+$data.city180
+[1] NA
+
+$data.city181
+[1] NA
+
+$data.city182
+[1] NA
+
+$data.city183
+[1] NA
+
+$data.city184
+[1] NA
+
+$data.city185
+[1] NA
+
+$data.city186
+[1] NA
+
+$data.city187
+[1] NA
+
+$data.city188
+[1] NA
+
+$data.city189
+[1] NA
+
+$data.city190
+[1] NA
+
+$data.city191
+[1] NA
+
+$data.city192
+[1] NA
+
+$data.city193
+[1] NA
+
+$data.city194
+[1] NA
+
+$data.city195
+[1] NA
+
+$data.city196
+[1] NA
+
+$data.city197
+[1] NA
+
+$data.city198
+[1] NA
+
+$data.city199
+[1] NA
+
+$data.city200
+[1] NA
+
+$data.city201
+[1] NA
+
+$data.city202
+[1] NA
+
+$data.city203
+[1] NA
+
+$data.city204
+[1] NA
+
+$data.city205
+[1] NA
+
+$data.city206
+[1] NA
+
+$data.city207
+[1] NA
+
+$data.city208
+[1] NA
+
+$data.city209
+[1] NA
+
+$data.city210
+[1] NA
+
+$data.city211
+[1] NA
+
+$data.city212
+[1] NA
+
+$data.city213
+[1] NA
+
+$data.city214
+[1] NA
+
+$data.city215
+[1] NA
+
+$data.city216
+[1] NA
+
+$data.city217
+[1] NA
+
+$data.city218
+[1] NA
+
+$data.city219
+[1] NA
+
+$data.city220
+[1] NA
+
+$data.city221
+[1] NA
+
+$data.city222
+[1] NA
+
+$data.city223
+[1] NA
+
+$data.city224
+[1] NA
+
+$data.city225
+[1] NA
+
+$data.city226
+[1] NA
+
+$data.city227
+[1] NA
+
+$data.city228
+[1] NA
+
+$data.city229
+[1] NA
+
+$data.city230
+[1] NA
+
+$data.city231
+[1] NA
+
+$data.city232
+[1] NA
+
+$data.city233
+[1] NA
+
+$data.city234
+[1] NA
+
+$data.city235
+[1] NA
+
+$data.city236
+[1] NA
+
+$data.city237
+[1] NA
+
+$data.city238
+[1] NA
+
+$data.city239
+[1] NA
+
+$data.city240
+[1] NA
+
+$data.city241
+[1] NA
+
+$data.city242
+[1] NA
+
+$data.city243
+[1] NA
+
+$data.city244
+[1] NA
+
+$data.city245
+[1] NA
+
+$data.city246
+[1] NA
+
+$data.city247
+[1] NA
+
+$data.city248
+[1] NA
+
+$data.city249
+[1] NA
+
+$data.city250
+[1] NA
+
+$data.city251
+[1] NA
+
+$data.city252
+[1] NA
+
+$data.city253
+[1] NA
+
+$data.city254
+[1] NA
+
+$data.city255
+[1] NA
+
+$data.city256
+[1] NA
+
+$data.city257
+[1] NA
+
+$data.city258
+[1] NA
+
+$data.city259
+[1] NA
+
+$data.city260
+[1] NA
+
+$data.city261
+[1] NA
+
+$data.city262
+[1] NA
+
+$data.city263
+[1] NA
+
+$data.city264
+[1] NA
+
+$data.city265
+[1] NA
+
+$data.city266
+[1] NA
+
+$data.city267
+[1] NA
+
+$data.city268
+[1] NA
+
+$data.city269
+[1] NA
+
+$data.city270
+[1] NA
+
+$data.city271
+[1] NA
+
+$data.city272
+[1] NA
+
+$data.city273
+[1] NA
+
+$data.city274
+[1] NA
+
+$data.city275
+[1] NA
+
+$data.city276
+[1] NA
+
+$data.city277
+[1] NA
+
+$data.city278
+[1] NA
+
+$data.city279
+[1] NA
+
+$data.city280
+[1] NA
+
+$data.city281
+[1] NA
+
+$data.city282
+[1] NA
+
+$data.city283
+[1] NA
+
+$data.city284
+[1] NA
+
+$data.city285
+[1] NA
+
+$data.city286
+[1] NA
+
+$data.city287
+[1] NA
+
+$data.city288
+[1] NA
+
+$data.city289
+[1] NA
+
+$data.city290
+[1] NA
+
+$data.city291
+[1] NA
+
+$data.city292
+[1] NA
+
+$data.city293
+[1] NA
+
+$data.city294
+[1] NA
+
+$data.city295
+[1] NA
+
+$data.city296
+[1] NA
+
+$data.city297
+[1] NA
+
+$data.city298
+[1] NA
+
+$data.city299
+[1] NA
+
+$data.city300
+[1] NA
+
+$data.city301
+[1] NA
+
+$data.city302
+[1] NA
+
+$data.city303
+[1] NA
+
+$data.city304
+[1] NA
+
+$data.city305
+[1] NA
+
+$data.city306
+[1] NA
+
+$data.city307
+[1] NA
+
+$data.city308
+[1] NA
+
+$data.city309
+[1] NA
+
+$data.city310
+[1] NA
+
+$data.city311
+[1] NA
+
+$data.city312
+[1] NA
+
+$data.city313
+[1] NA
+
+$data.city314
+[1] NA
+
+$data.city315
+[1] NA
+
+$data.city316
+[1] NA
+
+$data.city317
+[1] NA
+
+$data.city318
+[1] NA
+
+$data.city319
+[1] NA
+
+$data.city320
+[1] NA
+
+$data.city321
+[1] NA
+
+$data.city322
+[1] NA
+
+$data.city323
+[1] NA
+
+$data.city324
+[1] NA
+
+$data.city325
+[1] NA
+
+$data.city326
+[1] NA
+
+$data.city327
+[1] NA
+
+$data.city328
+[1] NA
+
+$data.city329
+[1] NA
+
+$data.city330
+[1] NA
+
+$data.city331
+[1] NA
+
+$data.city332
+[1] NA
+
+$data.city333
+[1] NA
+
+$data.city334
+[1] NA
+
+$data.city335
+[1] NA
+
+$data.city336
+[1] NA
+
+$data.city337
+[1] NA
+
+$data.city338
+[1] NA
+
+$data.city339
+[1] NA
+
+$data.city340
+[1] NA
+
+$data.city341
+[1] NA
+
+$data.city342
+[1] NA
+
+$data.city343
+[1] NA
+
+$data.city344
+[1] NA
+
+$data.city345
+[1] NA
+
+$data.city346
+[1] NA
+
+$data.city347
+[1] NA
+
+$data.city348
+[1] NA
+
+$data.city349
+[1] NA
+
+$data.city350
+[1] NA
+
+$data.city351
+[1] NA
+
+$data.city352
+[1] NA
+
+$data.city353
+[1] NA
+
+$data.city354
+[1] NA
+
+$data.city355
+[1] NA
+
+$data.city356
+[1] NA
+
+$data.city357
+[1] NA
+
+$data.city358
+[1] NA
+
+$data.city359
+[1] NA
+
+$data.city360
+[1] NA
+
+$data.city361
+[1] NA
+
+$data.city362
+[1] NA
+
+$data.city363
+[1] NA
+
+$data.city364
+[1] NA
+
+$data.city365
+[1] NA
+
+$data.city366
+[1] NA
+
+$data.city367
+[1] NA
+
+$data.city368
+[1] NA
+
+$data.city369
+[1] NA
+
+$data.city370
+[1] NA
+
+$data.city371
+[1] NA
+
+$data.city372
+[1] NA
+
+$data.city373
+[1] NA
+
+$data.city374
+[1] NA
+
+$data.city375
+[1] NA
+
+$data.city376
+[1] NA
+
+$data.city377
+[1] NA
+
+$data.city378
+[1] NA
+
+$data.city379
+[1] NA
+
+$data.city380
+[1] NA
+
+$data.city381
+[1] NA
+
+$data.city382
+[1] NA
+
+$data.city383
+[1] NA
+
+$data.city384
+[1] NA
+
+$data.city385
+[1] NA
+
+$data.city386
+[1] NA
+
+$data.city387
+[1] NA
+
+$data.city388
+[1] NA
+
+$data.city389
+[1] NA
+
+$data.city390
+[1] NA
+
+$data.city391
+[1] NA
+
+$data.city392
+[1] NA
+
+$data.city393
+[1] NA
+
+$data.city394
+[1] NA
+
+$data.city395
+[1] NA
+
+$data.city396
+[1] NA
+
+$data.city397
+[1] NA
+
+$data.city398
+[1] NA
+
+$data.city399
+[1] NA
+
+$data.city400
+[1] NA
+
+$data.city401
+[1] NA
+
+$data.city402
+[1] NA
+
+$data.city403
+[1] NA
+
+$data.city404
+[1] NA
+
+$data.city405
+[1] NA
+
+$data.city406
+[1] NA
+
+$data.city407
+[1] NA
+
+$data.city408
+[1] NA
+
+$data.city409
+[1] NA
+
+$data.city410
+[1] NA
+
+$data.city411
+[1] NA
+
+$data.city412
+[1] NA
+
+$data.city413
+[1] NA
+
+$data.city414
+[1] NA
+
+$data.city415
+[1] NA
+
+$data.city416
+[1] NA
+
+$data.city417
+[1] NA
+
+$data.city418
+[1] NA
+
+$data.city419
+[1] NA
+
+$data.city420
+[1] NA
+
+$data.city421
+[1] NA
+
+$data.city422
+[1] NA
+
+$data.city423
+[1] NA
+
+$data.city424
+[1] NA
+
+$data.city425
+[1] NA
+
+$data.city426
+[1] NA
+
+$data.city427
+[1] NA
+
+$data.city428
+[1] NA
+
+$data.city429
+[1] NA
+
+$data.city430
+[1] NA
+
+$data.city431
+[1] NA
+
+$data.city432
+[1] NA
+
+$data.city433
+[1] NA
+
+$data.city434
+[1] NA
+
+$data.city435
+[1] NA
+
+$data.city436
+[1] NA
+
+$data.city437
+[1] NA
+
+$data.city438
+[1] NA
+
+$data.city439
+[1] NA
+
+$data.city440
+[1] NA
+
+$data.city441
+[1] NA
+
+$data.city442
+[1] NA
+
+$data.city443
+[1] NA
+
+$data.city444
+[1] NA
+
+$data.city445
+[1] NA
+
+$data.city446
+[1] NA
+
+$data.city447
+[1] NA
+
+$data.city448
+[1] NA
+
+$data.city449
+[1] NA
+
+$data.city450
+[1] NA
+
+$data.city451
+[1] NA
+
+$data.city452
+[1] NA
+
+$data.city453
+[1] NA
+
+$data.city454
+[1] NA
+
+$data.city455
+[1] NA
+
+$data.city456
+[1] NA
+
+$data.city457
+[1] NA
+
+$data.city458
+[1] NA
+
+$data.city459
+[1] NA
+
+$data.city460
+[1] NA
+
+$data.city461
+[1] NA
+
+$data.city462
+[1] NA
+
+$data.city463
+[1] NA
+
+$data.city464
+[1] NA
+
+$data.city465
+[1] NA
+
+$data.city466
+[1] NA
+
+$data.city467
+[1] NA
+
+$data.city468
+[1] NA
+
+$data.city469
+[1] NA
+
+$data.city470
+[1] NA
+
+$data.city471
+[1] NA
+
+$data.city472
+[1] NA
+
+$data.city473
+[1] NA
+
+$data.city474
+[1] NA
+
+$data.city475
+[1] NA
+
+$data.city476
+[1] NA
+
+$data.city477
+[1] NA
+
+$data.city478
+[1] NA
+
+$data.city479
+[1] NA
+
+$data.city480
+[1] NA
+
+$data.city481
+[1] NA
+
+$data.city482
+[1] NA
+
+$data.city483
+[1] NA
+
+$data.city484
+[1] NA
+
+$data.city485
+[1] NA
+
+$data.city486
+[1] NA
+
+$data.city487
+[1] NA
+
+$data.city488
+[1] NA
+
+$data.city489
+[1] NA
+
+$data.city490
+[1] NA
+
+$data.city491
+[1] NA
+
+$data.city492
+[1] NA
+
+$data.city493
+[1] NA
+
+$data.city494
+[1] NA
+
+$data.city495
+[1] NA
+
+$data.city496
+[1] NA
+
+$data.city497
+[1] NA
+
+$data.city498
+[1] NA
+
+$data.city499
+[1] NA
+
+$data.city500
+[1] NA
+
+$data.city501
+[1] NA
+
+$data.city502
+[1] NA
+
+$data.city503
+[1] NA
+
+$data.city504
+[1] NA
+
+$data.city505
+[1] NA
+
+$data.city506
+[1] NA
+
+$data.city507
+[1] NA
+
+$data.city508
+[1] NA
+
+$data.city509
+[1] NA
+
+$data.city510
+[1] NA
+
+$data.city511
+[1] NA
+
+$data.city512
+[1] NA
+
+$data.city513
+[1] NA
+
+$data.city514
+[1] NA
+
+$data.city515
+[1] NA
+
+$data.city516
+[1] NA
+
+$data.city517
+[1] NA
+
+$data.city518
+[1] NA
+
+$data.city519
+[1] NA
+
+$data.city520
+[1] NA
+
+$data.city521
+[1] NA
+
+$data.city522
+[1] NA
+
+$data.city523
+[1] NA
+
+$data.city524
+[1] NA
+
+$data.city525
+[1] NA
+
+$data.city526
+[1] NA
+
+$data.city527
+[1] NA
+
+$data.city528
+[1] NA
+
+$data.city529
+[1] NA
+
+$data.city530
+[1] NA
+
+$data.city531
+[1] NA
+
+$data.city532
+[1] NA
+
+$data.city533
+[1] NA
+
+$data.city534
+[1] NA
+
+$data.city535
+[1] NA
+
+$data.city536
+[1] NA
+
+$data.city537
+[1] NA
+
+$data.city538
+[1] NA
+
+$data.city539
+[1] NA
+
+$data.city540
+[1] NA
+
+$data.city541
+[1] NA
+
+$data.city542
+[1] NA
+
+$data.city543
+[1] NA
+
+$data.city544
+[1] NA
+
+$data.city545
+[1] NA
+
+$data.city546
+[1] NA
+
+$data.city547
+[1] NA
+
+$data.city548
+[1] NA
+
+$data.city549
+[1] NA
+
+$data.city550
+[1] NA
+
+$data.city551
+[1] NA
+
+$data.city552
+[1] NA
+
+$data.city553
+[1] NA
+
+$data.city554
+[1] NA
+
+$data.city555
+[1] NA
+
+$data.city556
+[1] NA
+
+$data.city557
+[1] NA
+
+$data.city558
+[1] NA
+
+$data.city559
+[1] NA
+
+$data.city560
+[1] NA
+
+$data.city561
+[1] NA
+
+$data.city562
+[1] NA
+
+$data.city563
+[1] NA
+
+$data.city564
+[1] NA
+
+$data.city565
+[1] NA
+
+$data.city566
+[1] NA
+
+$data.city567
+[1] NA
+
+$data.city568
+[1] NA
+
+$data.city569
+[1] NA
+
+$data.city570
+[1] NA
+
+$data.city571
+[1] NA
+
+$data.city572
+[1] NA
+
+$data.city573
+[1] NA
+
+$data.city574
+[1] NA
+
+$data.city575
+[1] NA
+
+$data.city576
+[1] NA
+
+$data.city577
+[1] NA
+
+$data.city578
+[1] NA
+
+$data.city579
+[1] NA
+
+$data.city580
+[1] NA
+
+$data.city581
+[1] NA
+
+$data.city582
+[1] NA
+
+$data.city583
+[1] NA
+
+$data.city584
+[1] NA
+
+$data.city585
+[1] NA
+
+$data.city586
+[1] NA
+
+$data.city587
+[1] NA
+
+$data.city588
+[1] NA
+
+$data.city589
+[1] NA
+
+$data.city590
+[1] NA
+
+$data.city591
+[1] NA
+
+$data.city592
+[1] NA
+
+$data.city593
+[1] NA
+
+$data.city594
+[1] NA
+
+$data.city595
+[1] NA
+
+$data.city596
+[1] NA
+
+$data.city597
+[1] NA
+
+$data.city598
+[1] NA
+
+$data.city599
+[1] NA
+
+$data.city600
+[1] NA
+
+$data.city601
+[1] NA
+
+$data.city602
+[1] NA
+
+$data.city603
+[1] NA
+
+$data.city604
+[1] NA
+
+$data.city605
+[1] NA
+
+$data.city606
+[1] NA
+
+$data.city607
+[1] NA
+
+$data.city608
+[1] NA
+
+$data.city609
+[1] NA
+
+$data.city610
+[1] NA
+
+$data.city611
+[1] NA
+
+$data.city612
+[1] NA
+
+$data.city613
+[1] NA
+
+$data.city614
+[1] NA
+
+$data.city615
+[1] NA
+
+$data.city616
+[1] NA
+
+$data.city617
+[1] NA
+
+$data.city618
+[1] NA
+
+$data.city619
+[1] NA
+
+$data.city620
+[1] NA
+
+$data.city621
+[1] NA
+
+$data.city622
+[1] NA
+
+$data.city623
+[1] NA
+
+$data.city624
+[1] NA
+
+$data.city625
+[1] NA
+
+$data.city626
+[1] NA
+
+$data.city627
+[1] NA
+
+$data.city628
+[1] NA
+
+$data.city629
+[1] NA
+
+$data.city630
+[1] NA
+
+$data.city631
+[1] NA
+
+$data.city632
+[1] NA
+
+$data.city633
+[1] NA
+
+$data.city634
+[1] NA
+
+$data.city635
+[1] NA
+
+$data.city636
+[1] NA
+
+$data.city637
+[1] NA
+
+$data.city638
+[1] NA
+
+$data.city639
+[1] NA
+
+$data.city640
+[1] NA
+
+$data.city641
+[1] NA
+
+$data.city642
+[1] NA
+
+$data.city643
+[1] NA
+
+$data.city644
+[1] NA
+
+$data.city645
+[1] NA
+
+$data.city646
+[1] NA
+
+$data.city647
+[1] NA
+
+$data.city648
+[1] NA
+
+$data.city649
+[1] NA
+
+$data.city650
+[1] NA
+
+$data.city651
+[1] NA
+
+$data.city652
+[1] NA
+
+$data.city653
+[1] NA
+
+$data.city654
+[1] NA
+
+$data.city655
+[1] NA
+
+$data.city656
+[1] NA
+
+$data.city657
+[1] NA
+
+$data.city658
+[1] NA
+
+$data.city659
+[1] NA
+
+$data.city660
+[1] NA
+
+$data.city661
+[1] NA
+
+$data.city662
+[1] NA
+
+$data.city663
+[1] NA
+
+$data.city664
+[1] NA
+
+$data.city665
+[1] NA
+
+$data.city666
+[1] NA
+
+$data.city667
+[1] NA
+
+$data.city668
+[1] NA
+
+$data.city669
+[1] NA
+
+$data.city670
+[1] NA
+
+$data.city671
+[1] NA
+
+$data.city672
+[1] NA
+
+$data.city673
+[1] NA
+
+$data.city674
+[1] NA
+
+$data.city675
+[1] NA
+
+$data.city676
+[1] NA
+
+$data.city677
+[1] NA
+
+$data.city678
+[1] NA
+
+$data.city679
+[1] NA
+
+$data.city680
+[1] NA
+
+$data.city681
+[1] NA
+
+$data.city682
+[1] NA
+
+$data.city683
+[1] NA
+
+$data.city684
+[1] NA
+
+$data.city685
+[1] NA
+
+$data.city686
+[1] NA
+
+$data.city687
+[1] NA
+
+$data.city688
+[1] NA
+
+$data.city689
+[1] NA
+
+$data.city690
+[1] NA
+
+$data.city691
+[1] NA
+
+$data.city692
+[1] NA
+
+$data.city693
+[1] NA
+
+$data.city694
+[1] NA
+
+$data.city695
+[1] NA
+
+$data.city696
+[1] NA
+
+$data.city697
+[1] NA
+
+$data.city698
+[1] NA
+
+$data.city699
+[1] NA
+
+$data.city700
+[1] NA
+
+$data.city701
+[1] NA
+
+$data.city702
+[1] NA
+
+$data.city703
+[1] NA
+
+$data.city704
+[1] NA
+
+$data.city705
+[1] NA
+
+$data.city706
+[1] NA
+
+$data.city707
+[1] NA
+
+$data.city708
+[1] NA
+
+$data.city709
+[1] NA
+
+$data.city710
+[1] NA
+
+$data.city711
+[1] NA
+
+$data.city712
+[1] NA
+
+$data.city713
+[1] NA
+
+$data.city714
+[1] NA
+
+$data.city715
+[1] NA
+
+$data.city716
+[1] NA
+
+$data.city717
+[1] NA
+
+$data.city718
+[1] NA
+
+$data.city719
+[1] NA
+
+$data.city720
+[1] NA
+
+$data.city721
+[1] NA
+
+$data.city722
+[1] NA
+
+$data.city723
+[1] NA
+
+$data.city724
+[1] NA
+
+$data.city725
+[1] NA
+
+$data.city726
+[1] NA
+
+$data.city727
+[1] NA
+
+$data.city728
+[1] NA
+
+$data.city729
+[1] NA
+
+$data.city730
+[1] NA
+
+$data.city731
+[1] NA
+
+$data.city732
+[1] NA
+
+$data.city733
+[1] NA
+
+$data.city734
+[1] NA
+
+$data.city735
+[1] NA
+
+$data.city736
+[1] NA
+
+$data.city737
+[1] NA
+
+$data.city738
+[1] NA
+
+$data.city739
+[1] NA
+
+$data.city740
+[1] NA
+
+$data.city741
+[1] NA
+
+$data.city742
+[1] NA
+
+$data.city743
+[1] NA
+
+$data.city744
+[1] NA
+
+$data.city745
+[1] NA
+
+$data.city746
+[1] NA
+
+$data.city747
+[1] NA
+
+$data.city748
+[1] NA
+
+$data.city749
+[1] NA
+
+$data.city750
+[1] NA
+
+$data.city751
+[1] NA
+
+$data.city752
+[1] NA
+
+$data.city753
+[1] NA
+
+$data.city754
+[1] NA
+
+$data.city755
+[1] NA
+
+$data.city756
+[1] NA
+
+$data.city757
+[1] NA
+
+$data.city758
+[1] NA
+
+$data.city759
+[1] NA
+
+$data.city760
+[1] NA
+
+$data.city761
+[1] NA
+
+$data.city762
+[1] NA
+
+$data.city763
+[1] NA
+
+$data.city764
+[1] NA
+
+$data.city765
+[1] NA
+
+$data.city766
+[1] NA
+
+$data.city767
+[1] NA
+
+$data.city768
+[1] NA
+
+$data.city769
+[1] NA
+
+$data.city770
+[1] NA
+
+$data.city771
+[1] NA
+
+$data.city772
+[1] NA
+
+$data.city773
+[1] NA
+
+$data.city774
+[1] NA
+
+$data.city775
+[1] NA
+
+$data.city776
+[1] NA
+
+$data.city777
+[1] NA
+
+$data.city778
+[1] NA
+
+$data.city779
+[1] NA
+
+$data.city780
+[1] NA
+
+$data.city781
+[1] NA
+
+$data.city782
+[1] NA
+
+$data.city783
+[1] NA
+
+$data.city784
+[1] NA
+
+$data.city785
+[1] NA
+
+$data.city786
+[1] NA
+
+$data.city787
+[1] NA
+
+$data.city788
+[1] NA
+
+$data.city789
+[1] NA
+
+$data.city790
+[1] NA
+
+$data.city791
+[1] NA
+
+$data.city792
+[1] NA
+
+$data.city793
+[1] NA
+
+$data.city794
+[1] NA
+
+$data.city795
+[1] NA
+
+$data.city796
+[1] NA
+
+$data.city797
+[1] NA
+
+$data.city798
+[1] NA
+
+$data.city799
+[1] NA
+
+$data.city800
+[1] NA
+
+$data.city801
+[1] NA
+
+$data.city802
+[1] NA
+
+$data.city803
+[1] NA
+
+$data.city804
+[1] NA
+
+$data.city805
+[1] NA
+
+$data.city806
+[1] NA
+
+$data.city807
+[1] NA
+
+$data.city808
+[1] NA
+
+$data.city809
+[1] NA
+
+$data.city810
+[1] NA
+
+$data.city811
+[1] NA
+
+$data.city812
+[1] NA
+
+$data.city813
+[1] NA
+
+$data.city814
+[1] NA
+
+$data.city815
+[1] NA
+
+$data.city816
+[1] NA
+
+$data.city817
+[1] NA
+
+$data.city818
+[1] NA
+
+$data.city819
+[1] NA
+
+$data.city820
+[1] NA
+
+$data.city821
+[1] NA
+
+$data.city822
+[1] NA
+
+$data.city823
+[1] NA
+
+$data.city824
+[1] NA
+
+$data.city825
+[1] NA
+
+$data.city826
+[1] NA
+
+$data.city827
+[1] NA
+
+$data.city828
+[1] NA
+
+$data.city829
+[1] NA
+
+$data.city830
+[1] NA
+
+$data.city831
+[1] NA
+
+$data.city832
+[1] NA
+
+$data.city833
+[1] NA
+
+$data.city834
+[1] NA
+
+$data.city835
+[1] NA
+
+$data.city836
+[1] NA
+
+$data.city837
+[1] NA
+
+$data.city838
+[1] NA
+
+$data.city839
+[1] NA
+
+$data.city840
+[1] NA
+
+$data.city841
+[1] NA
+
+$data.city842
+[1] NA
+
+$data.city843
+[1] NA
+
+$data.city844
+[1] NA
+
+$data.city845
+[1] NA
+
+$data.city846
+[1] NA
+
+$data.city847
+[1] NA
+
+$data.city848
+[1] NA
+
+$data.city849
+[1] NA
+
+$data.city850
+[1] NA
+
+$data.city851
+[1] NA
+
+$data.city852
+[1] NA
+
+$data.city853
+[1] NA
+
+$data.city854
+[1] NA
+
+$data.city855
+[1] NA
+
+$data.city856
+[1] NA
+
+$data.city857
+[1] NA
+
+$data.city858
+[1] NA
+
+$data.city859
+[1] NA
+
+$data.city860
+[1] NA
+
+$data.city861
+[1] NA
+
+$data.city862
+[1] NA
+
+$data.city863
+[1] NA
+
+$data.city864
+[1] NA
+
+$data.city865
+[1] NA
+
+$data.city866
+[1] NA
+
+$data.city867
+[1] NA
+
+$data.city868
+[1] NA
+
+$data.city869
+[1] NA
+
+$data.city870
+[1] NA
+
+$data.city871
+[1] NA
+
+$data.city872
+[1] NA
+
+$data.city873
+[1] NA
+
+$data.city874
+[1] NA
+
+$data.city875
+[1] NA
+
+$data.city876
+[1] NA
+
+$data.city877
+[1] NA
+
+$data.city878
+[1] NA
+
+$data.city879
+[1] NA
+
+$data.city880
+[1] NA
+
+$data.city881
+[1] NA
+
+$data.city882
+[1] NA
+
+$data.city883
+[1] NA
+
+$data.city884
+[1] NA
+
+$data.city885
+[1] NA
+
+$data.city886
+[1] NA
+
+$data.city887
+[1] NA
+
+$data.city888
+[1] NA
+
+$data.city889
+[1] NA
+
+$data.city890
+[1] NA
+
+$data.city891
+[1] NA
+
+$data.city892
+[1] NA
+
+$data.city893
+[1] NA
+
+$data.city894
+[1] NA
+
+$data.city895
+[1] NA
+
+$data.city896
+[1] NA
+
+$data.city897
+[1] NA
+
+$data.city898
+[1] NA
+
+$data.city899
+[1] NA
+
+$data.city900
+[1] NA
+
+$data.city901
+[1] NA
+
+$data.city902
+[1] NA
+
+$data.city903
+[1] NA
+
+$data.city904
+[1] NA
+
+$data.city905
+[1] NA
+
+$data.city906
+[1] NA
+
+$data.city907
+[1] NA
+
+$data.city908
+[1] NA
+
+$data.city909
+[1] NA
+
+$data.city910
+[1] NA
+
+$data.city911
+[1] NA
+
+$data.city912
+[1] NA
+
+$data.city913
+[1] NA
+
+$data.city914
+[1] NA
+
+$data.city915
+[1] NA
+
+$data.city916
+[1] NA
+
+$data.city917
+[1] NA
+
+$data.city918
+[1] NA
+
+$data.city919
+[1] NA
+
+$data.city920
+[1] NA
+
+$data.city921
+[1] NA
+
+$data.city922
+[1] NA
+
+$data.city923
+[1] NA
+
+$data.city924
+[1] NA
+
+$data.city925
+[1] NA
+
+$data.city926
+[1] NA
+
+$data.city927
+[1] NA
+
+$data.city928
+[1] NA
+
+$data.city929
+[1] NA
+
+$data.city930
+[1] NA
+
+$data.city931
+[1] NA
+
+$data.city932
+[1] NA
+
+$data.city933
+[1] NA
+
+$data.city934
+[1] NA
+
+$data.city935
+[1] NA
+
+$data.city936
+[1] NA
+
+$data.city937
+[1] NA
+
+$data.city938
+[1] NA
+
+$data.city939
+[1] NA
+
+$data.city940
+[1] NA
+
+$data.city941
+[1] NA
+
+$data.city942
+[1] NA
+
+$data.city943
+[1] NA
+
+$data.city944
+[1] NA
+
+$data.city945
+[1] NA
+
+$data.city946
+[1] NA
+
+$data.city947
+[1] NA
+
+$data.city948
+[1] NA
+
+$data.city949
+[1] NA
+
+$data.city950
+[1] NA
+
+$data.city951
+[1] NA
+
+$data.city952
+[1] NA
+
+$data.city953
+[1] NA
+
+$data.city954
+[1] NA
+
+$data.city955
+[1] NA
+
+$data.city956
+[1] NA
+
+$data.city957
+[1] NA
+
+$data.city958
+[1] NA
+
+$data.city959
+[1] NA
+
+$data.city960
+[1] NA
+
+$data.city961
+[1] NA
+
+$data.city962
+[1] NA
+
+$data.city963
+[1] NA
+
+$data.city964
+[1] NA
+
+$data.city965
+[1] NA
+
+$data.city966
+[1] NA
+
+$data.city967
+[1] NA
+
+$data.city968
+[1] NA
+
+$data.city969
+[1] NA
+
+$data.city970
+[1] NA
+
+$data.city971
+[1] NA
+
+$data.city972
+[1] NA
+
+$data.city973
+[1] NA
+
+$data.city974
+[1] NA
+
+$data.city975
+[1] NA
+
+$data.city976
+[1] NA
+
+$data.city977
+[1] NA
+
+$data.city978
+[1] NA
+
+$data.city979
+[1] NA
+
+$data.city980
+[1] NA
+
+$data.city981
+[1] NA
+
+$data.city982
+[1] NA
+
+$data.city983
+[1] NA
+
+$data.city984
+[1] NA
+
+$data.city985
+[1] NA
+
+$data.city986
+[1] NA
+
+$data.city987
+[1] NA
+
+$data.city988
+[1] NA
+
+$data.city989
+[1] NA
+
+$data.city990
+[1] NA
+
+$data.city991
+[1] NA
+
+$data.city992
+[1] NA
+
+$data.city993
+[1] NA
+
+$data.city994
+[1] NA
+
+$data.city995
+[1] NA
+
+$data.city996
+[1] NA
+
+$data.city997
+[1] NA
+
+$data.city998
+[1] NA
+
+$data.city999
+[1] NA
+
+$data.city1000
+[1] NA
+
+ [ reached getOption("max.print") -- omitted 39509 entries ]

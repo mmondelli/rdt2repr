@@ -1,0 +1,19 @@
+"ddg.type","ddg.num","ddg.name","ddg.value","ddg.return.linked","ddg.time","ddg.snum","ddg.startLine","ddg.startCol","ddg.endLine","ddg.endCol"
+"Start",1,"Console","Console",FALSE,0.72,1,NA,NA,NA,NA
+"Operation",2,"library(Rocc)","library(Rocc)",FALSE,1.682,1,1,1,1,13
+"Operation",3,"species <- c(""Asplenium truncorum"")","species <- c(""Asplenium truncorum"")",FALSE,0.217,1,2,1,2,35
+"Operation",4,"data_splink <- rspeciesLink(species = species, filename = ""s","data_splink <- rspeciesLink(species = species, filename = ""s",FALSE,0.685999999999999,1,3,1,3,72
+"Operation",5,"data_gbif <- rgbif2(species = species, filename = ""gbif"")","data_gbif <- rgbif2(species = species, filename = ""gbif"")",FALSE,1.146,1,4,1,4,57
+"Operation",6,"species_name_raw <- unique(data_splink$scientificName)","species_name_raw <- unique(data_splink$scientificName)",FALSE,1.567,1,5,1,5,54
+"Operation",7,"species_name_check <- check_string(species_name_raw)","species_name_check <- check_string(species_name_raw)",FALSE,0.0260000000000016,1,6,1,6,52
+"Operation",8,"species_name_check","species_name_check",FALSE,0.025999999999998,1,7,1,7,18
+"Operation",9,"species_ok <- species_name_check[species_name_check$speciesS","species_ok <- species_name_check[species_name_check$speciesS",FALSE,0.0120000000000005,1,8,1,9,20
+"Operation",10,"suggest_taxa <- suggest_flora(species_ok$species)","suggest_taxa <- suggest_flora(species_ok$species)",FALSE,0.975000000000001,1,10,1,10,49
+"Operation",11,"search_taxa <- unique(suggest_taxa$species)","search_taxa <- unique(suggest_taxa$species)",FALSE,0.0500000000000007,1,11,1,11,43
+"Operation",12,"list_taxa <- lapply(search_taxa, check_flora)","list_taxa <- lapply(search_taxa, check_flora)",FALSE,1.118,1,12,1,12,45
+"Operation",13,"list_taxa[[1]]$taxon","list_taxa[[1]]$taxon",FALSE,0.126999999999999,1,13,1,13,20
+"Operation",14,"list_taxa[[1]]$synonyms","list_taxa[[1]]$synonyms",FALSE,0.0289999999999999,1,14,1,14,23
+"Operation",15,"list_taxa <- lapply(search_taxa, check_flora)","list_taxa <- lapply(search_taxa, check_flora)",FALSE,0.958,1,15,1,15,45
+"Operation",16,"list_taxa[[1]]$taxon","list_taxa[[1]]$taxon",FALSE,0.128000000000002,1,16,1,16,20
+"Operation",17,"list_taxa[[1]]$synonyms","list_taxa[[1]]$synonyms",FALSE,0.0640000000000001,1,17,1,17,23
+"Finish",18,"Console","Console",FALSE,0.0639999999999983,1,NA,NA,NA,NA

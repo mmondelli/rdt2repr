@@ -1,0 +1,754 @@
+[[1]]
+   natureza
+1  COMPLETO
+2  COMPLETO
+3  COMPLETO
+4  COMPLETO
+5  COMPLETO
+6  COMPLETO
+7  COMPLETO
+8  COMPLETO
+9  COMPLETO
+10 COMPLETO
+11 COMPLETO
+12 COMPLETO
+13 COMPLETO
+14 COMPLETO
+15 COMPLETO
+16 COMPLETO
+17 COMPLETO
+18 COMPLETO
+19 COMPLETO
+20 COMPLETO
+21 COMPLETO
+22 COMPLETO
+23 COMPLETO
+24 COMPLETO
+25 COMPLETO
+26 COMPLETO
+27 COMPLETO
+28 COMPLETO
+29 COMPLETO
+30 COMPLETO
+31 COMPLETO
+32 COMPLETO
+33 COMPLETO
+34 COMPLETO
+35 COMPLETO
+36 COMPLETO
+37 COMPLETO
+38 COMPLETO
+39 COMPLETO
+40 COMPLETO
+41 COMPLETO
+42 COMPLETO
+43 COMPLETO
+                                                                                                                                       titulo.do.artigo
+1                                                                                     Notas sobre a produção de alimentos e padrão de consumo alimentar
+2                                                                          Structural adjustment and agriculture in Brazil: the experience of the 1980s
+3                                                                                                                    Agribusiness e políticas agrícolas
+4                                                                                                       Propriedade intelectual em um mundo globalizado
+5                                                                           Comentários sobre um artigo de Alain de Janvry e Elizabeth Sadoulet - notas
+6                       Does community-based self selection of land reform beneficiaries work? An assessment of Brazilian Cédula da Terra pilot program
+7                              In search of methodology to acess the copyright industries in developing countries: the experience of mercosur and Chile
+8                                                                                                           Desafios dos programas de combate à pobreza
+9                                                                                                         Por que reforma agrária? Pontos para o debate
+10                                                  Software livre e flexibilização do direito autoral: instrumentos de fomento à inovação tecnológica?
+11         A institucionalidade propriedade intelectual no Brasil: os impactos da política de articulação da Embrapa no mercado de cultivares no Brasil
+12                                                                                                            Estrutura agrária e irrigação no nordeste
+13                                                                         O programa de estabilização e a economia brasileira (balanço e perspectivas)
+14                                                            Free software and intellectual property in Brazil: threats, opportunities and motivations
+15                                                                        Biotecnologia e agricultura: da ciência e tecnologia aos impactos da inovação
+16                                                                                       A tutela da biotecnologia no âmbito da propriedade intelectual
+17                                                                                                    Reforma agrária y conflictos de tierras en Brasil
+18                                                                                                             Proteção da biotecnologia na agricultura
+19                                                                                               Proteção da biotecnologia na agricultura (abril-junho)
+20                                               Mecanismos organizacionais como resposta á informação imperfeita: a questão da segurança dos alimentos
+21                                                                                                          Reestruturação e lucro na indústria da vida
+22                                                  Produção Brasileira de Cana-de-açúcar e Deslocamento da Fronteira Agrícola no Estado do Mato Grosso
+23                                                 Os Quilombolas Dentro da Programa de Distribuição de Alimentos para Grupos Populacionais Específicos
+24                                                                          Algumas reflexões sobre a propriedade intelectual na agricultura na Espanha
+25                          Inovações tecnológicas e direito autoral: novas modalidades de uso de obras e novas polêmicas sobre propriedade intelectual
+26                                                                                            Propriedade intelectual e inovação na agricultura e saúde
+27                                                                                    Reflexões sobre Reforma Agrária e Questão Social no Brasil - NEAD
+28                                                                                                                      A indústria de direito de autor
+29 O perfil do rurícola do final do século XX e início do século XXI. Trabalho formal pelo ex-rurícola nas décadas de 60 a 80 di século XX - 27/09/2007
+30                                                                     Land reform in NE Brazil: a stochastic frontier production efficiency evaluation
+31                                                                     Condicionantes da adoção de inovações tecnológicas na agricultura - jan-abr 2011
+32                                                                                  Dez anos de evolução da agricultura familiar no Brasil: 1996 e 2006
+33                                                                               A segurança do alimento e a necessidade de informação aos consumidores
+34                                                       O futuro do agronegócio: qualidade, segurança, sustentabilidade e eficiência - 15 a 19/08/2010
+35                                                                      Patenteamento da biotecnologia no setor agrícola no Brasil: uma análise crítica
+36                                                                                        Um Modelo Integrado de Gestão do Risco Agrícola para o Brasil
+37                                                                                                Seguro Agrícola no Brasil: desafios e potencialidades
+38                                                                                                              Agricultura Familiar e novo mundo rural
+39                                                                                        Um modelo integrado de gestão do risco agrícola para o Brasil
+40                                                            A reforma agrária e o novo contexto institucional de políticas de combate à pobreza rural
+41                                                A produção brasileira de cana-de-açúcar e o deslocamento da fronteira agrícola na região Centro-Oeste
+42                                                                                           Land Rental Markets and Land Access in Brazil. BASIS Brief
+43                                                                                                                  Por que precisamos dos transgênicos
+   ano.do.artigo pais.de.publicacao    idioma meio.de.divulgacao                home.page.do.trabalho flag.relevancia                             doi
+1           1988                    Português           IMPRESSO                                                  NAO                                
+2           1994                       Inglês           IMPRESSO                                                  NAO                                
+3           1996                    Português           IMPRESSO                                                  NAO                                
+4           2000                    Português           IMPRESSO                                                  NAO                                
+5           2002                    Português           IMPRESSO         [http://www.economia.ufu.br]             NAO                                
+6           2001                       Inglês           IMPRESSO            [http://www.anpec.org.br]             NAO                                
+7           2004                    Português           IMPRESSO                                                  NAO                                
+8           2003                    Português           IMPRESSO [http://www.univerciencia.ufscar.br]             NAO                                
+9           2003                    Português           IMPRESSO                                                  NAO                                
+10          2004                    Português           IMPRESSO                                                  NAO                                
+11          2005                    Português           IMPRESSO                                                  NAO                                
+12          1988                    Português           IMPRESSO                                                  NAO                                
+13          1986                    Português           IMPRESSO                                                  NAO                                
+14          2005                       Inglês           IMPRESSO                                                  NAO                                
+15          2005                       Inglês       MEIO_DIGITAL                                                  NAO 10.1590/S0102-88392005000200009
+16          2006                    Português           IMPRESSO            [http://www.abapi.org.br]             NAO                                
+17          2006                     Espanhol           IMPRESSO               [http://www.pa.gob.mx]             NAO                                
+18          2007                    Português           IMPRESSO            [http://www.abapi.org.br]             NAO                                
+19          2007                    Português           IMPRESSO                                                  NAO                                
+20          2007                    Português           IMPRESSO                                                  NAO                                
+21          2007                    Português           IMPRESSO           [http://www.iea.sp.gov.br]             NAO                                
+22          2008                    Português           IMPRESSO           [http://www.iea.sp.gov.br]             NAO                                
+23          2008                    Português           IMPRESSO                                                  NAO                                
+24          2009                    Português      NAO_INFORMADO                                                  NAO                                
+25          2009                    Português      NAO_INFORMADO                                                  NAO                                
+26          2008                    Português           IMPRESSO                                                  NAO                                
+27          2003                    Português      NAO_INFORMADO                                                  NAO                                
+28          2010                    Português      NAO_INFORMADO                                                  NAO                                
+29          2007                    Português      NAO_INFORMADO                                                  NAO                                
+30          2011                       Inglês       MEIO_DIGITAL                                                  NAO 10.1590/S0103-20032011000100001
+31          2011                    Português      NAO_INFORMADO                                                  NAO                                
+32          2011                    Português      NAO_INFORMADO                                                  NAO                                
+33          2010                    Português           IMPRESSO                                                  NAO                                
+34          2010                    Português           IMPRESSO                                                  NAO                                
+35          2010                    Português           IMPRESSO                                                  NAO                                
+36          2008                    Português           IMPRESSO                                                  NAO                                
+37          2011                    Português           IMPRESSO                                                  NAO                                
+38          2003             Brasil Português           IMPRESSO                        www.scielo.br             NAO                                
+39          2009                    Português           IMPRESSO                                                  NAO                                
+40          2001             Brasil Português           IMPRESSO                                                  NAO                                
+41          2012                    Português      NAO_INFORMADO                                                  NAO                                
+42          2008                       Inglês      NAO_INFORMADO                                                  NAO                                
+43          2003                    Português           IMPRESSO     [http://www.agroanalysis.com.br]             NAO                                
+                                                  titulo.do.artigo.ingles flag.divulgacao.cientifica
+1                                                                                                NAO
+2                                                                                                NAO
+3                                                                                                NAO
+4                                                                                                NAO
+5                                                                                                NAO
+6                                                                                                NAO
+7                                                                                                NAO
+8                                                                                                NAO
+9                                                                                                NAO
+10                                                                                               NAO
+11                                                                                               NAO
+12                                                                                               NAO
+13                                                                                               NAO
+14                                                                                               NAO
+15                                                                                               NAO
+16                                                                                               NAO
+17                                                                                               NAO
+18                                                                                               NAO
+19                                                                                               NAO
+20                                                                                               NAO
+21                                                                                               NAO
+22                                                                                               NAO
+23                                                                                               NAO
+24                                                                                               NAO
+25                                                                                               NAO
+26                                                                                               NAO
+27                                                                                               NAO
+28                                                                                               NAO
+29                                                                                               NAO
+30                                                                                               NAO
+31                                                                                               NAO
+32                                                                                               NAO
+33 A segurança do alimento e a necessidade de informação aos consumidores                        NAO
+34                                                                                               NAO
+35                                                                                               NAO
+36                                                                                               NAO
+37                                                                                               NAO
+38                                                                                               NAO
+39                                                                                               NAO
+40                                                                                               NAO
+41                                                                                               NAO
+42                                                                                               NAO
+43                                                                                               NAO
+                                                                            titulo.do.periodico.ou.revista     issn volume fasciculo    serie
+1                                                                                 Revista Ensaios Economia             4-5       2-1         
+2                                                                           Revista Brasileira de Economia 00347140     48         4         
+3                                                                                              Revista Ops               1         2         
+4                                                                        Parcerias Estratégicas (Brasília) 14139375      9                   
+5                                                                                      Econômica (Niterói) 15171302      4         2        2
+6                                                                                      Economia (Campinas) 15177580      2         1        1
+7                                                      Review of the Economic Research on Copyright Issues 16981359      1         1        1
+8                                                                                            Univerciência 16769961      1                   
+9                                                                                        Candeia (Goiânia) 16777514      4                  6
+10                                                                       Parcerias Estratégicas (Brasília) 14139375     19                   
+11                                                                           Cadernos de Estudos Avançados 16794893      2         1        1
+12                                                                                            Temas Rurais               1                   
+13                                                                                        Revista da ANPEC              11                   
+14                                                     Review of the Economic Research on Copyright Issues 16981359      2                  2
+15                                                                     São Paulo em Perspectiva (Impresso) 01028839     19         2        2
+16                                                                                         Revista da ABPI 19802846     85                   
+17                                                  Estudios Agrarios - Revista de la Procuradoria Agraria 14052466     31                 12
+18                                                                                         Revista da ABPI 19802846     88                   
+19                                                                  Revista de Direito Privado (São Paulo) 15176290     30                   
+20                                                  Informações Econômicas. Instituto de Economia Agrícola 01004409     37                  9
+21                                                                       Informações Econômicas (Impresso) 01004409     37                 11
+22                                                                       Informações Econômicas (Impresso) 01004409     38                  4
+23                                      Cadernos de Estudos.Secretaria de Avaliação e Gestão da Informação 18080758      9                  1
+24                                                                                         Revista da ABPI 19802846      1                 98
+25                                                                       Parcerias Estratégicas (Brasília) 14139375      1                 28
+26 RECIIS. Revista Eletrônica de Comunicação, Informação & Inovação em Saúde (Edição em Português. Online) 19816278      2                  2
+27                                                                                         Reforma Agrária 01021184      1                   
+28                                                                         Inteligência Empresarial (UFRJ) 15173860      1                 34
+29                                                                         Caderno do Curriculo Permanente 12342114    III                  x
+30                                                       Revista de Economia e Sociologia Rural (Impresso) 01032003     49                  1
+31                                                                        Cadernos de Ciência & Tecnologia 01041096     28                  1
+32                                                       Revista de Economia e Sociologia Rural (Impresso) 01032003      1                   
+33                                                                            Cadernos de Direito (UNIMEP) 1676529X     10                 19
+34                                                                     Tropical Plant Pathology (Impresso) 19825676     35                   
+35                                                                          Revista Brasileira de Inovação 16772504      9                   
+36                                                         Revista Brasileira de Risco e Seguro (Impresso) 19802013      8                   
+37                                                         Revista Brasileira de Risco e Seguro (Impresso) 19802013      7                 13
+38                                                                                     Sociologias (UFRGS) 15174522      5        10 Jul/2003
+39                                                         Revista Brasileira de Risco e Seguro (Impresso) 19802013      4                  8
+40                                                                                   Travessia (São Paulo) 01035576               39         
+41                                                                                      Revista Alcoolbras 19823797      1                  1
+42                                                                                 Asset Markets and Acess 7891678X      5                   
+43                                                           Revista Agroanalysis- Fundação Getúlio Vargas               1                   
+   pagina.inicial pagina.final         local.de.publicacao
+1             111          133 Belo Horizonte/Minas Gerais
+2               1           20              Rio de Janeiro
+3              14           22            Salvador - Bahia
+4             145          153                    Brasília
+5             305          313                     Niterói
+6               3           47                     Niterói
+7              51           63                      Madrid
+8              28           31                  São Carlos
+9               5           20                     Goiania
+10             55           85                    Brasília
+11             35           46   Instituto Osvaldo Cruz/RJ
+12             99          131                      Recife
+13             23           35              Rio de Janeiro
+14             95          109             Montreál/Canadá
+15            101          114                   São Paulo
+16              3           12                            
+17            117          159                            
+18             39           55                            
+19             49           73                            
+20              7           23                            
+21             34           54                            
+22             58           77                            
+23             76           93                            
+24             21           29                            
+25            119          152                            
+26             56           65                            
+27              1           47                            
+28             31           35                            
+29              1           15                            
+30              9           30                            
+31            223          255                            
+32             36           48                            
+33             21           37                            
+34            XVI        XVIII                            
+35            323          354                            
+36              1           40                            
+37             39           68                            
+38            312          347                Porto Alegre
+39              1           40                            
+40              5           11                   São Paulo
+41              1           03                            
+42              1           15                            
+43             42           44              Rio de Janeiro
+                                                                                                                                                                                                                                                                                             autores
+1                                                                                                                                                                                                                                                                            Antonio Marcio Buainain
+2                                                                                                                                                                                                                                                               Antonio Marcio Buainain; C G Resende
+3                                                                                                                                                                                                                            Antonio Marcio Buainain; Mário Ferreira Presser; Rinaldo Barcia Fonseca
+4                                                                                                                                                                                                                                       Antonio Marcio Buainain; Sérgio Medeiros Paulino de Carvalho
+5                                                                                                                                                                                                                                    José Maria Ferreira Jardim da Silveira; Antonio Marcio Buainain
+6                                                                                                                                      Hildo Meirelles de Souza Filho; Antonio Marcio Buainain; Carolina Junqueira Homem de Mello; José Maria Ferreira Jardim da Silveira; Marcelo Marques Magalhães
+7                                                                                                                                                                                                                                       Antonio Marcio Buainain; Sérgio Medeiros Paulino de Carvalho
+8                                                                                                                                                                                                                                            Antonio Marcio Buainain; Hildo Meirelles de Souza Filho
+9                                                                                                                                                                                                                                                       Antonio Marcio Buainain; Daniela Silva Pires
+10                                                                                                                                                                                                                                               Antonio Marcio Buainain; Cassia Isabel Costa Mendes
+11                                                                                                                                                                                                   Sérgio Medeiros Paulino de Carvalho; Sérgio Luiz Monteiro Salles Filho; Antonio Marcio Buainain
+12 Antonio Marcio Buainain; Mário Biral; Paulo B Lemos; Rinaldo Barcia Fonseca; Walter Belik; Sônia Novaes Moraes; José Graziano da Silva; Angela Kageyama; José Maria Ferreira Jardim da Silveira; Bastiaan Philip Reydon; Pedro Ramos; Luis Carlos Guedes Pinto; Maria Tereza l Mello; Mayla Porto
+13                                                      Antonio Marcio Buainain; Mário Ferreira Presser; Rogério Andrade; Ricardo de Medeiros Carneiro; Wilson Suzigan; Fabrício de Oliveira; José Carlos Miranda; Jorge Mattoso; Natermes Teixeira; Fernando Nogueira Costa; Geraldo Biasoto Júnior
+14                                                                                                                                                                                                                                               Antonio Marcio Buainain; Cassia Isabel Costa Mendes
+15                                                                                                                                                                                                       Silveira, José Maria Ferreira Jardim da; Izaias de Carvalho Borges; Antonio Marcio Buainain
+16                                                                                                                                                                                                                                            Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain
+17                                                                                                                                                                                                                                                                           Antonio Marcio Buainain
+18                                                                                                                                                                          Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; José Maria Ferreira Jardim da Silveira; Pedro Abel Vieira Júnior
+19                                                                                                                                                                                                                  Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; Pedro Abel Vieira Júnior
+20                                                                                                                                                                                                   Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; Pedro Abel Vieira Júnior; Fernando Lima
+21                                                                                                                            Pedro Abel Vieira Júnior; Antonio Marcio Buainain; José Maria Ferreira Jardim da Silveira; Adriana Carvalho Pinto Vieira; Edison Antonio Bolson; Roberta Modolo daniel
+22                                                                                                                                                        Antonio Marcio Buainain; Pedro Abel Vieira Júnior; Adriana Carvalho Pinto Vieira; Fernando de Lima; José Maria Ferreira Jardim da Silveira
+23                                                                                                                                                                                         Antonio Marcio Buainain; Pedro Luiz Barros da Silva; Regina Maria Hirata; Rodrigo Pereira de Sousa Coelho
+24                                                                                                                                                                          Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; Pedro Abel Vieira Júnior; José Maria Ferreira Jardim da Silveira
+25                                                                                                                                                                                                                                               Cassia Isabel Costa Mendes; Antonio Marcio Buainain
+26                                                                                                                                                                                                                    Antonio Marcio Buainain; Roberto Castelo Branco; Adriana Carvalho Pinto Vieira
+27                                                                                                                                                                                                                                                      Antonio Marcio Buainain; Daniela Silva Pires
+28                                                                                                                                                                                            Antonio Marcio Buainain; Antonio Bras; Cassia Isabel Costa Mendes; Sérgio Medeiros Paulino de Carvalho
+29                                                                                                                                                                                                                                                                           Antonio Marcio Buainain
+30                                                                                                                                                      Magalhães, Marcelo Marques de; Hildo Meirelles de Souza Filho; Miguel Rocha de Sousa; Silveira, José Maria F. J. da; Antonio Marcio Buainain
+31                                                                                                                                                                Antonio Marcio Buainain; Hildo Meirelles de Souza Filho; José Maria Ferreira Jardim da Silveira; Marcela de Mello Brandão Vinholis
+32                                                                                                                                                                                                                            Carlos Enrique Guanziroli; Antonio Marcio Buainain; Alberto Di Sabatto
+33                                                                                                                                                                                                                     Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; Eduardo Eugênio Spers
+34                                                                                                                                                                                                                                            Antonio Marcio Buainain; Adriana Carvalho Pinto Vieira
+35                                                                                                                                                                                             Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; Maria Ester Dal Poz; Pedro Abel Vieira Júnior
+36                                                                                                                       Pedro Abel Vieira Júnior; Antonio Marcio Buainain; Maria Alejandra Caporali Madi; Adriana Carvalho Pinto Vieira; Durval Dourado Neto; Chou Sin Chang; Eduardo Delgado Assad
+37                                                                                                                                                                                                                                                 Antonio Marcio Buainain; Pedro Abel Vieira Junior
+38                                                                                                                                                                                                                                Carlos Enrique Guanziroli; Ademar Romeiro; Antonio Marcio Buainain
+39                                                                                                                         Pedro Abel Vieira Júnior; Antonio Marcio Buainain; Mara Alejandra Caporale Madi; Adriana Carvalho Pinto Vieira; Durval Dourado Neto; Sin Chan Chou; Eduardo Delgado Assad
+40                                                                                                                                                                                                                   Hildo Meirelles de Souza Filho; Antonio Marcio Buainain; Rinaldo Barcia Fonseca
+41                                                                                                                                           Antonio Marcio Buainain; Pedro Abel Vieira Júnior; Fábio César da Silva; Jose Maria Ferreira Jardim da Silveira; Jose Maria Ferreira Jardim da Silveira
+42                                                                                                                                                                                       Antonio Marcio Buainain; Patrícia José de Almeida; Fernando de Lima; Jose Maria Ferreira Jardim da Silveira
+43                                                                                                                                                                                                                                   Jose Maria Ferreira Jardim da Silveira; Antonio Marcio Buainain
+                                                                                                                                                                                                                                                                                                                                                                                     autores.citacoes
+1                                                                                                                                                                                                                                                                               BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+2                                                                                                                                                                                                                                                               BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ RESENDE, C. G.
+3                                                                                                                                                                                                                             BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ PRESSER, Mário Ferreira/ FONSECA, Rinaldo Barcia
+4                                                                                                                                                                                                                                               BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ CARVALHO, Sérgio M. Paulino de
+5                                                                                                                                                                                                                                                SILVEIRA, José Maria F. J. da/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+6                                                                                                                                               SOUZA FILHO, Hildo Meirelles de/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ MELLO, Carolina Junqueira Homem de/ SILVEIRA, José Maria F. J. da/ MAGALHÃES, Marcelo Marques
+7                                                                                                                                                                                                                                               BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ CARVALHO, Sérgio M. Paulino de
+8                                                                                                                                                                                                                                              BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ SOUZA FILHO, Hildo Meirelles de
+9                                                                                                                                                                                                                                                         BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ PIRES, Daniela Silva
+10                                                                                                                                                                                                                                                 BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ MENDES, Cassia Isabel Costa
+11                                                                                                                                                                                                          CARVALHO, Sérgio M. Paulino de/ SALLES FILHO, Sérgio Luiz Monteiro/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+12 BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ BIRAL, Mário/ LEMOS, Paulo B/ FONSECA, Rinaldo Barcia/ BELIK, Walter/ MORAES, Sônia Novaes/ SILVA, José Graziano da/ KAGEYAMA, Angela/ SILVEIRA, José Maria F. J. da/ REYDON, Bastiaan Philip/ RAMOS, Pedro/ PINTO, Luis Carlos Guedes/ MELLO, Maria Tereza L/ PORTO, Mayla
+13                                               BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ PRESSER, Mário Ferreira/ ANDRADE, Rogério/ CARNEIRO, Ricardo de Medeiros/ SUZIGAN, Wilson/ OLIVEIRA, Fabrício de/ MIRANDA, José Carlos/ MATTOSO, Jorge/ TEIXEIRA, Natermes/ COSTA, Fernando Nogueira/ BIASOTO JUNIOR, Geraldo
+14                                                                                                                                                                                                                                                 BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ MENDES, Cassia Isabel Costa
+15                                                                                                                                                                                                         Silveira, José Maria Ferreira Jardim da/ BORGES, Izaias de Carvalho/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+16                                                                                                                                                                                                                                              VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+17                                                                                                                                                                                                                                                                              BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+18                                                                                                                                                                                    VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ SILVEIRA, José Maria F. J. da/ VIEIRA JÚNIOR, Pedro Abel
+19                                                                                                                                                                                                                   VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ VIEIRA JÚNIOR, Pedro Abel
+20                                                                                                                                                                                                   VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ VIEIRA JÚNIOR, Pedro Abel/ LIMA, Fernando
+21                                                                                                                                             VIEIRA JÚNIOR, Pedro Abel/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ SILVEIRA, José Maria F. J. da/ VIEIRA, Adriana Carvalho Pinto/ BOLSON, E. A./ DANIEL, Roberta Modolo
+22                                                                                                                                                                 BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ VIEIRA JÚNIOR, Pedro Abel/ VIEIRA, Adriana Carvalho Pinto/ LIMA, Fernando de/ SILVEIRA, José Maria F. J. da
+23                                                                                                                                                                                            BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ SILVA, Pedro Luiz Barros/ HIRATA, Regina Maria/ COELHO, Rodrigo Pereira de Sousa
+24                                                                                                                                                                                    VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ VIEIRA JÚNIOR, Pedro Abel/ SILVEIRA, José Maria F. J. da
+25                                                                                                                                                                                                                                                 MENDES, Cassia Isabel Costa/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+26                                                                                                                                                                                                                     BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ BRANCO, Roberto Castelo/ VIEIRA, Adriana Carvalho Pinto
+27                                                                                                                                                                                                                                                        BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ PIRES, Daniela Silva
+28                                                                                                                                                                                                  BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ BRAS, Antonio/ MENDES, Cassia Isabel Costa/ CARVALHO, Sérgio M. Paulino de
+29                                                                                                                                                                                                                                                                              BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+30                                                                                                                                                                                                                                                    Magalhães, Marcelo Marques de/ SOUZA FILHO, Hildo Meirelles de/ SOUSA, Miguel Rocha de/ Silveira, José Maria F. J. da/ Buainain, Antônio Márcio
+31                                                                                                                                                                          BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ SOUZA FILHO, Hildo Meirelles de/ SILVEIRA, José Maria F. J. da/ VINHOLIS, Marcela de Mello Brandão
+32                                                                                                                                                                                                                                                                                                                          GUANZIROLI, Carlos Enrique/ BUAINAIN, Antonio Marcio/ SABATTO, Alberto Di
+33                                                                                                                                                                                                                                                                                                                             VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio/ SPERS, E. E.
+34                                                                                                                                                                                                                                                                                                                                           BUAINAIN, Antonio Marcio/ VIEIRA, Adriana Carvalho Pinto
+35                                                                                                                                                                                                                                                                                                 VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio/ POZ, M. E. D./ VIEIRA JÚNIOR, Pedro Abel
+36                                                                                                                                                                                                                              VIEIRA JÚNIOR, Pedro Abel/ BUAINAIN, Antonio Marcio/ MADI, Maria Alejandra Caporali/ VIEIRA, Adriana Carvalho Pinto/ NETO DOURADO, Durval/ CHANG, C. S./ ASSAD, E. D.
+37                                                                                                                                                                                                                                                        BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ VIEIRA JUNIOR, P. A.
+38                                                                                                                                                                                                                                          GUANZIROLI, C. E./ ROMEIRO, Ademar/ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+39                                                                                                                                                                       VIEIRA JÚNIOR, P. A./ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ MADI, M.A.C./ VIEIRA, A. C. P./ DOURADO NETO, Durval/ CHOU, S. C./ ASSAD, E. D.
+40                                                                                                                                                                                                                                          SOUZA FILHO, H. M./ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ FONSECA, R. B.
+41                                                                                                                                                                       BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ VIEIRA JÚNIOR, Pedro Abel/ SILVA, Fábio César/ SILVEIRA, José Maria F. J./ SILVEIRA, José Maria F. J.
+42                                                                                                                                                                                                    BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN/ ALMEIDA, Patrícia José de/ LIMA, Fernando de/ SILVEIRA, José Maria F. J.
+43                                                                                                                                                                                                                                                  SILVEIRA, José Maria F. J./ BUAINAIN, Antonio Marcio;Buainain, Antonio Márcio;Buainain, Antônio Márcio;BUAINAIN, ANTONIO;ANTONIO, MARCIO BUAINAIN
+                                                                                                                                                           autores.id
+1                                                                                                                                                    3051627641386529
+2                                                                                                                                             3051627641386529; No.id
+3                                                                                                                           3051627641386529; 7579980556153426; No.id
+4                                                                                                                                  3051627641386529; 4985544206160545
+5                                                                                                                                  4984859173592703; 3051627641386529
+6                                                                                       3051627641386529; 3051627641386529; No.id; 4984859173592703; 3051627641386529
+7                                                                                                                                  3051627641386529; 4985544206160545
+8                                                                                                                                  3051627641386529; 3051627641386529
+9                                                                                                                                  3051627641386529; 3051627641386529
+10                                                                                                                                 3051627641386529; 3051627641386529
+11                                                                                                               4985544206160545; 6488894293305500; 3051627641386529
+12 3051627641386529; No.id; No.id; No.id; 1687051356964195; No.id; No.id; No.id; 4984859173592703; 2329001590316263; 9889773337365051; No.id; 1314827741070898; No.id
+13                                                       3051627641386529; 7579980556153426; No.id; 8088118202624284; No.id; No.id; No.id; No.id; No.id; No.id; No.id
+14                                                                                                                                 3051627641386529; 3051627641386529
+15                                                                                                               3051627641386529; 1347735946376791; 3051627641386529
+16                                                                                                                                 3051627641386529; 3051627641386529
+17                                                                                                                                                   3051627641386529
+18                                                                                             3051627641386529; 3051627641386529; 4984859173592703; 3051627641386529
+19                                                                                                               3051627641386529; 3051627641386529; 3051627641386529
+20                                                                                                        3051627641386529; 3051627641386529; 3051627641386529; No.id
+21                                                                    3051627641386529; 3051627641386529; 4984859173592703; 3051627641386529; 9699000461257242; No.id
+22                                                                           3051627641386529; 3051627641386529; 3051627641386529; 5094141813936910; 4984859173592703
+23                                                                                                                              3051627641386529; No.id; No.id; No.id
+24                                                                                             3051627641386529; 3051627641386529; 3051627641386529; 4984859173592703
+25                                                                                                                                 3051627641386529; 3051627641386529
+26                                                                                                                          3051627641386529; No.id; 3051627641386529
+27                                                                                                                                 3051627641386529; 3051627641386529
+28                                                                                             3051627641386529; 3051627641386529; 3051627641386529; 4985544206160545
+29                                                                                                                                                   3051627641386529
+30                                                                                                 3051627641386529; 3051627641386529; No.id; 3051627641386529; No.id
+31                                                                                             3051627641386529; 3051627641386529; 4984859173592703; 5730999136286305
+32                                                                                                                          3051627641386529; No.id; 3051627641386529
+33                                                                                                                          3051627641386529; No.id; 3051627641386529
+34                                                                                                                                            No.id; 3051627641386529
+35                                                                                                        3051627641386529; No.id; 8338826449053539; 3051627641386529
+36                                                                        3051627641386529; No.id; No.id; 3051627641386529; 1325247019367288; No.id; 3051627641386529
+37                                                                                                                                 3051627641386529; 3051627641386529
+38                                                                                                               3051627641386529; 6272554271895126; 3051627641386529
+39                                                             3051627641386529; 3051627641386529; No.id; 3051627641386529; 1325247019367288; No.id; 3051627641386529
+40                                                                                                                          3051627641386529; 3051627641386529; No.id
+41                                                                                      3051627641386529; 3051627641386529; No.id; 4984859173592703; 4984859173592703
+42                                                                                             3051627641386529; 3051627641386529; 5094141813936910; 4984859173592703
+43                                                                                                                                 4984859173592703; 3051627641386529
+                 id
+1  3051627641386529
+2  3051627641386529
+3  3051627641386529
+4  3051627641386529
+5  3051627641386529
+6  3051627641386529
+7  3051627641386529
+8  3051627641386529
+9  3051627641386529
+10 3051627641386529
+11 3051627641386529
+12 3051627641386529
+13 3051627641386529
+14 3051627641386529
+15 3051627641386529
+16 3051627641386529
+17 3051627641386529
+18 3051627641386529
+19 3051627641386529
+20 3051627641386529
+21 3051627641386529
+22 3051627641386529
+23 3051627641386529
+24 3051627641386529
+25 3051627641386529
+26 3051627641386529
+27 3051627641386529
+28 3051627641386529
+29 3051627641386529
+30 3051627641386529
+31 3051627641386529
+32 3051627641386529
+33 3051627641386529
+34 3051627641386529
+35 3051627641386529
+36 3051627641386529
+37 3051627641386529
+38 3051627641386529
+39 3051627641386529
+40 3051627641386529
+41 3051627641386529
+42 3051627641386529
+43 3051627641386529
+ [ reached 'max' / getOption("max.print") -- omitted 54 rows ]
+
+[[2]]
+   natureza                                                                                                                        titulo.do.artigo
+1  COMPLETO                                                                    O melhoramento vegetal e os impactos da biotecnologia na agricultura
+2  COMPLETO                     O desenvolvimento da biotecnologia no Brasil: difusão de Inovações uma análise de casos relevantes - ISSN 0103-2003
+3  COMPLETO                                                                                               Estrutura agrária e irrigação no nordeste
+4  COMPLETO                             O Plano Nacional de Defensivos Agricolas e a criação da Indústria Brasileira de Defensivos - ISSN 0044-6793
+5  COMPLETO                                                                                    A indústria de defensivos no Brasil - ISSN 0044-6793
+6  COMPLETO                            As estratégias empresariais em agro-biotecnologias no Brasil: um estudo de casos relevantes - ISSN 0103-2003
+7  COMPLETO                                           O desenvolvimento da biotecnologia e sua repercussão nos padrões de concorrências industriais
+8  COMPLETO                                                     Agroindústria, indúsria de alimentos e suas tranformações recentes - ISSN 0102-8839
+9  COMPLETO                                           An evolutionary approach to technological innovation in agriculture: some preliminary remarks
+10 COMPLETO          Capacitação tecnológica, competitividade e política industrial: uma abordagem setorial e por empresas líderes - ISSN 0104-0618
+11 COMPLETO                                                                     An evolutionary approach to technological innovation in agriculture
+12 COMPLETO                                         A teoria da regulação e o enfoque setorial: o papel de destaque da agricultura - ISSN 0101-4161
+13 COMPLETO                                                                                         Agricultura e questão regional - ISSN 0103-2003
+14 COMPLETO                     Privatização, estratégias corporativas: uma análise da experiência brasileira no período 1990-1994 - ISSN 0103-6351
+15 COMPLETO                                                     Biotecnologia: conceituação, evolução recente e impactos setoriais - ISSN 0103-9466
+16 COMPLETO                                       Os efeitos da privatização sobre a estrutura industrial da siderurgia brasileira - ISSN 0104-0618
+17 COMPLETO                                                 Does community-based self selection of land reform beneficiaries work? - ISSN 1517-7580
+18 COMPLETO Aplicação de simulação computacional em oI: modelagem de estratégias de gerenciamento de receitas de companhias aéreas - ISSN 1413-8050
+19 COMPLETO                                   Biotecnologia: corporações, financiamento da inovação e novas formas organizacionais - ISSN 0104-0618
+20 COMPLETO                       Biodiversidade e biotecnologia. desafios estratégicos - Memória da Conferência Nacional de C,T&I - ISSN 1413-9375
+21 COMPLETO                               Microfundamentos de falência de bancos stacadistas: a experiência brasileira nos anos 90 - ISSN 0101-4161
+22 COMPLETO                                                                                                     Por que precisamos dos transgênicos
+23 COMPLETO                                                                                    Lições da rotulagem de transgênicos - ISSN 0100-4298
+24 COMPLETO                                                                                                      A serviço da distribuição de renda
+25 COMPLETO                                Biotechnologie in der landwirtschaft: verbreitung und auswirkungen auf das agrobisiness - ISSN 0177-7521
+26 COMPLETO                                                           Biotecnologia e agricultura: da ciência e tecnologia aos impactos da inovação
+27 COMPLETO                       The cost of implementing biosafety protocol - a look at Brazil- International Food and Agriculture Policy Council
+28 COMPLETO                                                                               Proteção da biotecnologia na agricultura - ISSN 1980-2846
+29 COMPLETO                                           Impactos do Protocolo de Cartagena sobre o comércio de commodities agrícolas - ISSN 1808-8023
+30 COMPLETO                                                                            Reestruturação e lucro na indústria da vida - ISSN 1678-832X
+31 COMPLETO                   Produção brasileira de de cana-de-açúcar e deslocamento da fronteira agrícola no Estado do Mato Grosso ISSN 0100-4409
+32 COMPLETO                                              Algumas reflexões sobre a propriedade intelectual na agricultura na Espanha ISSN 1980-2846
+33 COMPLETO                           Apresentação trabalho de Kenneth J. Arrow "Economic Welfare and the allocation of Resources" - Julho/Dezembro
+34 COMPLETO                                                                     A proposed impact assessment method for genetically modified plants
+35 COMPLETO                                               An Empirical Game-Theoretical Approach to Model a Price War in Brazilian Airline Industry
+36 COMPLETO                                      Investimento em Pesquisa e Formação de Recursos Humanos: o novo momento da biotecnologia no Brasil
+37 COMPLETO                                                                O protocolo de Cartagena e a questão da identificação de cargas com OVMS
+38 COMPLETO                                                                        A teoria da regulação e o enfoque setorial - setembro a dezembro
+39 COMPLETO                                                 Comentário a "Access Land for the Rural Poor", por de Janvry e Saudolet - Dezembro/2002
+40 COMPLETO                                             O desenvolvimento das biotecnologias e avaliação de seus impactos econômicos - set/dez/1986
+41 COMPLETO                                                                              Land Rental Markets and Land Access in Brazil. BASIS Brief
+42 COMPLETO                                               Constraints and incentives for agricultural biotechnology in Brazil. - ANPEC SELECTA 2009
+43 COMPLETO                                                                        Competitividade brasieira: Segregação de grãos - janeiro de 2011
+   ano.do.artigo pais.de.publicacao    idioma meio.de.divulgacao                                          home.page.do.trabalho flag.relevancia
+1           1984                    Português           IMPRESSO                                                                            NAO
+2           1988                    Português           IMPRESSO                                                                            NAO
+3           1988                    Português           IMPRESSO                                                                            NAO
+4           1990                    Português           IMPRESSO                                                                            NAO
+5           1991                    Português           IMPRESSO                                                                            NAO
+6           1992                    Português           IMPRESSO                                                                            NAO
+7           1993                    Português           IMPRESSO                                                                            NAO
+8           1993                    Português           IMPRESSO                                                                            NAO
+9           1994                    Português           IMPRESSO                                                                            NAO
+10          1995                    Português           IMPRESSO                                                                            NAO
+11          1996                       Inglês           IMPRESSO                                                                            SIM
+12          1997                    Português           IMPRESSO                                                                            NAO
+13          1997                    Português           IMPRESSO                                                                            NAO
+14          1998                    Português           IMPRESSO                                                                            NAO
+15          1988                    Português           IMPRESSO                                                                            NAO
+16          1998                    Português           IMPRESSO                                                                            NAO
+17          2001                       Inglês           IMPRESSO                                                                            NAO
+18          2001                    Português           IMPRESSO                                                                            NAO
+19          2002                    Português           IMPRESSO  [http://www.eco.unicamp.br:8888/seer/ojs/viewissue.php?id=13]             NAO
+20          2002                    Português           IMPRESSO                                       [http://www.cgee.org.br]             NAO
+21          2003                    Português           IMPRESSO                                                                            NAO
+22          2003                    Português           IMPRESSO                               [http://www.agroanalysis.com.br]             NAO
+23          2004                    Português           IMPRESSO                                [http://www.agronalysis.com.br]             NAO
+24          2004                    Português           IMPRESSO                               [http://www.agronalyisis.com.br]             NAO
+25          2005                       Alemão           IMPRESSO                                                                            NAO
+26          2005                       Inglês       MEIO_DIGITAL                                      [http://www.seade.gov.br]             NAO
+27          2006                       Inglês           IMPRESSO                                     [http://www.agritrade.org]             NAO
+28          2007                    Português           IMPRESSO                                      [http://www.abapi.org.br]             NAO
+29          2006                    Português           IMPRESSO         [http://www.unicamp.br/nepa/arquivo_san/Cartagena.pdf]             NAO
+30          2007                    Português           IMPRESSO [http://ftp://ftp.sp.gov.br/ftpiea/publicacoese/tec4-1107.pdf]             NAO
+31          2008                    Português      NAO_INFORMADO                                     [http://www.iea.sp.gov.br]             NAO
+32          2009                    Português      NAO_INFORMADO                                                                            NAO
+33          2008                    Português      NAO_INFORMADO                                                                            NAO
+34          2009                       Inglês           IMPRESSO                                                                            NAO
+35          2008                       Inglês           IMPRESSO                               [http://www.nectar.ita.br/relit]             NAO
+36          2010                    Português           IMPRESSO                               [http://www.fgv.br/agroanalysis]             NAO
+37          2006                    Português      NAO_INFORMADO                      [http://www.seplan.ba.gov.br/bahiainvest]             NAO
+38          1997                    Português           IMPRESSO                                                                            NAO
+39          2002                    Português           IMPRESSO                                                                            NAO
+40          1986                    Português      NAO_INFORMADO                                                                            NAO
+41          2008                       Inglês      NAO_INFORMADO                                                                            NAO
+42          2010                       Inglês           IMPRESSO                                      [http://www.anpec.org.br]             NAO
+43          2011                    Português      NAO_INFORMADO                                                                            NAO
+                               doi                                                      titulo.do.artigo.ingles flag.divulgacao.cientifica
+1                                                                                                                                      NAO
+2                                                                                                                                      NAO
+3                                                                                                                                      NAO
+4                                                                                                                                      NAO
+5                                                                                                                                      NAO
+6                                                                                                                                      NAO
+7                                                                                                                                      NAO
+8                                                                                                                                      NAO
+9                                                                                                                                      NAO
+10                                                                                                                                     NAO
+11                                                                                                                                     NAO
+12                                                                                                                                     NAO
+13                                                                                                                                     NAO
+14                                                                                                                                     NAO
+15                                                                                                                                     NAO
+16                                                                                                                                     NAO
+17                                                                                                                                     NAO
+18                                                                                                                                     NAO
+19                                                                                                                                     NAO
+20                                                                                                                                     NAO
+21                                                                                                                                     NAO
+22                                                                                                                                     NAO
+23                                                                                                                                     NAO
+24                                                                                                                                     NAO
+25                                                                                                                                     NAO
+26 10.1590/S0102-88392005000200009                                                                                                     NAO
+27                                                                                                                                     NAO
+28                                                                                                                                     NAO
+29                                                                                                                                     NAO
+30                                                                                                                                     NAO
+31                                                                                                                                     NAO
+32                                                                                                                                     NAO
+33                                                                                                                                     NAO
+34                                                                                                                                     NAO
+35                                                                                                                                     NAO
+36                                 R&D and Human Resources Investment: the new stage of Brazilian Biotechnology                        NAO
+37                                                                                                                                     NAO
+38                                                                                                                                     NAO
+39                                                                                                                                     NAO
+40                                                                                                                                     NAO
+41                                                                                                                                     NAO
+42                                                                                                                                     NAO
+43                                                                                                                                     NAO
+                           titulo.do.periodico.ou.revista     issn volume fasciculo serie pagina.inicial pagina.final      local.de.publicacao
+1                        Revista Brasileira de Tecnologia              14                              3            4                 Brasília
+2                  Revista de Economia e Sociologia Rural 01032003     26                              3                              Brasília
+3                                 Revista de Temas Rurais               1                              1           20                   Recife
+4                                Agricultura em São Paulo 00446793     37                              1           20                São Paulo
+5                                Agricultura em São Paulo 00446793     38                              1           20                São Paulo
+6                  Revista de Economia e Sociologia Rural 01032003     30                              3                              Brasília
+7                                  Indicadores Econômicos               1                            130          143             Porto Alegre
+8                                São Paulo em Perspectiva 01028839     17                             30           39                São Paulo
+9                    C&T Cadernos de Ciência e Tecnologia              11                              1           20                 Brasília
+10                         Economia e Sociedade (UNICAMP) 01040618      3                            115          121                 Campinas
+11                                        Research Policy              25                            933          945                         
+12  Estudos Econômicos. Instituto de Pesquisas Econômicas 01014161     27                              1           20                São Paulo
+13                 Revista de Economia e Sociologia Rural 01032003      4                              1           20                 Brasília
+14                                   Nova Economia (UFMG) 01036351      8         2     1              1           20           Belo Horizonte
+15                        Texto para Discussão (Campinas) 01039466      1        21                    1           19      São Paulo / FEA/USP
+16               Economia e Sociedade (UNICAMP. Impresso) 01040618      1        10                    1           20    IE/UNICAMP - Campinas
+17                                    Economia (Campinas) 15177580      2         1                    3           47                 Brasilia
+18                           Revista de Economia Aplicada 14138050      5         4                    1           20                São Paulo
+19                         Economia e Sociedade (UNICAMP) 01040618     11         1                  129          165                 Campinas
+20                      Parcerias Estratégicas (Brasília) 14139375  julho         2                  267          269          Brasília, Junho
+21  Estudos Econômicos. Instituto de Pesquisas Econômicas 01014161     33         2                    1           20 São Paulo, Abril e Junho
+22          Revista Agroanalysis- Fundação Getúlio Vargas               1                             42           44           Rio de Janeiro
+23                                     Agroanalysis (FGV) 01004298     24               4             47                             São Paulo
+24                              Revista Agroanalysis- FGV              24                             43           44                São Paulo
+25                             KAS-Auslands-Informationen 01777521      7        05                   82           97                   Berlin
+26                    São Paulo em Perspectiva (Impresso) 01028839     19         2     2            101          114                São Paulo
+27                             Ipc Technology Issue Brief              18                              1           16                      EUA
+28                                        Revista da ABPI 19802846      1              88             39           55                         
+29                      Segurança Alimentar e Nutricional 18088023     13               2             19           33                         
+30                        Informações Econômicas (Online) 1678832X     37                              1                                      
+31 Informações Econômicas. Instituto de Economia Agrícola 01004409     38               4             58           77                         
+32                                        Revista da ABPI 19802846      1              98             21           29                         
+33                         Revista Brasileira de Inovação 16772504      7               2            261          267                         
+34                 Environmental Impact Assessment Review 01959255     29               9            348          358                         
+35                  Revista de Literatura dos Transportes 21771065      2                              7           20                         
+36                                     Agroanalysis (FGV) 01004298     30              02             43           44                         
+37                                Bahia Invest (Impresso) 1679866X      1                             40           43                         
+38                     Estudos Econômicos (USP. Impresso) 01014161     27               3            461          479                         
+39                                    Econômica (Niterói) 15171302      4               2             01           09                         
+40                       Cadernos de Ciência & Tecnologia 01041096      3               3            407          418                         
+41                                Asset Markets and Acess 7891678X      5                              1           15                         
+42                                    Economia (Brasília) 15177580     10               4             20           40                         
+43                                     Agroanalysis (FGV) 01004298     31              01             31           35                         
+                                                                                                                                                      autores
+1                                                                                                    Jose Maria Ferreira Jardim da Silveira; Ana Maria Futino
+2                                                                                   Jose Maria Ferreira Jardim da Silveira; Sergio Luis Monteiro Salles Filho
+3                                                                                               Jose Maria Ferreira Jardim da Silveira; Carlos José de Castro
+4                                                                                                    Jose Maria Ferreira Jardim da Silveira; Ana Maria Futino
+5                                                                                                    Jose Maria Ferreira Jardim da Silveira; Ana Maria Futino
+6                                   Sergio Luis Monteiro Salles Filho; Jose Maria Ferreira Jardim da Silveira; Maria Beatriz M. Bonacelli; Alicia Ruiz Olalde
+7                                                                                                                      Jose Maria Ferreira Jardim da Silveira
+8                                                                                                  Jose Maria Ferreira Jardim da Silveira; Alicia Ruiz Olalde
+9                                                                Jose Maria Ferreira Jardim da Silveira; Mário Luiz Possas; Sergio Luis Monteiro Salles Filho
+10                                                                                                                     Jose Maria Ferreira Jardim da Silveira
+11                                                               Mário Luiz Possas; Sergio Luis Monteiro Salles Filho; Jose Maria Ferreira Jardim da Silveira
+12                                                                                             Jose Maria Ferreira Jardim da Silveira; Ademar Ribeiro Romeiro
+13                                                                                                    Jose Maria Ferreira Jardim da Silveira; Angela Kageyama
+14                                                                                                      Jose Maria Ferreira Jardim da Silveira; Marcelo Pinho
+15                                                                                  Jose Maria Ferreira Jardim da Silveira; Sergio Luis Monteiro Salles Filho
+16                                                                                                      Jose Maria Ferreira Jardim da Silveira; Marcelo Pinho
+17 Hildo Meirelles Souza Filho; Antonio Marcio Buainain; Carolina Junqueira Homem de Mello; Jose Maria Ferreira Jardim da Silveira; Marcelo Marques Magalhães
+18                                                            Alessandro Vinicius Marques de Oliveira; Carlos Mueller; Jose Maria Ferreira Jardim da Silveira
+19                                                                               Jose Maria Ferreira Jardim da Silveira; Ana Maria Futino; Alicia Ruiz Olalde
+20                                                                                                                     Jose Maria Ferreira Jardim da Silveira
+21                                                        Michel Alexandre da Silva; Otaviano Canuto dos Santos Filho; Jose Maria Ferreira Jardim da Silveira
+22                                                                                            Jose Maria Ferreira Jardim da Silveira; Antonio Marcio Buainain
+23                                                                                                                     Jose Maria Ferreira Jardim da Silveira
+24                                                                                                                     Jose Maria Ferreira Jardim da Silveira
+25                                                                                          Jose Maria Ferreira Jardim da Silveira; Izaias de Carvalho Borges
+26                                                                Jose Maria Ferreira Jardim da Silveira; Izaias de Carvalho Borges; Buainain, Antonio Márcio
+27                                                                                                                     Jose Maria Ferreira Jardim da Silveira
+28                                   Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; Jose Maria Ferreira Jardim da Silveira; Pedro Abel Vieira Júnior
+29                                       Izaias de Carvalho Borges; Jose Maria Ferreira Jardim da Silveira; José Eustáquio Vieira Filho; Andréia Mara Pereira
+30       Pedro Abel Vieira Júnior; Antonio Marcio Buainain; Jose Maria Ferreira Jardim da Silveira; Adriana Carvalho Pinto Vieira; A. E. Bolson; M. R. Daniel
+31                 Pedro Abel Vieira Júnior; Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; Fernando de Lima; Jose Maria Ferreira Jardim da Silveira
+32                                   Adriana Carvalho Pinto Vieira; Antonio Marcio Buainain; Jose Maria Ferreira Jardim da Silveira; Pedro Abel Vieira Júnior
+33                                                                                                   Jose Maria Ferreira Jardim da Silveira; Kenneth J. Arrow
+34                                                                           Katia Regina Evaristo de Jesus Hitizchky; Jose Maria Ferreira Jardim da Silveira
+35                                                                            Jose Maria Ferreira Jardim da Silveira; Alessandro Vinicius Marques de Oliveira
+36                                                                                                                     Jose Maria Ferreira Jardim da Silveira
+37                                                                                                                     Jose Maria Ferreira Jardim da Silveira
+38                                                                                             Ademar Ribeiro Romeiro; Jose Maria Ferreira Jardim da Silveira
+39                                                                                            Jose Maria Ferreira Jardim da Silveira; Antonio Marcio Buainain
+40                                                                                                                     Jose Maria Ferreira Jardim da Silveira
+41                                                Antonio Marcio Buainain; Patrícia José de Almeida; Fernando de Lima; Jose Maria Ferreira Jardim da Silveira
+42                                                                                          Jose Maria Ferreira Jardim da Silveira; Izaias de Carvalho Borges
+43                                                                                Andréa Leda Ramos de Oliveira Ojima; Jose Maria Ferreira Jardim da Silveira
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           autores.citacoes
+1                                                                                                       SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ FUTINO, Ana Maria
+2                                                                                            SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ SALLES FILHO, Sergio Luis M.
+3                                                                                                  SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ CASTRO, Carlos José de
+4                                                                                                       SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ FUTINO, Ana Maria
+5                                                                                                       SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ FUTINO, Ana Maria
+6                                          SALLES FILHO, Sergio Luis M./ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ BONACELLI, Maria Beatriz M./ OLALDE, Alicia Ruiz
+7                                                                                                                          SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+8                                                                                                     SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ OLALDE, Alicia Ruiz
+9                                                                        SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ POSSAS, Mário Luiz/ SALLES FILHO, Sergio Luis M.
+10                                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+11                                                                       POSSAS, Mário Luiz/ SALLES FILHO, Sergio Luis M./ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+12                                                                                                SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ ROMEIRO, Ademar Ribeiro
+13                                                                                                       SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ KAGEYAMA, Angela
+14                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ PINHO, Marcelo
+15                                                                                           SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ SALLES FILHO, Sergio Luis M.
+16                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ PINHO, Marcelo
+17 SOUZA FILHO, Hildo Meirelles/ BUAINAIN, Antonio Marcio/ MELLO, Carolina Junqueira Homem de/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ MAGALHÃES, Marcelo Marques
+18                                                                   OLIVEIRA, Alessandro Vinicius M. de/ MUELLER, Carlos/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+19                                                                                 SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ FUTINO, Ana Maria/ OLALDE, Alicia Ruiz
+20                                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+21                                                          SILVA, Michel Alexandre da/ SANTOS FILHO, Otaviano Canuto dos/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+22                                                                                               SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ BUAINAIN, Antonio Marcio
+23                                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+24                                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+25                                                                                             SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ BORGES, Izaias de Carvalho
+26                                                                   SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ BORGES, Izaias de Carvalho/ Buainain, Antonio Márcio
+27                                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+28                                    VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ VIEIRA JÚNIOR, Pedro Abel
+29                                        BORGES, Izaias de Carvalho/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ FILHO, José Eustáquio Vieira/ PEREIRA, Andréia Mara
+30      VIEIRA JÚNIOR, Pedro Abel/ BUAINAIN, Antonio Marcio/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ VIEIRA, Adriana Carvalho Pinto/ BOLSON, A. E./ DANIEL, M. R.
+31                 VIEIRA JÚNIOR, Pedro Abel/ VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio/ LIMA, Fernando de/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+32                                    VIEIRA, Adriana Carvalho Pinto/ BUAINAIN, Antonio Marcio/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ VIEIRA JÚNIOR, Pedro Abel
+33                                                                                                      SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ ARROW, Kenneth J.
+34                                                                                    HITIZCHKY, Katia Regina E. de Jesus/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+35                                                                                    SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ OLIVEIRA, Alessandro Vinicius M. de
+36                                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+37                                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+38                                                                                                ROMEIRO, Ademar Ribeiro/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+39                                                                                               SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ BUAINAIN, Antonio Marcio
+40                                                                                                                         SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+41                                                 BUAINAIN, Antonio Marcio/ ALMEIDA, Patrícia José de/ LIMA, Fernando de/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+42                                                                                             SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM/ BORGES, Izaias de Carvalho
+43                                                                                   OJIMA, Andréa Leda Ramos de Oliveira/ SILVEIRA, José Maria F. J.;Silveira, José Maria Ferreira Jardim da;Silveira, José Maria F. J. da;SILVEIRA, J. M. F. J;DA SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;SILVEIRA, JOSÉ MARIA FERREIRA JARDIM;DA SILVEIRA, JOSÉ M.F.J.;FERREIRA JARDIM DA SILVEIRA, JOSE MARIA;SILVEIRA, JOS';SILVEIRA, JOSÉ MARIA F.J.;SILVEIRA, JOSÉ MARIA JARDIM DA;SILVEIRA, JOSE MARIA F. J. DA;FERREIRA JARDIM DA SILVEIRA, JOSÉ MARIA;José Maria Jardim Ferreira da Silveira;DA SILVEIRA, JOSE MARIA FERREIRA JARDIM
+                                                                      autores.id               id
+1                                                        4984859173592703; No.id 4984859173592703
+2                                                        4984859173592703; No.id 4984859173592703
+3                                                        4984859173592703; No.id 4984859173592703
+4                                                        4984859173592703; No.id 4984859173592703
+5                                                        4984859173592703; No.id 4984859173592703
+6                               No.id; 4984859173592703; 8033490313680312; No.id 4984859173592703
+7                                                               4984859173592703 4984859173592703
+8                                                        4984859173592703; No.id 4984859173592703
+9                                      4984859173592703; 8300756726664806; No.id 4984859173592703
+10                                                              4984859173592703 4984859173592703
+11                                     8300756726664806; No.id; 4984859173592703 4984859173592703
+12                                            4984859173592703; 6272554271895126 4984859173592703
+13                                                       4984859173592703; No.id 4984859173592703
+14                                                       4984859173592703; No.id 4984859173592703
+15                                                       4984859173592703; No.id 4984859173592703
+16                                                       4984859173592703; No.id 4984859173592703
+17 3740950346967524; 3051627641386529; No.id; 4984859173592703; 4117906942336504 4984859173592703
+18                                     7489601043203780; No.id; 4984859173592703 4984859173592703
+19                                                4984859173592703; No.id; No.id 4984859173592703
+20                                                              4984859173592703 4984859173592703
+21                          9954238293341790; 1918486001122267; 4984859173592703 4984859173592703
+22                                            4984859173592703; 3051627641386529 4984859173592703
+23                                                              4984859173592703 4984859173592703
+24                                                              4984859173592703 4984859173592703
+25                                            4984859173592703; 1347735946376791 4984859173592703
+26                          4984859173592703; 1347735946376791; 3051627641386529 4984859173592703
+27                                                              4984859173592703 4984859173592703
+28                   4410000244832994; 3051627641386529; 4984859173592703; No.id 4984859173592703
+29        1347735946376791; 4984859173592703; 6253038922618654; 7306974664005377 4984859173592703
+30     No.id; 3051627641386529; 4984859173592703; 4410000244832994; No.id; No.id 4984859173592703
+31 No.id; 4410000244832994; 3051627641386529; 5094141813936910; 4984859173592703 4984859173592703
+32                   4410000244832994; 3051627641386529; 4984859173592703; No.id 4984859173592703
+33                                                       4984859173592703; No.id 4984859173592703
+34                                                       No.id; 4984859173592703 4984859173592703
+35                                            4984859173592703; 7489601043203780 4984859173592703
+36                                                              4984859173592703 4984859173592703
+37                                                              4984859173592703 4984859173592703
+38                                            6272554271895126; 4984859173592703 4984859173592703
+39                                            4984859173592703; 3051627641386529 4984859173592703
+40                                                              4984859173592703 4984859173592703
+41                   3051627641386529; No.id; 5094141813936910; 4984859173592703 4984859173592703
+42                                            4984859173592703; 1347735946376791 4984859173592703
+43                                                       No.id; 4984859173592703 4984859173592703
+ [ reached 'max' / getOption("max.print") -- omitted 43 rows ]
+

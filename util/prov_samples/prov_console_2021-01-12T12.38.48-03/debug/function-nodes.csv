@@ -1,0 +1,7 @@
+"ddg.pnum","ddg.fun","ddg.lib"
+5,"getDadosGerais","getLattes"
+7,"head","utils"
+7,"bind_rows","dplyr"
+8,"getArtigosPublicados","getLattes"
+10,"head","utils"
+10,"bind_rows","dplyr"

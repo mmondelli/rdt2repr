@@ -1,0 +1,11 @@
+[[1]]
+[[1]]$taxon
+  taxonID       family     genus                       scientificName specificEpithet infraspecificEpithet scientificNameAuthorship taxonomicStatus
+1  105909 Aspleniaceae Asplenium Asplenium truncorum F.B.Matos et al.       truncorum                   NA         F.B.Matos et al.     NOME_ACEITO
+  acceptedNameUsage acceptedNameUsageID                modified synonyms     verbatimSpecies             species
+1                NA                  NA 2020-12-30 17:27:17.797    FALSE Asplenium truncorum Asplenium truncorum
+
+[[1]]$synonyms
+NULL
+
+
