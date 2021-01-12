@@ -1,2 +1,0 @@
-df_lac <- aggregate(confirmed ~ country_region, data = dados_lac, 
-    FUN = sum)

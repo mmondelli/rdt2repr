@@ -1,5 +1,0 @@
-ens <- modleR::ensemble_model(species_name = species[1], occurrences = occs, 
-    performance_metric = "pROC", which_ensemble = c("average", 
-        "best", "frequency", "weighted_average", "median", "pca", 
-        "consensus"), consensus_level = 0.5, which_final = "raw_mean", 
-    models_dir = test_folder, overwrite = TRUE, png_ensemble = F)

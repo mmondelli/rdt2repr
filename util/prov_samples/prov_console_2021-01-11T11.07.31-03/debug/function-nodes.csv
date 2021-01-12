@@ -1,8 +1,0 @@
-"ddg.pnum","ddg.fun","ddg.lib"
-3,"data","utils"
-6,"getDadosGerais","getLattes"
-8,"head","raster"
-8,"bind_rows","dplyr"
-9,"getArtigosPublicados","getLattes"
-11,"head","raster"
-11,"bind_rows","dplyr"

@@ -1,5 +1,0 @@
-"ddg.type","ddg.num","ddg.name","ddg.value","ddg.val.type","ddg.scope","ddg.from.env","ddg.time","ddg.hash","ddg.loc"
-"File",1,"Rdata.rds","data/1-Rdata.rds","{""container"":""vector"", ""dimension"":[1], ""type"":[""character""]}","undefined",FALSE,"2021-01-07T19.19.58-03","7178c19c18b279d93e85b4fd9a965edd","/home/mondelli/R/x86_64-pc-linux-gnu-library/4.0/getLattes/data/Rdata.rds"
-"Snapshot",2,"xmlsLattes","data/2-xmlsLattes.txt","{""container"":""list"", ""dimension"":[2]}","R_GlobalEnv",FALSE,"2021-01-11T11.10.55-03","",""
-"Snapshot",3,"lt","data/3-lt.txt","{""container"":""list"", ""dimension"":[2]}","R_GlobalEnv",FALSE,"2021-01-11T11.11.56-03","",""
-"Snapshot",4,"lt","data/4-lt.txt","{""container"":""list"", ""dimension"":[2]}","R_GlobalEnv",FALSE,"2021-01-11T11.11.59-03","",""
