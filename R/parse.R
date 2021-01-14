@@ -44,8 +44,9 @@ parsetordt <- function(rdf_file = 'output.ttl'){
                    "https://w3id.org/reproduceme#",
                    "http://www.w3.org/ns/prov/#",
                    "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-                   "http://www.w3.org/2001/XMLSchema#")
-    names(namespace) <- c('p-plan', 'repr', 'prov', 'rdf', 'xsd')
+                   "http://www.w3.org/2001/XMLSchema#",
+                   "http://www.w3.org/2000/01/rdf-schema#")
+    names(namespace) <- c('p-plan', 'repr', 'prov', 'rdf', 'xsd', 'rdfs')
     nsp <- as.data.frame(t(namespace))
     rdf <- rdflib::rdf()
 
@@ -59,13 +60,13 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 
     activities_df <- .get_activities(prov, nsp, script_file, df_func)
 
-    func_df <- .get_functions(prov, nsp, activities_df, rdf, df_func, script_file)
+    func_df <- .get_functions(prov, nsp, activities_df, rdf, df_func, script_df)
 
-    func_act_df <- .get_functions_activations(activities_df, nsp, rdf)
+    func_act_df <- .get_functions_activations(activities_df, script_df, nsp, rdf)
 
     ops_df <- .get_ops(activities_df, nsp, rdf)
 
-    pckgs_df <- .get_packages(prov, nsp, rdf)
+    pckgs_df <- .get_packages(func_df, nsp, rdf)
 
     entities_df <- .get_entity(prov, nsp, rdf)
 
@@ -137,8 +138,8 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 .check <- function(prov = prov, nsp = nsp, cmd, df_func = df_func) {
     #ops <- load('./data/ops.rda')
     #ops_file <- system.file("data", "operators.csv", package = "mypackagename")
-    #ops <- read.csv('~/Dropbox/Reproducibility/prov2repr/rdt2repr/data/operators.csv')
-    load(file = "R/ops.rda")
+    ops <- read.csv('~/Dropbox/Reproducibility/prov2repr/rdt2repr/data/operators.csv')
+    #load(file = "ops.rda")
     func_nodes <- get.func.nodes(prov)
     lang <- str2lang(cmd)
 
@@ -181,6 +182,7 @@ parsetordt <- function(rdf_file = 'output.ttl'){
     # TODO: try with more than one script
     script <- provParseR::get.scripts(prov)
     script$name <- paste0(nsp$repr, tools::file_path_sans_ext(basename(script$script)))
+    script[,paste0(nsp$rdfs, 'label')] <- basename(script$script)
     script[,paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Script')
     env <- provParseR::get.environment(prov)
     script[,paste0(nsp$repr, 'hasProgrammingLanguage')] <- env[env$label == 'language', 2]
@@ -278,7 +280,7 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 #' @param rdf RDF object to write the triples
 #' @param df_func Dataframe with R default functions
 #' @param script Script dataframe built with the function process_file
-.get_functions <- function(prov = prov, nsp = nsp, activities = activities_df, rdf = rdf, df_func = df_func, script = script_file){
+.get_functions <- function(prov = prov, nsp = nsp, activities = activities_df, rdf = rdf, df_func = df_func, script = script_df){
 
     functions <- get.func.lib(prov = prov) # Get functions
     libs <- get.libs(prov) # Get packages
@@ -290,8 +292,8 @@ parsetordt <- function(rdf_file = 'output.ttl'){
     other_func$library <- libs[which(libs$name %in% gsub('.*:', '', other_func$package)), 'id'] # Check the lib id from rdt
     names(functions)[2] <- 'function_name'; functions <- rbind(functions, other_func[-2]);  # Join existing func with default
     functions[,paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Function') # Add ontologies info
+    functions[,paste0(nsp$rdfs, 'label')] <- functions$function_name
     functions$function_name <- paste0(nsp$repr, functions$function_name)
-
     functions[,paste0(nsp$`p-plan`, 'isSubPlanOfPlan')] <- script$name
 
     # Create function triple
@@ -305,9 +307,9 @@ parsetordt <- function(rdf_file = 'output.ttl'){
     invisible(apply(function_triple, 1, function(x) rdf %>% rdf_add(x[1], x[2], x[3])))
 
     # Create pckg triple
-    pckg <- merge(functions, libs, by.x = 'library', by.y = 'id')[,c('function_name','name')]
-    pckg$name <- paste0(nsp$repr, pckg$name); names(pckg)[2] <- paste0(nsp$repr, 'hasPackage')
-    function_pckg_triple <- pckg %>%
+    functions <- merge(functions, libs, by.x = 'library', by.y = 'id')#[,c('function_name','name')]
+    functions$name <- paste0(nsp$repr, functions$name); names(functions)[7] <- paste0(nsp$repr, 'hasPackage')
+    function_pckg_triple <- functions[,c(3,7)] %>%
         mutate(subject = function_name) %>%
         select(-'function_name') %>% # Removing
         gather(key = predicate, value = object, -subject)
@@ -327,22 +329,29 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 #' @param activities Dataframe containing the prov activities recorded by rdt
 #' @param nsp List with the namespaces of used ontologies
 #' @param rdf RDF object to write the triples
-.get_functions_activations <- function(activities = activities_df, nsp = nsp, rdf = rdf) {
+.get_functions_activations <- function(activities = activities_df, script = script_df, nsp = nsp, rdf = rdf) {
 
     func_act <- which(activities[,paste0(nsp$rdf, 'type')] == paste0(nsp$repr, 'Function'))
     # Create function activation triple
     func_act <- activities[func_act, c('cmd', 'detail', 'activation', paste0(nsp$repr, 'informedBy'))]
     func_act$detail <- paste0(nsp$repr, func_act$detail)
-    func_act[,paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'FunctionActivation')
+    func_act[,paste0(nsp$`p-plan`, 'isStepOfPlan')] <- script$name
+    #func_act[,paste0(nsp$rdfs, 'label')] <- paste0(nsp$repr, func_act$detail)
     names(func_act)[1] <- paste0(nsp$rdf, 'value')
-    names(func_act)[2] <- paste0(nsp$repr, 'isStepOfPlan')
+    names(func_act)[2] <- paste0(nsp$`p-plan`, 'isStepOfPlan')
 
-    function_act_triple <- unique(func_act) %>%
+    function_act_triple <- unique(func_act[,-5]) %>%
+        mutate(subject = activation) %>%
+        select(-'activation') %>% #removing function_name (it will be the identifier)
+        gather(key = predicate, value = object, -subject)
+
+    function_act_script_triple <- unique(func_act[,c(3,5)]) %>%
         mutate(subject = activation) %>%
         select(-'activation') %>% #removing function_name (it will be the identifier)
         gather(key = predicate, value = object, -subject)
 
     invisible(apply(function_act_triple, 1, function(x) rdf %>% rdf_add(x[1], x[2], x[3])))
+    invisible(apply(function_act_script_triple, 1, function(x) rdf %>% rdf_add(x[1], x[2], x[3])))
     return(func_act)
 }
 
@@ -381,16 +390,19 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 #' @param prov Parsed provenance
 #' @param nsp List with the namespaces of used ontologies
 #' @param rdf RDF object to write the triples
-.get_packages <- function(prov = prov, nsp = nsp, rdf = rdf){
+.get_packages <- function(func_df = func_df, nsp = nsp, rdf = rdf){
 
-    libs <- get.libs(prov)
-    libs[,paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Package') # Add ontologies info
-    libs$name <- paste0(nsp$repr, libs$name)
-    names(libs)[3] <- paste0(nsp$repr, 'hasPackageVersion')
+    #libs <- get.libs(prov)
+    #libs[,paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Package') # Add ontologies info
+    #libs[,paste0(nsp$rdfs, 'label')] <- libs$name
+    #libs$name <- paste0(nsp$repr, libs$name)
+    pckgs <- unique(func_df[,c(7,8)])
+    pckgs[,paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Package') # Add ontologies info
+    names(pckgs)[1] <- 'name'
 
-    package_triple <- libs %>%
+    package_triple <- pckgs %>%
         mutate(subject = name) %>%
-        select(-'id', -'name') %>% # Remove rdt.id and pkg_name
+        select(-'name') %>% # Remove rdt.id and pkg_name
         gather(key = predicate, value = object, -subject)
 
     invisible(apply(package_triple, 1, function(x) rdf %>% rdf_add(x[1], x[2], x[3])))
@@ -476,17 +488,19 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 #' @param rdf RDF object to write the triples
 .get_used <- function(prov = prov, entities = entities_df, activities = activities_df, nsp = nsp, rdf = rdf){
 
-    used <- merge(get.data.proc(prov), activities[,c('id', 'activation')], by.x = 'activity', by.y = 'id')
-    used <- merge(used, entities[,c('id', 'name')], by.x = 'entity', by.y = 'id')
-    used <- used[which('https://w3id.org/reproduceme#package_rds' != used$name),] # Removing packages saved as files by rdt
-    colnames(used)[5] <- paste0(nsp$prov, 'used')
-    used_triple <- used[, c('activation', paste0(nsp$prov, 'used'))] %>%
-        mutate(subject = activation) %>%
-        select(-'activation') %>%
-        gather(key = predicate, value = object, -subject)
+    if (nrow(get.data.proc(prov)) > 0) {
+        used <- merge(get.data.proc(prov), activities[,c('id', 'activation')], by.x = 'activity', by.y = 'id')
+        used <- merge(used, entities[,c('id', 'name')], by.x = 'entity', by.y = 'id')
+        used <- used[which('https://w3id.org/reproduceme#package_rds' != used$name),] # Removing packages saved as files by rdt
+        colnames(used)[5] <- paste0(nsp$prov, 'used')
+        used_triple <- used[, c('activation', paste0(nsp$prov, 'used'))] %>%
+            mutate(subject = activation) %>%
+            select(-'activation') %>%
+            gather(key = predicate, value = object, -subject)
 
-    invisible(apply(used_triple, 1, function(x) rdf %>% rdf_add(x[1], x[2], x[3])))
-    return(used)
+        invisible(apply(used_triple, 1, function(x) rdf %>% rdf_add(x[1], x[2], x[3])))
+        return(used)
+    }
 }
 
 #' Get the parameters for the function activations
@@ -570,10 +584,12 @@ parsetordt <- function(rdf_file = 'output.ttl'){
     }
 
     all[, paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Argument')
+    all[,paste0(nsp$rdfs, 'label')] <- all$name
     all$name <- paste0(nsp$repr, gsub("[.]", "_", all$name), '_', all$fun)
     colnames(all)[3] <- paste0(nsp$repr, 'hasParameterValue')
     colnames(all)[4] <- paste0(nsp$repr, 'hasType')
-    colnames(all)[6] <- paste0(nsp$repr, 'isInputVarOf')
+    colnames(all)[6] <- paste0(nsp$`p-plan`, 'isInputVarOf')
+
 
     arg_triple <- all[,c(-1, -5)] %>%
         mutate(subject = name) %>%
