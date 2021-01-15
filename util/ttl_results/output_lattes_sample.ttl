@@ -4,272 +4,279 @@
 @prefix repr: <https://w3id.org/reproduceme#> .
 @prefix prov: <http://www.w3.org/ns/prov/#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 repr:FUN_lapply
+    p-plan:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 ;
     a repr:Argument ;
+    rdfs:label "FUN" ;
     repr:hasParameterValue "getArtigosPublicados", "getDadosGerais" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 .
+    repr:hasType "symbol" .
 
 repr:X_lapply
+    p-plan:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 ;
     a repr:Argument ;
+    rdfs:label "X" ;
     repr:hasParameterValue "xmlsLattes" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 .
+    repr:hasType "symbol" .
 
 repr:____head
+    p-plan:isInputVarOf repr:head_activation1, repr:head_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466012r58336r15, _:r1610466012r58336r17 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:head_activation1, repr:head_activation2 .
+    rdfs:label "..." ;
+    repr:hasParameterValue _:r1610675071r118877r15, _:r1610675071r118877r17 ;
+    repr:hasType "symbol" .
 
 repr:____lapply
+    p-plan:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466012r58336r14, _:r1610466012r58336r16 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:lapply_activation1, repr:lapply_activation2 .
+    rdfs:label "..." ;
+    repr:hasParameterValue _:r1610675071r118877r14, _:r1610675071r118877r16 ;
+    repr:hasType "symbol" .
 
 repr:attach_required_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "attach.required" ;
     repr:hasParameterValue "missing(include.only)" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "language" .
 
 repr:base
     a repr:Package ;
+    rdfs:label "base" ;
     repr:hasPackageVersion "4.0.2" .
 
 repr:bind_rows
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "bind_rows" ;
     repr:hasPackage repr:dplyr .
 
 repr:character_only_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "character.only" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "logical" .
 
 repr:console
     a repr:Script ;
+    rdfs:label "console.R" ;
     repr:hasOperatingSystem "Ubuntu 20.04.1 LTS" ;
     repr:hasProgrammingLanguage "R" ;
     repr:hasProgrammingLanguageVersion "R version 4.0.2 (2020-06-22)" .
 
 repr:curriculo_getArtigosPublicados
+    p-plan:isInputVarOf repr:getArtigosPublicados_activation1 ;
     a repr:Argument ;
+    rdfs:label "curriculo" ;
     repr:hasParameterValue "\"xmlsLattes[[2]]\"" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:getArtigosPublicados_activation1 .
+    repr:hasType "symbol" .
 
 repr:curriculo_getDadosGerais
+    p-plan:isInputVarOf repr:getDadosGerais_activation1 ;
     a repr:Argument ;
+    rdfs:label "curriculo" ;
     repr:hasParameterValue "\"xmlsLattes[[2]]\"" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:getDadosGerais_activation1 .
-
-repr:datasets
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:hasType "symbol" .
 
 repr:dplyr
     a repr:Package ;
+    rdfs:label "dplyr" ;
     repr:hasPackageVersion "1.0.2" .
 
 repr:exclude_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466012r58336r12, _:r1610466012r58336r7 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "exclude" ;
+    repr:hasParameterValue _:r1610675071r118877r12, _:r1610675071r118877r7 ;
+    repr:hasType "symbol" .
 
 repr:getArtigosPublicados
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "getArtigosPublicados" ;
     repr:hasPackage repr:getLattes .
 
 repr:getArtigosPublicados_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:getArtigosPublicados ;
     rdf:value "getArtigosPublicados(xmlsLattes[[2]])" ;
-    repr:informedBy repr:head_activation1 ;
-    repr:isStepOfPlan repr:getArtigosPublicados .
+    repr:informedBy repr:head_activation1 .
 
 repr:getDadosGerais
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "getDadosGerais" ;
     repr:hasPackage repr:getLattes .
 
 repr:getDadosGerais_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:getDadosGerais ;
     rdf:value "getDadosGerais(xmlsLattes[[2]])" ;
-    repr:informedBy repr:library_activation2 ;
-    repr:isStepOfPlan repr:getDadosGerais .
+    repr:informedBy repr:library_activation2 .
 
 repr:getLattes
     a repr:Package ;
+    rdfs:label "getLattes" ;
     repr:hasPackageVersion "0.1.1" .
 
-repr:ggplot2
-    a repr:Package ;
-    repr:hasPackageVersion "3.3.2" .
-
-repr:grDevices
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
-
-repr:graphics
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
-
 repr:head
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "head" ;
     repr:hasPackage repr:utils .
 
 repr:head_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:head ;
     rdf:value "head(bind_rows(lt))" ;
     prov:used repr:lt ;
-    repr:informedBy repr:lapply_activation1 ;
-    repr:isStepOfPlan repr:head .
+    repr:informedBy repr:lapply_activation1 .
 
 repr:head_activation2
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:head ;
     rdf:value "head(bind_rows(lt))" ;
     prov:used repr:lt ;
-    repr:informedBy repr:lapply_activation2 ;
-    repr:isStepOfPlan repr:head .
+    repr:informedBy repr:lapply_activation2 .
 
 repr:help_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466012r58336r4, _:r1610466012r58336r9 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "help" ;
+    repr:hasParameterValue _:r1610675071r118877r4, _:r1610675071r118877r9 ;
+    repr:hasType "symbol" .
 
 repr:include_only_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466012r58336r13, _:r1610466012r58336r8 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "include.only" ;
+    repr:hasParameterValue _:r1610675071r118877r13, _:r1610675071r118877r8 ;
+    repr:hasType "symbol" .
 
 repr:lapply
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "lapply" ;
     repr:hasPackage repr:base .
 
 repr:lapply_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:lapply ;
     rdf:value "lt <- lapply(xmlsLattes, getDadosGerais)" ;
     prov:generated repr:lt ;
-    repr:informedBy repr:getDadosGerais_activation1 ;
-    repr:isStepOfPlan repr:lapply .
+    repr:informedBy repr:getDadosGerais_activation1 .
 
 repr:lapply_activation2
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:lapply ;
     rdf:value "lt <- lapply(xmlsLattes, getArtigosPublicados)" ;
     prov:generated repr:lt ;
-    repr:informedBy repr:getArtigosPublicados_activation1 ;
-    repr:isStepOfPlan repr:lapply .
+    repr:informedBy repr:getArtigosPublicados_activation1 .
 
 repr:length
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "length" ;
     repr:hasPackage repr:base .
 
 repr:length_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:length ;
     rdf:value "length(xmlsLattes)" ;
-    repr:informedBy repr:library_activation1 ;
-    repr:isStepOfPlan repr:length .
+    repr:informedBy repr:library_activation1 .
 
 repr:lib_loc_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "lib.loc" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "NULL" .
 
 repr:library
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "library" ;
     repr:hasPackage repr:base .
 
 repr:library_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:library ;
     rdf:value "library(getLattes)" ;
-    repr:informedBy repr:operation1 ;
-    repr:isStepOfPlan repr:library .
+    repr:informedBy repr:operation1 .
 
 repr:library_activation2
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:library ;
     rdf:value "library(dplyr)" ;
-    repr:informedBy repr:length_activation1 ;
-    repr:isStepOfPlan repr:library .
+    repr:informedBy repr:length_activation1 .
 
 repr:logical_return_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "logical.return" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "logical" .
 
 repr:lt
     a p-plan:Variable ;
     repr:hasType "Snapshot" .
 
 repr:mask_ok_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466012r58336r11, _:r1610466012r58336r6 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
-
-repr:methods
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    rdfs:label "mask.ok" ;
+    repr:hasParameterValue _:r1610675071r118877r11, _:r1610675071r118877r6 ;
+    repr:hasType "symbol" .
 
 repr:operation1
     a repr:Operation ;
-    rdf:value _:r1610466012r58336r1 ;
+    rdf:value _:r1610675071r118877r1 ;
     repr:hasType "Console" ;
-    repr:informedBy _:r1610466012r58336r3 .
+    repr:informedBy _:r1610675071r118877r3 .
 
 repr:operation2
     a repr:Operation ;
-    rdf:value _:r1610466012r58336r2 ;
+    rdf:value _:r1610675071r118877r2 ;
     repr:hasType "Console" ;
     repr:informedBy repr:head_activation2 .
 
 repr:package_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "package" ;
     repr:hasParameterValue "\"dplyr\"", "\"getLattes\"" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "symbol" .
 
 repr:pos_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "pos" ;
     repr:hasParameterValue "2" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "double" .
 
 repr:quietly_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "quietly" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
-
-repr:stats
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:hasType "logical" .
 
 repr:utils
     a repr:Package ;
+    rdfs:label "utils" ;
     repr:hasPackageVersion "4.0.2" .
 
 repr:verbose_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "verbose" ;
     repr:hasParameterValue "getOption(\"verbose\")" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "language" .
 
 repr:warn_conflicts_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466012r58336r10, _:r1610466012r58336r5 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "warn.conflicts" ;
+    repr:hasParameterValue _:r1610675071r118877r10, _:r1610675071r118877r5 ;
+    repr:hasType "symbol" .
 
 repr:x_head
+    p-plan:isInputVarOf repr:head_activation1, repr:head_activation2 ;
     a repr:Argument ;
+    rdfs:label "x" ;
     repr:hasParameterValue "\"bind_rows(lt)\"" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:head_activation1, repr:head_activation2 .
+    repr:hasType "symbol" .
 

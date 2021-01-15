@@ -4,6 +4,7 @@
 @prefix repr: <https://w3id.org/reproduceme#> .
 @prefix prov: <http://www.w3.org/ns/prov/#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 repr:Abarema_langsdorffii_final_statistics_csv
     a repr:Output ;
@@ -14,68 +15,79 @@ repr:Abarema_langsdorffii_mean_statistics_csv
     repr:hasType "File" .
 
 repr:____do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610469299r60366r14 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    rdfs:label "..." ;
+    repr:hasParameterValue _:r1610675255r118877r14 ;
+    repr:hasType "symbol" .
 
 repr:____ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610469299r60366r16 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    rdfs:label "..." ;
+    repr:hasParameterValue _:r1610675255r118877r16 ;
+    repr:hasType "symbol" .
 
 repr:____final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610469299r60366r15 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    rdfs:label "..." ;
+    repr:hasParameterValue _:r1610675255r118877r15 ;
+    repr:hasType "symbol" .
 
 repr:algorithms_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "algorithms" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "NULL" .
 
 repr:algorithms_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "algorithms" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "NULL" .
 
 repr:attach_required_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "attach.required" ;
     repr:hasParameterValue "missing(include.only)" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "language" .
 
 repr:base
     a repr:Package ;
+    rdfs:label "base" ;
     repr:hasPackageVersion "4.0.2" .
 
 repr:bioclim_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "bioclim" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:boot_n_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "boot_n" ;
     repr:hasParameterValue "1" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "double" .
 
 repr:boot_proportion_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "boot_proportion" ;
     repr:hasParameterValue "0.7" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "double" .
 
 repr:brt_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "brt" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:brt_model_Abarema_langsdorffii_1_1_rda
     a repr:Output ;
@@ -98,154 +110,167 @@ repr:brt_model_Abarema_langsdorffii_1_5_rda
     repr:hasType "File" .
 
 repr:buffer_shape_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "buffer_shape" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:buffer_type_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "buffer_type" ;
     repr:hasParameterValue "\"mean\"" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:character_only_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "character.only" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "logical" .
 
 repr:clean_dupl_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "clean_dupl" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "logical" .
 
 repr:clean_nas_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "clean_nas" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "logical" .
 
 repr:clean_uni_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "clean_uni" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "logical" .
 
 repr:consensus_level_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "consensus_level" ;
     repr:hasParameterValue "0.5" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "double" .
 
 repr:consensus_level_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "consensus_level" ;
     repr:hasParameterValue "0.5" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "double" .
 
 repr:console
     a repr:Script ;
+    rdfs:label "console.R" ;
     repr:hasOperatingSystem "Ubuntu 20.04.1 LTS" ;
     repr:hasProgrammingLanguage "R" ;
     repr:hasProgrammingLanguageVersion "R version 4.0.2 (2020-06-22)" .
 
 repr:cutoff_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "cutoff" ;
     repr:hasParameterValue "0.7" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "double" .
 
 repr:cv_n_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "cv_n" ;
     repr:hasParameterValue "1" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:cv_partitions_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "cv_partitions" ;
     repr:hasParameterValue "5" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
-
-repr:datasets
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:hasType "NULL" .
 
 repr:dismo_threshold_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "dismo_threshold" ;
     repr:hasParameterValue "\"spec_sens\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "character" .
 
 repr:dist_buf_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "dist_buf" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:do_many
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "do_many" ;
     repr:hasPackage repr:modleR .
 
 repr:do_many_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:do_many ;
     rdf:value "many <- modleR::do_many(species_name = species[1], predictors = example_vars, models_dir = test_folder, png_partitions = F, write_bin_cut = FALSE, write_rda = TRUE, bioclim = FALSE, domain = FALSE, glm = FALSE, svmk = FALSE, svme = FALSE, maxnet = F, rf = F, mahal = FALSE, brt = TRUE, equalize = TRUE)" ;
     prov:generated repr:brt_model_Abarema_langsdorffii_1_1_rda, repr:brt_model_Abarema_langsdorffii_1_2_rda, repr:brt_model_Abarema_langsdorffii_1_3_rda, repr:brt_model_Abarema_langsdorffii_1_4_rda, repr:brt_model_Abarema_langsdorffii_1_5_rda, repr:eval_mod_Abarema_langsdorffii_1_1_brt_csv, repr:eval_mod_Abarema_langsdorffii_1_2_brt_csv, repr:eval_mod_Abarema_langsdorffii_1_3_brt_csv, repr:eval_mod_Abarema_langsdorffii_1_4_brt_csv, repr:eval_mod_Abarema_langsdorffii_1_5_brt_csv, repr:evaluate_Abarema_langsdorffii_1_1_brt_csv, repr:evaluate_Abarema_langsdorffii_1_2_brt_csv, repr:evaluate_Abarema_langsdorffii_1_3_brt_csv, repr:evaluate_Abarema_langsdorffii_1_4_brt_csv, repr:evaluate_Abarema_langsdorffii_1_5_brt_csv, repr:many, repr:sessionInfo_txt ;
     prov:used repr:sdmdata_csv, repr:species, repr:test_folder ;
-    repr:informedBy repr:setup_sdmdata_activation1 ;
-    repr:isStepOfPlan repr:do_many .
+    repr:informedBy repr:setup_sdmdata_activation1 .
 
 repr:domain_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "domain" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
-
-repr:dplyr
-    a repr:Package ;
-    repr:hasPackageVersion "1.0.2" .
+    repr:hasType "logical" .
 
 repr:ens
     a repr:Output ;
     repr:hasType "Snapshot" .
 
 repr:ensemble_dir_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "ensemble_dir" ;
     repr:hasParameterValue "\"ensemble\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "character" .
 
 repr:ensemble_model
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "ensemble_model" ;
     repr:hasPackage repr:modleR .
 
 repr:ensemble_model_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:ensemble_model ;
     rdf:value "ens <- modleR::ensemble_model(species_name = species[1], occurrences = occs, performance_metric = \"pROC\", which_ensemble = c(\"average\", \"best\", \"frequency\", \"weighted_average\", \"median\", \"pca\", \"consensus\"), consensus_level = 0.5, which_final = \"raw_mean\", models_dir = test_folder, overwrite = TRUE, png_ensemble = F)" ;
     prov:generated repr:ens, repr:metadata_csv, repr:sessionInfo_txt ;
     prov:used repr:Abarema_langsdorffii_mean_statistics_csv, repr:occs, repr:species, repr:test_folder ;
-    repr:informedBy repr:final_model_activation1 ;
-    repr:isStepOfPlan repr:ensemble_model .
+    repr:informedBy repr:final_model_activation1 .
 
 repr:env_distance_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "env_distance" ;
     repr:hasParameterValue "\"centroid\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "character" .
 
 repr:env_filter_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "env_filter" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "logical" .
 
 repr:equalize_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "equalize" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:eval_mod_Abarema_langsdorffii_1_1_brt_csv
     a repr:Output ;
@@ -288,253 +313,268 @@ repr:evaluate_Abarema_langsdorffii_1_5_brt_csv
     repr:hasType "File" .
 
 repr:exclude_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610469299r60366r12, _:r1610469299r60366r7 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "exclude" ;
+    repr:hasParameterValue _:r1610675255r118877r12, _:r1610675255r118877r7 ;
+    repr:hasType "symbol" .
 
 repr:final_dir_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "final_dir" ;
     repr:hasParameterValue "\"final_models\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "character" .
 
 repr:final_dir_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "final_dir" ;
     repr:hasParameterValue "\"final_models\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "character" .
 
 repr:final_model
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "final_model" ;
     repr:hasPackage repr:modleR .
 
 repr:final_model_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:final_model ;
     rdf:value "fm <- modleR::final_model(species_name = species[1], algorithms = NULL, models_dir = test_folder, which_models = c(\"raw_mean\", \"bin_mean\", \"bin_consensus\"), consensus_level = 0.5, uncertainty = TRUE, overwrite = TRUE, png_final = F)" ;
     prov:generated repr:Abarema_langsdorffii_final_statistics_csv, repr:Abarema_langsdorffii_mean_statistics_csv, repr:fm, repr:metadata_csv, repr:sessionInfo_txt ;
     prov:used repr:evaluate_Abarema_langsdorffii_1_1_brt_csv, repr:evaluate_Abarema_langsdorffii_1_2_brt_csv, repr:evaluate_Abarema_langsdorffii_1_3_brt_csv, repr:evaluate_Abarema_langsdorffii_1_4_brt_csv, repr:evaluate_Abarema_langsdorffii_1_5_brt_csv, repr:species, repr:test_folder ;
-    repr:informedBy repr:do_many_activation1 ;
-    repr:isStepOfPlan repr:final_model .
+    repr:informedBy repr:do_many_activation1 .
 
 repr:fm
     a repr:Output ;
     repr:hasType "Snapshot" .
 
 repr:geo_filt_dist_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "geo_filt_dist" ;
     repr:hasParameterValue "10" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:geo_filt_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "geo_filt" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
-
-repr:ggplot2
-    a repr:Package ;
-    repr:hasPackageVersion "3.3.2" .
+    repr:hasType "logical" .
 
 repr:glm_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "glm" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
-
-repr:grDevices
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
-
-repr:graphics
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:hasType "logical" .
 
 repr:help_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610469299r60366r4, _:r1610469299r60366r9 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "help" ;
+    repr:hasParameterValue _:r1610675255r118877r4, _:r1610675255r118877r9 ;
+    repr:hasType "symbol" .
 
 repr:include_only_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610469299r60366r13, _:r1610469299r60366r8 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "include.only" ;
+    repr:hasParameterValue _:r1610675255r118877r13, _:r1610675255r118877r8 ;
+    repr:hasType "symbol" .
 
 repr:lat_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "lat" ;
     repr:hasParameterValue "\"lat\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "character" .
 
 repr:lat_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "lat" ;
     repr:hasParameterValue "\"lat\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "character" .
 
 repr:lib_loc_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "lib.loc" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "NULL" .
 
 repr:library
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "library" ;
     repr:hasPackage repr:base .
 
 repr:library_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:library ;
     rdf:value "library(modleR)" ;
-    repr:informedBy repr:operation1 ;
-    repr:isStepOfPlan repr:library .
+    repr:informedBy repr:operation1 .
 
 repr:library_activation2
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:library ;
     rdf:value "library(sp)" ;
-    repr:informedBy repr:library_activation1 ;
-    repr:isStepOfPlan repr:library .
+    repr:informedBy repr:library_activation1 .
 
 repr:logical_return_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "logical.return" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "logical" .
 
 repr:lon_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "lon" ;
     repr:hasParameterValue "\"lon\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "character" .
 
 repr:lon_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "lon" ;
     repr:hasParameterValue "\"lon\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "character" .
 
 repr:mahal_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "mahal" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:many
     a repr:Output ;
     repr:hasType "Snapshot" .
 
 repr:mask_ok_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610469299r60366r11, _:r1610469299r60366r6 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "mask.ok" ;
+    repr:hasParameterValue _:r1610675255r118877r11, _:r1610675255r118877r6 ;
+    repr:hasType "symbol" .
 
 repr:maxent_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "maxent" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:maxnet_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "maxnet" ;
     repr:hasParameterValue "F" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:mean_th_par_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "mean_th_par" ;
     repr:hasParameterValue "c(\"spec_sens\")" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "language" .
 
 repr:metadata_csv
     a repr:Output ;
     repr:hasType "File" .
 
-repr:methods
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
-
 repr:min_env_dist_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "min_env_dist" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:min_geog_dist_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "min_geog_dist" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:models_dir_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "models_dir" ;
     repr:hasParameterValue "test_folder" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "symbol" .
 
 repr:models_dir_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "models_dir" ;
     repr:hasParameterValue "test_folder" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "character" .
 
 repr:models_dir_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "models_dir" ;
     repr:hasParameterValue "test_folder" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "character" .
 
 repr:models_dir_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "models_dir" ;
     repr:hasParameterValue "test_folder" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "character" .
 
 repr:modleR
     a repr:Package ;
+    rdfs:label "modleR" ;
     repr:hasPackageVersion "0.0.1" .
 
 repr:n_back_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "n_back" ;
     repr:hasParameterValue "500" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "double" .
 
 repr:names
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "names" ;
     repr:hasPackage repr:base .
 
 repr:names_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:names ;
     rdf:value "species <- names(example_occs)" ;
     prov:generated repr:species ;
-    repr:informedBy repr:library_activation2 ;
-    repr:isStepOfPlan repr:names .
+    repr:informedBy repr:library_activation2 .
 
 repr:occs
     a p-plan:Variable ;
     repr:hasType "Snapshot" .
 
 repr:occurrences_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "occurrences" ;
     repr:hasParameterValue "occs" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "symbol" .
 
 repr:occurrences_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "occurrences" ;
     repr:hasParameterValue "occs" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "symbol" .
 
 repr:operation1
     a repr:Operation ;
-    rdf:value _:r1610469299r60366r1 ;
+    rdf:value _:r1610675255r118877r1 ;
     repr:hasType "Console" ;
-    repr:informedBy _:r1610469299r60366r3 .
+    repr:informedBy _:r1610675255r118877r3 .
 
 repr:operation2
     a repr:Operation ;
@@ -552,133 +592,153 @@ repr:operation3
 
 repr:operation4
     a repr:Operation ;
-    rdf:value _:r1610469299r60366r2 ;
+    rdf:value _:r1610675255r118877r2 ;
     repr:hasType "Console" ;
     repr:informedBy repr:ensemble_model_activation1 .
 
 repr:overwrite_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "overwrite" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "logical" .
 
 repr:overwrite_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "overwrite" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "logical" .
 
 repr:package_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "package" ;
     repr:hasParameterValue "\"modleR\"", "\"sp\"" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "symbol" .
 
 repr:package_rds
     a p-plan:Variable ;
     repr:hasType "File" .
 
 repr:partition_type_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "partition_type" ;
     repr:hasParameterValue "\"crossvalidation\"" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "language" .
 
 repr:performance_metric_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "performance_metric" ;
     repr:hasParameterValue "\"pROC\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "character" .
 
 repr:png_ensemble_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "png_ensemble" ;
     repr:hasParameterValue "F" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "logical" .
 
 repr:png_final_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "png_final" ;
     repr:hasParameterValue "F" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "logical" .
 
 repr:png_partitions_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "png_partitions" ;
     repr:hasParameterValue "F" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "symbol" .
 
 repr:png_sdmdata_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "png_sdmdata" ;
     repr:hasParameterValue "F" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "logical" .
 
 repr:pos_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "pos" ;
     repr:hasParameterValue "2" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "double" .
 
 repr:predictors_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "predictors" ;
     repr:hasParameterValue "example_vars" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "symbol" .
 
 repr:predictors_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "predictors" ;
     repr:hasParameterValue "example_vars" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "symbol" .
 
 repr:proj_dir_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "proj_dir" ;
     repr:hasParameterValue "\"present\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "character" .
 
 repr:proj_dir_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "proj_dir" ;
     repr:hasParameterValue "\"present\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "character" .
 
 repr:quietly_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "quietly" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "logical" .
 
 repr:real_absences_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "real_absences" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:rf_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "rf" ;
     repr:hasParameterValue "F" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:sample_proportion_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "sample_proportion" ;
     repr:hasParameterValue "0.5" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "double" .
 
 repr:scale_models_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "scale_models" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "logical" .
 
 repr:scale_models_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "scale_models" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "logical" .
 
 repr:sdmdata_1sp
     a repr:Output ;
@@ -689,164 +749,174 @@ repr:sdmdata_csv
     repr:hasType "File" .
 
 repr:seed_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "seed" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "NULL" .
 
 repr:select_variables_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "select_variables" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "logical" .
 
 repr:sensitivity_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "sensitivity" ;
     repr:hasParameterValue "0.9" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "double" .
 
 repr:sessionInfo_txt
     a repr:Output ;
     repr:hasType "File" .
 
 repr:setup_sdmdata
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "setup_sdmdata" ;
     repr:hasPackage repr:modleR .
 
 repr:setup_sdmdata_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:setup_sdmdata ;
     rdf:value "sdmdata_1sp <- modleR::setup_sdmdata(species_name = species[1], occurrences = occs, predictors = example_vars, models_dir = test_folder, partition_type = \"crossvalidation\", cv_partitions = 5, cv_n = 1, buffer_type = \"mean\", png_sdmdata = F, n_back = 500, clean_dupl = FALSE, clean_uni = FALSE, clean_nas = FALSE, geo_filt = FALSE, geo_filt_dist = 10, select_variables = TRUE, sample_proportion = 0.5, cutoff = 0.7)" ;
     prov:generated repr:metadata_csv, repr:sdmdata_1sp, repr:sdmdata_csv, repr:sessionInfo_txt ;
     prov:used repr:occs, repr:species, repr:test_folder ;
-    repr:informedBy repr:operation3 ;
-    repr:isStepOfPlan repr:setup_sdmdata .
-
-repr:sp
-    a repr:Package ;
-    repr:hasPackageVersion "1.4-4" .
+    repr:informedBy repr:operation3 .
 
 repr:species
     a p-plan:Variable ;
     repr:hasType "Snapshot" .
 
 repr:species_name_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "species_name" ;
     repr:hasParameterValue "species[1]" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "symbol" .
 
 repr:species_name_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "species_name" ;
     repr:hasParameterValue "species[1]" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "symbol" .
 
 repr:species_name_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "species_name" ;
     repr:hasParameterValue "species[1]" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "symbol" .
 
 repr:species_name_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "species_name" ;
     repr:hasParameterValue "species[1]" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
-
-repr:stats
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:hasType "symbol" .
 
 repr:svme_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "svme" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:svmk_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "svmk" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:test_folder
     a p-plan:Variable ;
     repr:hasType "Data" .
 
 repr:uncertainty_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "uncertainty" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "logical" .
 
 repr:uncertainty_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "uncertainty" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:final_model_activation1 .
-
-repr:utils
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:hasType "logical" .
 
 repr:verbose_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "verbose" ;
     repr:hasParameterValue "getOption(\"verbose\")" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "language" .
 
 repr:warn_conflicts_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610469299r60366r10, _:r1610469299r60366r5 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "warn.conflicts" ;
+    repr:hasParameterValue _:r1610675255r118877r10, _:r1610675255r118877r5 ;
+    repr:hasType "symbol" .
 
 repr:which_ensemble_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "which_ensemble" ;
     repr:hasParameterValue "c(\"average\", \"best\", \"frequency\", \"weighted_average\", \"median\", \"pca\", \"consensus\")" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "language" .
 
 repr:which_final_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "which_final" ;
     repr:hasParameterValue "\"raw_mean\"" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "language" .
 
 repr:which_models_final_model
+    p-plan:isInputVarOf repr:final_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "which_models" ;
     repr:hasParameterValue "c(\"raw_mean\", \"bin_mean\", \"bin_consensus\")" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:final_model_activation1 .
+    repr:hasType "language" .
 
 repr:write_bin_cut_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "write_bin_cut" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 
 repr:write_buffer_setup_sdmdata
+    p-plan:isInputVarOf repr:setup_sdmdata_activation1 ;
     a repr:Argument ;
+    rdfs:label "write_buffer" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:setup_sdmdata_activation1 .
+    repr:hasType "logical" .
 
 repr:write_map_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "write_map" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "logical" .
 
 repr:write_occs_ensemble_model
+    p-plan:isInputVarOf repr:ensemble_model_activation1 ;
     a repr:Argument ;
+    rdfs:label "write_occs" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:ensemble_model_activation1 .
+    repr:hasType "logical" .
 
 repr:write_rda_do_many
+    p-plan:isInputVarOf repr:do_many_activation1 ;
     a repr:Argument ;
+    rdfs:label "write_rda" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:do_many_activation1 .
+    repr:hasType "logical" .
 

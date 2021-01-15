@@ -4,16 +4,18 @@
 @prefix repr: <https://w3id.org/reproduceme#> .
 @prefix prov: <http://www.w3.org/ns/prov/#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 repr:CITATION
     a p-plan:Variable ;
     repr:hasType "File" .
 
 repr:FUN_aggregate
+    p-plan:isInputVarOf repr:aggregate_activation1 ;
     a repr:Argument ;
+    rdfs:label "FUN" ;
     repr:hasParameterValue "sum" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:aggregate_activation1 .
+    repr:hasType "symbol" .
 
 repr:World
     a p-plan:Variable ;
@@ -24,86 +26,97 @@ repr:World_rda
     repr:hasType "File" .
 
 repr:____aggregate
+    p-plan:isInputVarOf repr:aggregate_activation1 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466450r58581r20 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:aggregate_activation1 .
+    rdfs:label "..." ;
+    repr:hasParameterValue _:r1610675129r118877r20 ;
+    repr:hasType "symbol" .
 
 repr:____data
+    p-plan:isInputVarOf repr:data_activation1 ;
     a repr:Argument ;
+    rdfs:label "..." ;
     repr:hasParameterValue "\"World\"" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:data_activation1 .
+    repr:hasType "symbol" .
 
 repr:_ggplot
     a repr:Output ;
     repr:hasType "Snapshot" .
 
 repr:aggregate
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "aggregate" ;
     repr:hasPackage repr:raster .
 
 repr:aggregate_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:aggregate, repr:console ;
     rdf:value "df_lac <- aggregate(confirmed ~ country_region, data = dados_lac, FUN = sum)" ;
     prov:generated repr:df_lac ;
     prov:used repr:dados_lac ;
-    repr:informedBy repr:operation5 ;
-    repr:isStepOfPlan repr:aggregate .
+    repr:informedBy repr:operation5 .
 
 <https://w3id.org/reproduceme#as.character>
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "as.character" ;
     repr:hasPackage repr:base .
 
 <https://w3id.org/reproduceme#as.character_activation1>
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan <https://w3id.org/reproduceme#as.character>, repr:console ;
     rdf:value "lac$country_region <- as.character(lac$name)" ;
     prov:generated repr:lac ;
     prov:used repr:lac ;
-    repr:informedBy repr:operation3 ;
-    repr:isStepOfPlan <https://w3id.org/reproduceme#as.character> .
+    repr:informedBy repr:operation3 .
 
 repr:attach_required_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "attach.required" ;
     repr:hasParameterValue "missing(include.only)" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "language" .
 
 repr:base
     a repr:Package ;
+    rdfs:label "base" ;
     repr:hasPackageVersion "4.0.2" .
 
 repr:by_uf_get_corona_br
+    p-plan:isInputVarOf repr:get_corona_br_activation1 ;
     a repr:Argument ;
+    rdfs:label "by_uf" ;
     repr:hasParameterValue "\"TRUE\"" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:get_corona_br_activation1 .
+    repr:hasType "logical" .
 
 repr:c
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "c" ;
     repr:hasPackage repr:base .
 
 repr:c_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:c, repr:console ;
     rdf:value "fora <- c(\"Canada\", \"United States\", \"Greenland\")" ;
     prov:generated repr:fora ;
-    repr:informedBy repr:data_activation1 ;
-    repr:isStepOfPlan repr:c .
+    repr:informedBy repr:data_activation1 .
 
 repr:character_only_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "character.only" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "logical" .
 
 repr:cidade_get_corona_br
+    p-plan:isInputVarOf repr:get_corona_br_activation1 ;
     a repr:Argument ;
+    rdfs:label "cidade" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:get_corona_br_activation1 .
+    repr:hasType "NULL" .
 
 repr:console
     a repr:Script ;
+    rdfs:label "console.R" ;
     repr:hasOperatingSystem "Ubuntu 20.04.1 LTS" ;
     repr:hasProgrammingLanguage "R" ;
     repr:hasProgrammingLanguageVersion "R version 4.0.2 (2020-06-22)" .
@@ -126,6 +139,7 @@ repr:corona_jhu_metadado_csv
 
 repr:coronabr
     a repr:Package ;
+    rdfs:label "coronabr" ;
     repr:hasPackageVersion "0.1.0" .
 
 repr:dados
@@ -141,26 +155,24 @@ repr:dados_lac
     repr:hasType "Snapshot" .
 
 repr:data
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "data" ;
     repr:hasPackage repr:utils .
 
 repr:data_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:data ;
     rdf:value "data(\"World\")" ;
     prov:generated repr:World ;
     prov:used repr:World_rda ;
-    repr:informedBy repr:library_activation2 ;
-    repr:isStepOfPlan repr:data .
+    repr:informedBy repr:library_activation2 .
 
 repr:data_aggregate
+    p-plan:isInputVarOf repr:aggregate_activation1 ;
     a repr:Argument ;
+    rdfs:label "data" ;
     repr:hasParameterValue "dados_lac" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:aggregate_activation1 .
-
-repr:datasets
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:hasType "symbol" .
 
 repr:dev_2
     a p-plan:Variable, repr:Output ;
@@ -175,196 +187,201 @@ repr:df_lac
     repr:hasType "Snapshot" .
 
 repr:df_plot_corona_br
+    p-plan:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466450r58581r11, _:r1610466450r58581r12 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 .
+    rdfs:label "df" ;
+    repr:hasParameterValue _:r1610675129r118877r11, _:r1610675129r118877r12 ;
+    repr:hasType "symbol" .
 
 repr:df_plot_uf
+    p-plan:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466450r58581r13, _:r1610466450r58581r14 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+    rdfs:label "df" ;
+    repr:hasParameterValue _:r1610675129r118877r13, _:r1610675129r118877r14 ;
+    repr:hasType "symbol" .
 
 repr:dir_get_corona_br
+    p-plan:isInputVarOf repr:get_corona_br_activation1 ;
     a repr:Argument ;
+    rdfs:label "dir" ;
     repr:hasParameterValue "\"outputs\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:get_corona_br_activation1 .
+    repr:hasType "character" .
 
 repr:dir_get_corona_jhu
+    p-plan:isInputVarOf repr:get_corona_jhu_activation1 ;
     a repr:Argument ;
+    rdfs:label "dir" ;
     repr:hasParameterValue "\"outputs\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:get_corona_jhu_activation1 .
+    repr:hasType "character" .
 
 repr:envir_data
+    p-plan:isInputVarOf repr:data_activation1 ;
     a repr:Argument ;
+    rdfs:label "envir" ;
     repr:hasParameterValue ".GlobalEnv" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:data_activation1 .
+    repr:hasType "symbol" .
 
 repr:estados_plot_uf
+    p-plan:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 ;
     a repr:Argument ;
+    rdfs:label "estados" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+    repr:hasType "NULL" .
 
 repr:exclude_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466450r58581r18, _:r1610466450r58581r9 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "exclude" ;
+    repr:hasParameterValue _:r1610675129r118877r18, _:r1610675129r118877r9 ;
+    repr:hasType "symbol" .
 
 repr:filename_get_corona_br
+    p-plan:isInputVarOf repr:get_corona_br_activation1 ;
     a repr:Argument ;
+    rdfs:label "filename" ;
     repr:hasParameterValue "\"corona_brasil\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:get_corona_br_activation1 .
+    repr:hasType "character" .
 
 repr:filename_get_corona_jhu
+    p-plan:isInputVarOf repr:get_corona_jhu_activation1 ;
     a repr:Argument ;
+    rdfs:label "filename" ;
     repr:hasParameterValue "\"corona_jhu\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:get_corona_jhu_activation1 .
+    repr:hasType "character" .
 
 repr:fora
     a p-plan:Variable ;
     repr:hasType "Data" .
 
 repr:get_corona_br
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "get_corona_br" ;
     repr:hasPackage repr:coronabr .
 
 repr:get_corona_br_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:get_corona_br ;
     rdf:value "dados <- get_corona_br(by_uf = TRUE)" ;
     prov:generated repr:corona_brasil_csv, repr:corona_brasil_metadado_csv, repr:dados ;
     prov:used repr:CITATION ;
-    repr:informedBy repr:library_activation1 ;
-    repr:isStepOfPlan repr:get_corona_br .
+    repr:informedBy repr:library_activation1 .
 
 repr:get_corona_jhu
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "get_corona_jhu" ;
     repr:hasPackage repr:coronabr .
 
 repr:get_corona_jhu_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:get_corona_jhu ;
     rdf:value "dados_jhu <- get_corona_jhu()" ;
     prov:generated repr:corona_jhu_csv, repr:corona_jhu_metadado_csv, repr:dados_jhu ;
     prov:used <https://w3id.org/reproduceme#https://raw_githubusercontent_com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-11-2021_csv> ;
-    repr:informedBy repr:operation2 ;
-    repr:isStepOfPlan repr:get_corona_jhu .
-
-repr:ggplot2
-    a repr:Package ;
-    repr:hasPackageVersion "3.3.2" .
-
-repr:grDevices
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
-
-repr:graphics
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:informedBy repr:operation2 .
 
 repr:help_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466450r58581r15, _:r1610466450r58581r6 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "help" ;
+    repr:hasParameterValue _:r1610675129r118877r15, _:r1610675129r118877r6 ;
+    repr:hasType "symbol" .
 
 <https://w3id.org/reproduceme#https://raw_githubusercontent_com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/01-11-2021_csv>
     a p-plan:Variable ;
     repr:hasType "URL" .
 
 repr:ibge_cod_get_corona_br
+    p-plan:isInputVarOf repr:get_corona_br_activation1 ;
     a repr:Argument ;
+    rdfs:label "ibge_cod" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:get_corona_br_activation1 .
+    repr:hasType "NULL" .
 
 repr:iconvlist
-    a _:r1610466450r58581r5 ;
+    a _:r1610675129r118877r5 ;
     repr:hasType "File" .
 
 repr:include_only_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466450r58581r10, _:r1610466450r58581r19 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "include.only" ;
+    repr:hasParameterValue _:r1610675129r118877r10, _:r1610675129r118877r19 ;
+    repr:hasType "symbol" .
 
 repr:lac
     a p-plan:Variable ;
     repr:hasType "Snapshot" .
 
 repr:lib_loc_data
+    p-plan:isInputVarOf repr:data_activation1 ;
     a repr:Argument ;
+    rdfs:label "lib.loc" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:data_activation1 .
+    repr:hasType "NULL" .
 
 repr:lib_loc_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "lib.loc" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "NULL" .
 
 repr:library
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "library" ;
     repr:hasPackage repr:base .
 
 repr:library_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:library ;
     rdf:value "library(coronabr)" ;
-    repr:informedBy repr:operation1 ;
-    repr:isStepOfPlan repr:library .
+    repr:informedBy repr:operation1 .
 
 repr:library_activation2
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:library ;
     rdf:value "library(tmap)" ;
-    repr:informedBy repr:plot_uf_activation2 ;
-    repr:isStepOfPlan repr:library .
+    repr:informedBy repr:plot_uf_activation2 .
 
 repr:list_data
+    p-plan:isInputVarOf repr:data_activation1 ;
     a repr:Argument ;
+    rdfs:label "list" ;
     repr:hasParameterValue "character()" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:data_activation1 .
+    repr:hasType "language" .
 
 repr:log_plot_corona_br
+    p-plan:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 ;
     a repr:Argument ;
+    rdfs:label "log" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 .
+    repr:hasType "logical" .
 
 repr:logical_return_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "logical.return" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "logical" .
 
 repr:mask_ok_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466450r58581r17, _:r1610466450r58581r8 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
-
-repr:methods
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    rdfs:label "mask.ok" ;
+    repr:hasParameterValue _:r1610675129r118877r17, _:r1610675129r118877r8 ;
+    repr:hasType "symbol" .
 
 repr:n_plot_uf
+    p-plan:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 ;
     a repr:Argument ;
+    rdfs:label "n" ;
     repr:hasParameterValue "10" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+    repr:hasType "double" .
 
 repr:operation1
     a repr:Operation ;
-    rdf:value _:r1610466450r58581r1 ;
+    rdf:value _:r1610675129r118877r1 ;
     repr:hasType "Console" ;
-    repr:informedBy _:r1610466450r58581r4 .
+    repr:informedBy _:r1610675129r118877r4 .
 
 repr:operation2
     a repr:Operation ;
@@ -378,7 +395,7 @@ repr:operation3
     a repr:Operation ;
     rdf:value "lac$name[!lac$name %in% dados_jhu$country_region]" ;
     prov:used repr:dados_jhu, repr:lac ;
-    repr:hasType _:r1610466450r58581r3 ;
+    repr:hasType _:r1610675129r118877r3 ;
     repr:informedBy repr:get_corona_jhu_activation1 .
 
 repr:operation4
@@ -399,159 +416,164 @@ repr:operation5
 
 repr:operation6
     a repr:Operation ;
-    rdf:value _:r1610466450r58581r2 ;
+    rdf:value _:r1610675129r118877r2 ;
     prov:generated repr:dev_off_26_pdf ;
     prov:used repr:dev_2 ;
     repr:hasType "Console" ;
     repr:informedBy repr:aggregate_activation1 .
 
 repr:overwrite_data
+    p-plan:isInputVarOf repr:data_activation1 ;
     a repr:Argument ;
+    rdfs:label "overwrite" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:data_activation1 .
+    repr:hasType "logical" .
 
 repr:package_data
+    p-plan:isInputVarOf repr:data_activation1 ;
     a repr:Argument ;
+    rdfs:label "package" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:data_activation1 .
+    repr:hasType "NULL" .
 
 repr:package_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "package" ;
     repr:hasParameterValue "\"coronabr\"", "\"tmap\"" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "symbol" .
 
 repr:plot_corona_br
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "plot_corona_br" ;
     repr:hasPackage repr:coronabr .
 
 repr:plot_corona_br_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:plot_corona_br ;
     rdf:value "plot_corona_br(df = dados, log = FALSE)" ;
     prov:generated repr:_ggplot, repr:dev_2 ;
     prov:used repr:dados ;
-    repr:informedBy repr:get_corona_br_activation1 ;
-    repr:isStepOfPlan repr:plot_corona_br .
+    repr:informedBy repr:get_corona_br_activation1 .
 
 repr:plot_corona_br_activation2
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:plot_corona_br ;
     rdf:value "plot_corona_br(df = dados, tipo = \"aumento\")" ;
     prov:generated repr:_ggplot, repr:dev_2 ;
     prov:used repr:dados ;
-    repr:informedBy repr:plot_corona_br_activation1 ;
-    repr:isStepOfPlan repr:plot_corona_br .
+    repr:informedBy repr:plot_corona_br_activation1 .
 
 repr:plot_uf
+    p-plan:isSubPlanOfPlan repr:console ;
     a repr:Function ;
+    rdfs:label "plot_uf" ;
     repr:hasPackage repr:coronabr .
 
 repr:plot_uf_activation1
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:plot_uf ;
     rdf:value "plot_uf(df = dados, n = 7)" ;
     prov:generated repr:_ggplot, repr:dev_2 ;
     prov:used repr:dados ;
-    repr:informedBy repr:plot_corona_br_activation2 ;
-    repr:isStepOfPlan repr:plot_uf .
+    repr:informedBy repr:plot_corona_br_activation2 .
 
 repr:plot_uf_activation2
-    a repr:FunctionActivation ;
+    p-plan:isStepOfPlan repr:console, repr:plot_uf ;
     rdf:value "plot_uf(df = dados, tipo = \"casos\", prop_pop = TRUE, estados = c(\"AM\", \"CE\", \"PE\", \"SP\"))" ;
     prov:generated repr:_ggplot, repr:dev_2 ;
     prov:used repr:dados ;
-    repr:informedBy repr:plot_uf_activation1 ;
-    repr:isStepOfPlan repr:plot_uf .
+    repr:informedBy repr:plot_uf_activation1 .
 
 repr:pos_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "pos" ;
     repr:hasParameterValue "2" ;
-    repr:hasType "double" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "double" .
 
 repr:prop_pop_plot_uf
+    p-plan:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 ;
     a repr:Argument ;
+    rdfs:label "prop_pop" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
+    repr:hasType "logical" .
 
 repr:quietly_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "quietly" ;
     repr:hasParameterValue "FALSE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "logical" .
 
 repr:raster
     a repr:Package ;
+    rdfs:label "raster" ;
     repr:hasPackageVersion "3.3-13" .
 
 repr:save_get_corona_br
+    p-plan:isInputVarOf repr:get_corona_br_activation1 ;
     a repr:Argument ;
+    rdfs:label "save" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:get_corona_br_activation1 .
+    repr:hasType "logical" .
 
 repr:save_get_corona_jhu
+    p-plan:isInputVarOf repr:get_corona_jhu_activation1 ;
     a repr:Argument ;
+    rdfs:label "save" ;
     repr:hasParameterValue "TRUE" ;
-    repr:hasType "logical" ;
-    repr:isInputVarOf repr:get_corona_jhu_activation1 .
-
-repr:sp
-    a repr:Package ;
-    repr:hasPackageVersion "1.4-4" .
-
-repr:stats
-    a repr:Package ;
-    repr:hasPackageVersion "4.0.2" .
+    repr:hasType "logical" .
 
 repr:tipo_plot_corona_br
+    p-plan:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 ;
     a repr:Argument ;
+    rdfs:label "tipo" ;
     repr:hasParameterValue "\"numero\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:plot_corona_br_activation1, repr:plot_corona_br_activation2 .
+    repr:hasType "character" .
 
 repr:tipo_plot_uf
+    p-plan:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 ;
     a repr:Argument ;
+    rdfs:label "tipo" ;
     repr:hasParameterValue "\"casos\"" ;
-    repr:hasType "character" ;
-    repr:isInputVarOf repr:plot_uf_activation1, repr:plot_uf_activation2 .
-
-repr:tmap
-    a repr:Package ;
-    repr:hasPackageVersion "3.2" .
+    repr:hasType "character" .
 
 repr:uf_get_corona_br
+    p-plan:isInputVarOf repr:get_corona_br_activation1 ;
     a repr:Argument ;
+    rdfs:label "uf" ;
     repr:hasParameterValue "NULL" ;
-    repr:hasType "NULL" ;
-    repr:isInputVarOf repr:get_corona_br_activation1 .
+    repr:hasType "NULL" .
 
 repr:utils
     a repr:Package ;
+    rdfs:label "utils" ;
     repr:hasPackageVersion "4.0.2" .
 
 repr:verbose_data
+    p-plan:isInputVarOf repr:data_activation1 ;
     a repr:Argument ;
+    rdfs:label "verbose" ;
     repr:hasParameterValue "getOption(\"verbose\")" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:data_activation1 .
+    repr:hasType "language" .
 
 repr:verbose_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
+    rdfs:label "verbose" ;
     repr:hasParameterValue "getOption(\"verbose\")" ;
-    repr:hasType "language" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    repr:hasType "language" .
 
 repr:warn_conflicts_library
+    p-plan:isInputVarOf repr:library_activation1, repr:library_activation2 ;
     a repr:Argument ;
-    repr:hasParameterValue _:r1610466450r58581r16, _:r1610466450r58581r7 ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:library_activation1, repr:library_activation2 .
+    rdfs:label "warn.conflicts" ;
+    repr:hasParameterValue _:r1610675129r118877r16, _:r1610675129r118877r7 ;
+    repr:hasType "symbol" .
 
 repr:x_aggregate
+    p-plan:isInputVarOf repr:aggregate_activation1 ;
     a repr:Argument ;
+    rdfs:label "x" ;
     repr:hasParameterValue "confirmed ~ country_region" ;
-    repr:hasType "symbol" ;
-    repr:isInputVarOf repr:aggregate_activation1 .
+    repr:hasType "symbol" .
 
