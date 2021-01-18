@@ -25,7 +25,7 @@ rdt2repr::collectprov()
 
 Both options will ask you to inform the full path to the directory where the provenance data will be saved. Provenance data is collected using the rdt package.
 
-If you want to finish collecting the provenance data and save it, you can can do it by clicking on the option: Addins > Finish provenance collection
+If you want to finish collecting the provenance data and save it, you can do it by clicking on the option: Addins > Finish provenance collection
 or executing the function:
 
 ``` r
