@@ -138,8 +138,8 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 .check <- function(prov = prov, nsp = nsp, cmd, df_func = df_func) {
     #ops <- load('./data/ops.rda')
     #ops_file <- system.file("data", "operators.csv", package = "mypackagename")
-    ops <- read.csv('~/Dropbox/Reproducibility/prov2repr/rdt2repr/data/operators.csv')
-    #load(file = "ops.rda")
+    #ops <- read.csv('~/Dropbox/Reproducibility/prov2repr/rdt2repr/data/operators.csv')
+    #load(file = ".rda")
     func_nodes <- get.func.nodes(prov)
     lang <- str2lang(cmd)
 
@@ -289,7 +289,10 @@ parsetordt <- function(rdf_file = 'output.ttl'){
     other_func <- unique(setdiff(func_activities$detail, functions$'function')) # Check which functions does not exist on rdt func nodes
     other_func <- df_func[which(df_func$function_name %in% other_func), c('function_name', 'package')] # Get the names of the default packages
     other_func$func_id <- paste0('f', seq(nrow(functions)+1, nrow(functions)+nrow(other_func))) # Add these func with new ids
-    other_func$library <- libs[which(libs$name %in% gsub('.*:', '', other_func$package)), 'id'] # Check the lib id from rdt
+    for(i in 1:length(other_func)) {
+        other_func[i, 'library'] <- libs[which(libs$name %in% gsub('.*:', '', other_func[i, 'package'])), 'id']
+    }
+   ##other_func$library <- libs[which(libs$name %in% gsub('.*:', '', other_func$package)), 'id'] # Check the lib id from rdt
     names(functions)[2] <- 'function_name'; functions <- rbind(functions, other_func[-2]);  # Join existing func with default
     functions[,paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Function') # Add ontologies info
     functions[,paste0(nsp$rdfs, 'label')] <- functions$function_name
@@ -399,6 +402,8 @@ parsetordt <- function(rdf_file = 'output.ttl'){
     pckgs <- unique(func_df[,c(7,8)])
     pckgs[,paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Package') # Add ontologies info
     names(pckgs)[1] <- 'name'
+    names(pckgs)[2] <- paste0(nsp$repr, 'hasPackageVersion')
+    pckgs[,paste0(nsp$rdfs, 'label')] <- gsub(nsp$repr, '', pckgs$name)
 
     package_triple <- pckgs %>%
         mutate(subject = name) %>%
@@ -406,7 +411,7 @@ parsetordt <- function(rdf_file = 'output.ttl'){
         gather(key = predicate, value = object, -subject)
 
     invisible(apply(package_triple, 1, function(x) rdf %>% rdf_add(x[1], x[2], x[3])))
-    return(libs)
+    return(pckgs)
 }
 
 #' Get data (input and output) and write the triple
@@ -522,7 +527,7 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 
     func <- activities_df[
         which(activities_df[,paste0(nsp$rdf, 'type')] == paste0(nsp$repr, 'Function')), c('detail', 'cmd', 'activation')]
-    all <- c()
+    all_args <- c()
 
     for(i in 1:nrow(func)) {
         print(paste0("FUN NUMBER ", i))
@@ -579,23 +584,22 @@ parsetordt <- function(rdf_file = 'output.ttl'){
 
                 }
             }
-            all <- rbind(all, args_func_df)
+            all_args <- rbind(all_args, args_func_df)
         }
     }
 
-    all[, paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Argument')
-    all[,paste0(nsp$rdfs, 'label')] <- all$name
-    all$name <- paste0(nsp$repr, gsub("[.]", "_", all$name), '_', all$fun)
-    colnames(all)[3] <- paste0(nsp$repr, 'hasParameterValue')
-    colnames(all)[4] <- paste0(nsp$repr, 'hasType')
-    colnames(all)[6] <- paste0(nsp$`p-plan`, 'isInputVarOf')
+    all_args[, paste0(nsp$rdf, 'type')] <- paste0(nsp$repr, 'Argument')
+    all_args[,paste0(nsp$rdfs, 'label')] <- all_args$name
+    all_args$name <- paste0(nsp$repr, gsub("[.]", "_", all_args$name), '_', all_args$fun)
+    colnames(all_args)[3] <- paste0(nsp$repr, 'hasParameterValue')
+    colnames(all_args)[4] <- paste0(nsp$repr, 'hasType')
+    colnames(all_args)[6] <- paste0(nsp$`p-plan`, 'isInputVarOf')
 
-
-    arg_triple <- all[,c(-1, -5)] %>%
+    arg_triple <- all_args[,c(-1, -5)] %>%
         mutate(subject = name) %>%
-        select(-'name') %>% #removing arg_name (it will be the identifier)
+        dplyr::select(-'name') %>% #removing arg_name (it will be the identifier)
         gather(key = predicate, value = object, -subject)
 
     invisible(apply(arg_triple, 1, function(x) rdf %>% rdf_add(x[1], x[2], x[3])))
-    return(all)
+    return(all_args)
 }
